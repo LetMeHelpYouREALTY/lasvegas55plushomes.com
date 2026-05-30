@@ -7,16 +7,25 @@ import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const domain = headers().get("x-domain") || "";
-  const config = getDomainConfig(domain);
+  const headerList = headers();
+  const host = (headerList.get("x-domain") || headerList.get("host") || "")
+    .replace(/^www\./, "")
+    .toLowerCase();
+  const config = getDomainConfig(host);
+  const baseUrl = host ? `https://www.${host}` : undefined;
   return {
+    ...(baseUrl ? { metadataBase: new URL(baseUrl) } : {}),
     title: `${config.neighborhood} | Dr. Jan Duffy, REALTOR® | BHHS Nevada`,
     description: config.description,
     keywords: config.keywords,
+    alternates: {
+      canonical: "/",
+    },
     openGraph: {
       title: config.heroHeadline,
       description: config.description,
       type: "website",
+      ...(baseUrl ? { url: baseUrl } : {}),
     },
   };
 }
