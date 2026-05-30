@@ -18,6 +18,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/market-insights`, priority: 0.9, changeFrequency: "monthly" as const },
     { url: `${baseUrl}/google-business`, priority: 0.9, changeFrequency: "monthly" as const },
     { url: `${baseUrl}/faq`, priority: 0.8, changeFrequency: "monthly" as const },
+    { url: `${baseUrl}/privacy-policy`, priority: 0.3, changeFrequency: "yearly" as const },
+    { url: `${baseUrl}/fair-housing-statement`, priority: 0.3, changeFrequency: "yearly" as const },
+    { url: `${baseUrl}/security-policy`, priority: 0.3, changeFrequency: "yearly" as const },
   ];
 
   // Service pages

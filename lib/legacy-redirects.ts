@@ -51,6 +51,8 @@ const KNOWN_ROUTES = new Set<string>([
   "/neighborhoods/inspirada",
   "/google-business",
   "/security-policy",
+  "/privacy-policy",
+  "/fair-housing-statement",
   "/why-berkshire-hathaway",
   "/55-plus-communities",
   "/55-plus-communities/sun-city-summerlin",
@@ -142,7 +144,7 @@ const EXPLICIT_REDIRECTS: Record<string, string> = {
   "/welcome-to-silverstone-ranch": "/neighborhoods",
   "/homebuyer-guide/making-an-offer": "/buyers",
   "/homebuyer-guide/housing-needs-assessment": "/buyers",
-  "/privacy-policy-2": "/security-policy",
+  "/privacy-policy-2": "/privacy-policy",
 };
 
 /**
@@ -205,11 +207,12 @@ export function resolveLegacyOutcome(pathname: string): LegacyOutcome {
   if (isLegacyArchivePath(n)) return { type: "gone" };
 
   // Remaining single-segment slugs are legacy KCM blog posts. Route to the
-  // closest topical hub; anything unmatched falls back to the content hub so
-  // no legacy post dead-ends on a 404.
+  // closest topical hub; anything that matches no topic is treated as gone
+  // (410) rather than funneled to a hub, which would create soft-404 signals.
   const isSingleSegment = /^\/[a-z0-9-]+$/.test(n);
   if (isSingleSegment) {
-    return { type: "redirect", destination: getTopicalRedirect(n) ?? "/market-insights" };
+    const topical = getTopicalRedirect(n);
+    return topical ? { type: "redirect", destination: topical } : { type: "gone" };
   }
 
   // Multi-segment artifacts (e.g. /slug/drjanduffy, /slug//) -> try topical.
