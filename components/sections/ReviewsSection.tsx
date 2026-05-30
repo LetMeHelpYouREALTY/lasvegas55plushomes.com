@@ -69,7 +69,8 @@ export default function ReviewsSection({
   reviews = defaultReviews,
   title = "What Our Clients Say",
   subtitle = "Real testimonials from satisfied clients across Las Vegas and Henderson",
-  googleReviewsUrl = "https://g.page/r/heyberkshire/review",
+  googleReviewsUrl = process.env.NEXT_PUBLIC_GBP_REVIEWS_URL ||
+    "https://www.google.com/maps/search/?api=1&query=Dr.+Jan+Duffy+Berkshire+Hathaway+HomeServices+Nevada+Properties+Las+Vegas",
   className = "",
 }: ReviewsSectionProps) {
   return (

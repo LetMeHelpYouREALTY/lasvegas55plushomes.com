@@ -15,8 +15,8 @@ export default async function Home() {
     "@context": "https://schema.org",
     "@type": "RealEstateAgent",
     name: `Dr. Jan Duffy - ${config.neighborhood} Real Estate`,
-    url: `https://${config.domain !== "default" ? config.domain : "heyberkshire.com"}`,
-    telephone: "+17022221964",
+    url: `https://${config.domain !== "default" ? config.domain : "www.lasvegas55plushomes.com"}`,
+    telephone: "+17025001942",
     address: {
       "@type": "PostalAddress",
       streetAddress: "9406 W Lake Mead Blvd, Suite 100",

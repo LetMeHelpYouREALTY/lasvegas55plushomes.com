@@ -267,7 +267,11 @@ function enrichSource(source: string | undefined, request: NextRequest): string 
   if (referrer) {
     try {
       const refUrl = new URL(referrer);
-      if (!refUrl.hostname.includes('heyberkshire.com')) {
+      // Brand-agnostic self-check: treat same-site referrers (ignoring www)
+      // as internal navigation, not external referrals.
+      const selfHost = (request.headers.get('host') || '').replace(/^www\./, '').toLowerCase();
+      const refHost = refUrl.hostname.replace(/^www\./, '').toLowerCase();
+      if (selfHost && refHost !== selfHost) {
         return `referral/${refUrl.hostname}`;
       }
     } catch (e) {
