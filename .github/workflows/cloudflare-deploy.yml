@@ -48,8 +48,16 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # Belt-and-suspenders: vercel build may still probe Python if ignore
+      # rules drift. Legacy Flask under api/ is excluded via .vercelignore.
+      - name: Install uv (Vercel Python runtime prerequisite)
+        run: curl -LsSf https://astral.sh/uv/install.sh | sh
+        continue-on-error: true
+
       - name: Build for Cloudflare Pages
-        run: npm run build:cloudflare
+        run: |
+          export PATH="$HOME/.local/bin:$PATH"
+          npm run build:cloudflare
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           NEXT_PUBLIC_REALSCOUT_AGENT_ID: ${{ secrets.NEXT_PUBLIC_REALSCOUT_AGENT_ID }}
