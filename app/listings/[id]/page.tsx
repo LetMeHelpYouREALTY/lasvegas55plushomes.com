@@ -6,9 +6,15 @@ import { Bed, Bath, Square, MapPin, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { Metadata } from "next";
 
+// Placeholder detail URLs until RealScout-backed listing data is wired.
+// Keep out of the index (SOTR Jul 2026: avoid infinite thin URL spaces).
 export const metadata: Metadata = {
   title: "Property Details | Las Vegas & Henderson Real Estate",
   description: "View detailed information about this property listing in Las Vegas or Henderson, NV.",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 // This would typically fetch from RealScout API
