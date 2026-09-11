@@ -1,0 +1,5 @@
+# Legacy Flask FAQ API — unused in production (chat is Next.js/OpenRouter).
+# Excluding these stops `vercel build` / `@cloudflare/next-on-pages` from
+# requiring the Python `uv` toolchain for a Next.js-only Pages deploy.
+api/
+requirements.txt
