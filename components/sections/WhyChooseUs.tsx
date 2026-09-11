@@ -54,8 +54,8 @@ export default function WhyChooseUs() {
                 key={feature.title}
                 className="flex flex-col items-center text-center p-6 rounded-lg hover:bg-slate-50 transition-colors"
               >
-                <div className="bg-blue-100 rounded-full p-4 mb-4">
-                  <Icon className="h-8 w-8 text-blue-600" />
+                <div className="bg-forest-soft rounded-full p-4 mb-4">
+                  <Icon className="h-8 w-8 text-forest" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-2">{feature.title}</h3>
                 <p className="text-slate-600">{feature.description}</p>

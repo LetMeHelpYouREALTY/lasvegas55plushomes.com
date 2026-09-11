@@ -20,11 +20,30 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: "/",
     },
+    icons: {
+      icon: [
+        { url: "/favicon.ico", sizes: "any" },
+        { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+        { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+        { url: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
+        { url: "/icons/icon-512.png", sizes: "512x512", type: "image/png" },
+      ],
+      apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+      shortcut: "/favicon.ico",
+    },
     openGraph: {
       title: config.heroHeadline,
       description: config.description,
       type: "website",
       url: baseUrl,
+      images: [
+        {
+          url: "/images/dr-jan-duffy.jpg",
+          width: 1200,
+          height: 1200,
+          alt: "Dr. Jan Duffy, REALTOR® — Las Vegas 55+ real estate",
+        },
+      ],
     },
   };
 }

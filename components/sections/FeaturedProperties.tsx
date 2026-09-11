@@ -25,7 +25,7 @@ const PropertyCard = ({ property }: { property: Property }) => (
         fill
         className="object-cover"
       />
-      <div className="absolute top-4 right-4 bg-blue-600 text-white px-3 py-1 rounded-md text-sm font-semibold">
+      <div className="absolute top-4 right-4 bg-forest text-white px-3 py-1 rounded-md text-sm font-semibold">
         {property.price}
       </div>
     </div>
@@ -34,19 +34,19 @@ const PropertyCard = ({ property }: { property: Property }) => (
       <p className="text-slate-600 mb-4">{property.location}</p>
       <div className="flex justify-between items-center text-slate-600 mb-4">
         <div className="flex items-center gap-1">
-          <Bed className="h-4 w-4 text-blue-600" />
+          <Bed className="h-4 w-4 text-forest" />
           <span className="text-sm">{property.bedrooms} Beds</span>
         </div>
         <div className="flex items-center gap-1">
-          <Bath className="h-4 w-4 text-blue-600" />
+          <Bath className="h-4 w-4 text-forest" />
           <span className="text-sm">{property.bathrooms} Baths</span>
         </div>
         <div className="flex items-center gap-1">
-          <Square className="h-4 w-4 text-blue-600" />
+          <Square className="h-4 w-4 text-forest" />
           <span className="text-sm">{property.squareFeet.toLocaleString()} sq ft</span>
         </div>
       </div>
-      <Button asChild className="w-full bg-blue-600 hover:bg-blue-700">
+      <Button asChild className="w-full bg-forest hover:bg-forest-mid">
         <Link href={`/listings/${property.id}`}>
           View Details <ArrowRight className="h-4 w-4 ml-2" />
         </Link>

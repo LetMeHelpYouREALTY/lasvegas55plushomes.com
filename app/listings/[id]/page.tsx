@@ -1,4 +1,5 @@
 import Navbar from "@/components/layouts/Navbar";
+import AgentPresence from "@/components/shared/AgentPresence";
 import Footer from "@/components/layouts/Footer";
 import Image from "next/image";
 import { Bed, Bath, Square, MapPin, Calendar } from "lucide-react";
@@ -147,6 +148,8 @@ export default async function PropertyPage({ params }: PropertyPageProps) {
           </div>
         </div>
       </main>
+      <AgentPresence />
+
       <Footer />
     </>
   );

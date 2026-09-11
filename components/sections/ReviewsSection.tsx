@@ -149,7 +149,7 @@ export default function ReviewsSection({
               </div>
 
               <div className="relative">
-                <Quote className="absolute -top-2 -left-2 h-8 w-8 text-blue-100" />
+                <Quote className="absolute -top-2 -left-2 h-8 w-8 text-forest-soft" />
                 <p className="text-slate-700 relative z-10 pl-4" itemProp="reviewBody">
                   {review.text}
                 </p>
@@ -164,7 +164,7 @@ export default function ReviewsSection({
             href={googleReviewsUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold"
+            className="inline-flex items-center gap-2 text-forest hover:text-forest-mid font-semibold"
           >
             Read More Reviews on Google
             <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />

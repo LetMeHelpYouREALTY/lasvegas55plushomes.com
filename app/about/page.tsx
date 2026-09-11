@@ -17,6 +17,8 @@ import {
   ArrowRight,
 } from "lucide-react";
 import type { Metadata } from "next";
+import AgentPhoto from "@/components/shared/AgentPhoto";
+import AgentPresence from "@/components/shared/AgentPresence";
 
 export const metadata: Metadata = {
   title: "About Dr. Jan Duffy | Berkshire Hathaway HomeServices Las Vegas",
@@ -43,6 +45,7 @@ const personSchema = {
   telephone: "+17025001942",
   email: "homes@heyberkshire.com",
   url: "https://www.lasvegas55plushomes.com/about",
+  image: "https://www.lasvegas55plushomes.com/images/dr-jan-duffy.jpg",
   worksFor: {
     "@type": "RealEstateAgent",
     name: "Berkshire Hathaway HomeServices Nevada Properties",
@@ -223,14 +226,8 @@ export default function AboutPage() {
 
               {/* Stats & Credentials */}
               <div className="space-y-6">
-                {/* Agent Photo Placeholder */}
-                <div className="bg-gradient-to-br from-blue-100 to-slate-100 rounded-lg p-8 aspect-square flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="text-6xl mb-4">👩‍💼</div>
-                    <p className="text-slate-600 font-semibold">Dr. Jan Duffy</p>
-                    <p className="text-sm text-slate-500">BHHS Nevada Properties</p>
-                  </div>
-                </div>
+                {/* Agent Photo — POSE2 studio headshot */}
+                <AgentPhoto variant="card" priority showCaption />
 
                 {/* Stats Grid */}
                 <div className="grid grid-cols-2 gap-4">
@@ -460,6 +457,7 @@ export default function AboutPage() {
         </div>
       </main>
       <RealScoutListings />
+      <AgentPresence />
       <Footer />
     </>
   );

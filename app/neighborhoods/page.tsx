@@ -1,4 +1,5 @@
 import Navbar from "@/components/layouts/Navbar";
+import AgentPresence from "@/components/shared/AgentPresence";
 import Footer from "@/components/layouts/Footer";
 import RealScoutListings from "@/components/realscout/RealScoutListings";
 import Link from "next/link";
@@ -238,6 +239,8 @@ export default function NeighborhoodsPage() {
         <div className="text-center text-sm text-slate-500 mt-8">Last Updated: January 2026</div>
       </main>
       <RealScoutListings />
+      <AgentPresence />
+
       <Footer />
     </>
   );

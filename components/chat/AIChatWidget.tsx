@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { Send, MessageCircle, X, Loader2 } from "lucide-react";
+import { Send, X, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
@@ -97,29 +97,46 @@ export default function AIChatWidget() {
 
   return (
     <>
-      {/* Chat Button */}
+          {/* Chat Button */}
       {!isOpen && (
         <button
           onClick={() => setIsOpen(true)}
-          className="fixed bottom-6 right-6 bg-blue-600 hover:bg-blue-700 text-white rounded-full p-4 shadow-lg z-50 transition-all hover:scale-110"
-          aria-label="Open chat"
+          className="fixed bottom-6 right-6 z-50 overflow-hidden rounded-full shadow-lg ring-2 ring-gold transition-all hover:scale-110"
+          aria-label="Open chat with Dr. Jan Duffy's assistant"
         >
-          <MessageCircle className="h-6 w-6" />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/dr-jan-duffy.jpg"
+            alt="Chat with Dr. Jan Duffy"
+            width={56}
+            height={56}
+            className="h-14 w-14 object-cover object-top"
+          />
         </button>
       )}
 
       {/* Chat Widget */}
       {isOpen && (
-        <div className="fixed bottom-6 right-6 w-96 h-[600px] bg-white rounded-lg shadow-2xl z-50 flex flex-col border border-slate-200">
+        <div className="fixed bottom-6 right-6 z-50 flex h-[600px] w-96 flex-col rounded-lg border border-slate-200 bg-white shadow-2xl">
           {/* Header */}
-          <div className="bg-blue-600 text-white p-4 rounded-t-lg flex justify-between items-center">
-            <div>
-              <h3 className="font-semibold">Real Estate Assistant</h3>
-              <p className="text-xs text-blue-100">Ask me anything!</p>
+          <div className="flex items-center justify-between rounded-t-lg bg-forest p-4 text-white">
+            <div className="flex items-center gap-3">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/images/dr-jan-duffy.jpg"
+                alt="Dr. Jan Duffy"
+                width={40}
+                height={40}
+                className="h-10 w-10 rounded-full object-cover object-top ring-2 ring-gold"
+              />
+              <div>
+                <h3 className="font-semibold">Dr. Jan Duffy</h3>
+                <p className="text-xs text-forest-soft">Real estate assistant</p>
+              </div>
             </div>
             <button
               onClick={() => setIsOpen(false)}
-              className="hover:bg-blue-700 rounded p-1 transition-colors"
+              className="rounded p-1 transition-colors hover:bg-forest-mid"
               aria-label="Close chat"
             >
               <X className="h-5 w-5" />
@@ -138,7 +155,7 @@ export default function AIChatWidget() {
                 <div
                   className={`max-w-[80%] rounded-lg p-3 ${
                     message.role === "user"
-                      ? "bg-blue-600 text-white"
+                      ? "bg-forest text-white"
                       : "bg-slate-100 text-slate-900"
                   }`}
                 >
@@ -149,7 +166,7 @@ export default function AIChatWidget() {
             {isLoading && (
               <div className="flex justify-start">
                 <div className="bg-slate-100 rounded-lg p-3">
-                  <Loader2 className="h-5 w-5 animate-spin text-blue-600" />
+                  <Loader2 className="h-5 w-5 animate-spin text-forest" />
                 </div>
               </div>
             )}
@@ -171,7 +188,7 @@ export default function AIChatWidget() {
               <Button
                 onClick={handleSend}
                 disabled={isLoading || !input.trim()}
-                className="bg-blue-600 hover:bg-blue-700"
+                className="bg-forest hover:bg-forest-mid"
               >
                 {isLoading ? (
                   <Loader2 className="h-4 w-4 animate-spin" />

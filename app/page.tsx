@@ -4,6 +4,7 @@ import RealScoutListings from "@/components/realscout/RealScoutListings";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import ReviewsSection from "@/components/sections/ReviewsSection";
 import FAQSection from "@/components/sections/FAQSection";
+import AgentPresence from "@/components/shared/AgentPresence";
 import Footer from "@/components/layouts/Footer";
 import Link from "next/link";
 import {
@@ -70,22 +71,23 @@ export default async function Home() {
       />
       <Navbar />
       <main>
-        {/* Domain-Aware Hero */}
-        <section className="relative bg-slate-900 text-white py-24 md:py-32 overflow-hidden">
+        {/* Domain-Aware Hero — forest + gold luxury realtor treatment */}
+        <section className="relative section-forest text-white py-24 md:py-32 overflow-hidden">
           <div
-            className="absolute inset-0 bg-cover bg-center opacity-30"
-            style={{ backgroundImage: "url('/Image/hero_bg_1.jpg')" }}
+            className="absolute inset-0 bg-cover bg-center opacity-25"
+            style={{ backgroundImage: "url('/images/hero/55-plus-community.jpg')" }}
           />
-          <div className="relative z-10 container mx-auto px-4 text-center">
+          <div className="absolute inset-0 bg-gradient-to-b from-forest-deep/40 via-transparent to-forest-deep/70" />
+          <div className="relative z-10 container mx-auto px-4 text-center animate-fade-up">
             {config.ctaBadge && (
-              <span className="inline-block bg-blue-600 text-white text-sm font-semibold px-4 py-1 rounded-full mb-6">
+              <span className="inline-block border border-gold/50 bg-gold/15 text-gold-bright text-sm font-semibold tracking-wide px-4 py-1.5 rounded-md mb-6">
                 {config.ctaBadge}
               </span>
             )}
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-white">
               {config.heroHeadline}
             </h1>
-            <p className="text-xl md:text-2xl text-white/80 mb-10 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-white/85 mb-10 max-w-3xl mx-auto">
               {config.heroSubheadline}
             </p>
 
@@ -101,15 +103,15 @@ export default async function Home() {
             {/* Trust Indicators */}
             <div className="flex flex-wrap justify-center gap-6 text-white/80 text-sm">
               <div className="flex items-center gap-2">
-                <span className="font-semibold text-white">500+</span>
+                <span className="font-semibold text-gold-bright">500+</span>
                 <span>Families Helped</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="font-semibold text-white">30+ Years</span>
+                <span className="font-semibold text-gold-bright">30+ Years</span>
                 <span>Las Vegas Experience</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="font-semibold text-white">4.9★</span>
+                <span className="font-semibold text-gold-bright">4.9★</span>
                 <span>Client Rating</span>
               </div>
             </div>
@@ -152,8 +154,8 @@ export default async function Home() {
                 },
               ].map(({ icon: Icon, title, desc }) => (
                 <div key={title} className="text-center p-6">
-                  <div className="bg-blue-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                    <Icon className="h-8 w-8 text-blue-600" />
+                  <div className="bg-gold-soft rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center ring-1 ring-gold/30">
+                    <Icon className="h-8 w-8 text-forest" />
                   </div>
                   <h3 className="font-bold text-lg mb-2">{title}</h3>
                   <p className="text-slate-600 text-sm">{desc}</p>
@@ -164,13 +166,13 @@ export default async function Home() {
         </section>
 
         {/* Market Stats */}
-        <section className="py-16 bg-slate-900 text-white">
+        <section className="py-16 section-forest text-white">
           <div className="container mx-auto px-4">
             <div className="text-center mb-10">
-              <h2 className="text-3xl font-bold mb-3">
+              <h2 className="text-3xl font-bold mb-3 text-white">
                 {config.neighborhood} Real Estate Market
               </h2>
-              <p className="text-slate-400">Current data — updated regularly</p>
+              <p className="text-white/70">Current data — updated regularly</p>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
               {[
@@ -180,12 +182,12 @@ export default async function Home() {
                 { value: "2.1", label: "Months Inventory", sub: "" },
               ].map(({ value, label, sub }) => (
                 <div key={label} className="text-center">
-                  <div className="text-4xl font-bold text-blue-400 mb-1">
+                  <div className="text-4xl font-bold text-gold-bright mb-1">
                     {value}
                   </div>
-                  <div className="text-slate-300 text-sm">{label}</div>
+                  <div className="text-white/80 text-sm">{label}</div>
                   {sub && (
-                    <div className="text-green-400 text-xs mt-1">{sub}</div>
+                    <div className="text-gold text-xs mt-1">{sub}</div>
                   )}
                 </div>
               ))}
@@ -193,7 +195,7 @@ export default async function Home() {
             <div className="text-center mt-8">
               <Link
                 href="/market-report"
-                className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md font-semibold transition-colors"
+                className="btn-gold"
               >
                 Full Market Report
               </Link>
@@ -207,36 +209,38 @@ export default async function Home() {
         <FAQSection />
 
         {/* Domain-Specific CTA */}
-        <section className="py-16 md:py-20 bg-blue-600 text-white">
+        <section className="py-16 md:py-20 section-forest text-white">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
               {config.ctaHeadline}
             </h2>
-            <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-white/85 mb-8 max-w-2xl mx-auto">
               {config.ctaSubheadline}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:+17025001942"
-                className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
+                className="btn-gold px-8 py-4 text-lg"
               >
                 <Phone className="h-5 w-5 mr-2" />
                 Call (702) 500-1942
               </a>
               <Link
                 href="/contact"
-                className="inline-block bg-blue-700 hover:bg-blue-800 text-white px-8 py-4 rounded-md font-bold text-lg transition-colors"
+                className="btn-outline-light px-8 py-4 text-lg"
               >
                 Send a Message
               </Link>
             </div>
-            <p className="mt-6 text-blue-200 text-sm">
+            <p className="mt-6 text-white/70 text-sm">
               Dr. Jan Duffy | License S.0197614.LLC | Berkshire Hathaway
               HomeServices Nevada Properties
             </p>
           </div>
         </section>
       </main>
+      <AgentPresence />
+
       <Footer />
     </>
   );

@@ -2,8 +2,10 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { AGENT_PHOTO } from "@/lib/agent-photo";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -44,13 +46,25 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
-          {/* Brand Logo */}
-          <Link href="/" className="flex flex-col">
-            <span className="text-lg md:text-xl lg:text-2xl font-bold text-slate-900 hover:text-blue-600 transition-colors leading-tight">
-              Berkshire Hathaway
-              <span className="text-blue-600"> HomeServices</span>
+          {/* Brand Logo + Dr. Jan headshot */}
+          <Link href="/" className="flex items-center gap-3">
+            <Image
+              src={AGENT_PHOTO.src}
+              alt={AGENT_PHOTO.alt}
+              width={44}
+              height={44}
+              priority
+              className="h-10 w-10 rounded-full object-cover object-top ring-2 ring-gold/80 md:h-11 md:w-11"
+            />
+            <span className="flex flex-col">
+              <span className="text-lg md:text-xl lg:text-2xl font-bold text-slate-900 hover:text-forest transition-colors leading-tight">
+                Berkshire Hathaway
+                <span className="text-forest"> HomeServices</span>
+              </span>
+              <span className="text-xs text-slate-500 hidden sm:block">
+                {AGENT_PHOTO.name} · Nevada Properties
+              </span>
             </span>
-            <span className="text-xs text-slate-500 hidden sm:block">Nevada Properties</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -62,7 +76,7 @@ export default function Navbar() {
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-slate-700 hover:text-blue-600 font-medium transition-colors text-sm"
+                  className="text-slate-700 hover:text-forest font-medium transition-colors text-sm"
                 >
                   {link.label}
                 </a>
@@ -70,7 +84,7 @@ export default function Navbar() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-slate-700 hover:text-blue-600 font-medium transition-colors text-sm"
+                  className="text-slate-700 hover:text-forest font-medium transition-colors text-sm"
                 >
                   {link.label}
                 </Link>
@@ -80,7 +94,7 @@ export default function Navbar() {
             {/* Services Dropdown */}
             <div className="relative">
               <button
-                className="flex items-center text-slate-700 hover:text-blue-600 font-medium transition-colors text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2 rounded-md px-2 py-1"
+                className="flex items-center text-slate-700 hover:text-forest font-medium transition-colors text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 rounded-md px-2 py-1"
                 onClick={() => setIsServicesOpen(!isServicesOpen)}
                 onMouseEnter={() => setIsServicesOpen(true)}
                 onKeyDown={(e) => {
@@ -110,7 +124,7 @@ export default function Navbar() {
                     <Link
                       key={link.href}
                       href={link.href}
-                      className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 focus-visible:outline-none focus-visible:bg-blue-50 focus-visible:text-blue-600"
+                      className="block px-4 py-2 text-sm text-slate-700 hover:bg-forest-soft hover:text-forest focus-visible:outline-none focus-visible:bg-forest-soft focus-visible:text-forest"
                       onClick={() => setIsServicesOpen(false)}
                       role="menuitem"
                     >
@@ -121,7 +135,7 @@ export default function Navbar() {
               )}
             </div>
 
-            <Button asChild className="bg-blue-600 hover:bg-blue-700">
+            <Button asChild className="bg-forest hover:bg-forest-mid">
               <Link href="tel:+17025001942" className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
                 <span className="hidden xl:inline">(702) 500-1942</span>
@@ -132,13 +146,13 @@ export default function Navbar() {
 
           {/* Mobile Menu Button */}
           <div className="lg:hidden flex items-center gap-3">
-            <Button asChild size="sm" className="bg-blue-600 hover:bg-blue-700">
+            <Button asChild size="sm" className="bg-forest hover:bg-forest-mid">
               <Link href="tel:+17025001942">
                 <Phone className="h-4 w-4" />
               </Link>
             </Button>
             <button
-              className="text-slate-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2 rounded-md p-1"
+              className="text-slate-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 rounded-md p-1"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               aria-label="Toggle menu"
               aria-expanded={isMobileMenuOpen}
@@ -159,7 +173,7 @@ export default function Navbar() {
                     href={link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-slate-700 hover:text-blue-600 hover:bg-blue-50 font-medium transition-colors py-2 px-3 rounded"
+                    className="text-slate-700 hover:text-forest hover:bg-forest-soft font-medium transition-colors py-2 px-3 rounded"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {link.label}
@@ -168,7 +182,7 @@ export default function Navbar() {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className="text-slate-700 hover:text-blue-600 hover:bg-blue-50 font-medium transition-colors py-2 px-3 rounded"
+                    className="text-slate-700 hover:text-forest hover:bg-forest-soft font-medium transition-colors py-2 px-3 rounded"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {link.label}
@@ -185,7 +199,7 @@ export default function Navbar() {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className="text-slate-700 hover:text-blue-600 hover:bg-blue-50 font-medium transition-colors py-2 px-3 rounded block"
+                    className="text-slate-700 hover:text-forest hover:bg-forest-soft font-medium transition-colors py-2 px-3 rounded block"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {link.label}
@@ -194,7 +208,7 @@ export default function Navbar() {
               </div>
 
               <div className="pt-4">
-                <Button asChild className="bg-blue-600 hover:bg-blue-700 w-full">
+                <Button asChild className="bg-forest hover:bg-forest-mid w-full">
                   <Link
                     href="tel:+17025001942"
                     className="flex items-center justify-center gap-2"

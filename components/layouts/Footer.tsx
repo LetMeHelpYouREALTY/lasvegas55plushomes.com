@@ -1,15 +1,30 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from "lucide-react";
+import { AGENT_PHOTO } from "@/lib/agent-photo";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-slate-900 text-white">
+    <footer className="bg-forest-deep text-white">
       <div className="container mx-auto px-4 py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Company Info */}
           <div>
+            <div className="mb-4 flex items-center gap-3">
+              <Image
+                src={AGENT_PHOTO.src}
+                alt={AGENT_PHOTO.alt}
+                width={64}
+                height={64}
+                className="h-14 w-14 rounded-full object-cover object-top ring-2 ring-gold"
+              />
+              <div>
+                <p className="font-semibold text-gold">{AGENT_PHOTO.name}</p>
+                <p className="text-xs text-white/70">License {AGENT_PHOTO.license}</p>
+              </div>
+            </div>
             <h3 className="font-bold text-xl mb-4">Berkshire Hathaway HomeServices</h3>
             <p className="text-slate-300 mb-4 text-sm">
               Nevada Properties - Your trusted real estate partner in Las Vegas, Henderson, and
@@ -171,7 +186,7 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-4">Contact Dr. Jan Duffy</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
-                <MapPin className="h-5 w-5 mr-3 text-blue-400 flex-shrink-0 mt-0.5" />
+                <MapPin className="h-5 w-5 mr-3 text-gold flex-shrink-0 mt-0.5" />
                 <span className="text-slate-300 text-sm">
                   9406 W Lake Mead Blvd, Suite 100
                   <br />
@@ -179,7 +194,7 @@ export default function Footer() {
                 </span>
               </li>
               <li className="flex items-center">
-                <Phone className="h-5 w-5 mr-3 text-blue-400 flex-shrink-0" />
+                <Phone className="h-5 w-5 mr-3 text-gold flex-shrink-0" />
                 <Link
                   href="tel:+17025001942"
                   className="text-slate-300 hover:text-white transition-colors text-sm"
@@ -188,7 +203,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li className="flex items-center">
-                <Mail className="h-5 w-5 mr-3 text-blue-400 flex-shrink-0" />
+                <Mail className="h-5 w-5 mr-3 text-gold flex-shrink-0" />
                 <Link
                   href="mailto:homes@heyberkshire.com"
                   className="text-slate-300 hover:text-white transition-colors text-sm"

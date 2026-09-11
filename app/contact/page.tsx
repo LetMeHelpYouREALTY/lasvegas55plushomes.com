@@ -1,10 +1,13 @@
 import Navbar from "@/components/layouts/Navbar";
+import AgentPresence from "@/components/shared/AgentPresence";
 import Footer from "@/components/layouts/Footer";
+import AgentPhoto from "@/components/shared/AgentPhoto";
 import RealScoutListings from "@/components/realscout/RealScoutListings";
 import { Phone, Mail, MapPin, Clock, Calendar, CheckCircle, Star, Users, Shield } from "lucide-react";
 import CalendlyWidget from "@/components/calendly/CalendlyWidget";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AGENT_PHOTO } from "@/lib/agent-photo";
 
 export const metadata: Metadata = {
   title: "Contact Dr. Jan Duffy | Berkshire Hathaway HomeServices Las Vegas",
@@ -25,6 +28,7 @@ const contactSchema = {
   mainEntity: {
     "@type": "RealEstateAgent",
     name: "Dr. Jan Duffy - Berkshire Hathaway HomeServices Nevada Properties",
+    image: "https://www.lasvegas55plushomes.com/images/dr-jan-duffy.jpg",
     telephone: "+17025001942",
     email: "homes@heyberkshire.com",
     address: {
@@ -49,12 +53,15 @@ export default function ContactPage() {
       <main className="pt-24 pb-16">
         <div className="container mx-auto px-4">
           {/* Hero */}
-          <div className="text-center mb-12">
-            <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
+          <div className="mb-12 text-center">
+            <div className="mb-6 flex justify-center">
+              <AgentPhoto variant="hero" priority showCaption />
+            </div>
+            <div className="mb-6 inline-block rounded-full bg-forest-soft px-4 py-2 text-sm font-semibold text-forest">
               Berkshire Hathaway HomeServices Nevada Properties
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
-              Contact Dr. Jan Duffy
+            <h1 className="mb-6 text-4xl font-bold text-slate-900 md:text-5xl lg:text-6xl">
+              Contact {AGENT_PHOTO.name}
             </h1>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto">
               Questions about Las Vegas real estate? Your{" "}
@@ -321,6 +328,8 @@ export default function ContactPage() {
         <div className="text-center text-sm text-slate-500 mt-8">Last Updated: January 2026</div>
       </main>
       <RealScoutListings />
+      <AgentPresence />
+
       <Footer />
     </>
   );

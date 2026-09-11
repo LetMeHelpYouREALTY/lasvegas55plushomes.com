@@ -2,19 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  /* Luxury realtor brand — forest green + gold */
+  --brand-forest: #0b3d2e;
+  --brand-forest-deep: #06281f;
+  --brand-forest-mid: #145c43;
+  --brand-forest-soft: #e8f2ec;
+  --brand-gold: #e5b93c;
+  --brand-gold-bright: #f0c84a;
+  --brand-gold-dark: #c9a227;
+  --brand-gold-soft: #fbf3dc;
+  --brand-ink: #0f172a;
+  --brand-muted: #475569;
+  --brand-surface: #ffffff;
+  --brand-surface-alt: #f7faf8;
+}
+
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-slate-900 antialiased;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 100% -10%, rgba(229, 185, 60, 0.08), transparent),
+      radial-gradient(ellipse 60% 40% at 0% 100%, rgba(11, 61, 46, 0.06), transparent);
+  }
+
   a,
   button {
     @apply transition;
   }
 
-  a {
-    @apply text-emerald-500 underline hover:bg-emerald-100
-        outline-0 focus:ring-2 focus:ring-offset-1 focus:ring-emerald-500;
+  /* Default body links stay quiet; CTAs use explicit brand classes */
+  a:not([class*="bg-"]):not([class*="btn"]) {
+    @apply text-forest-mid no-underline hover:text-forest hover:underline
+      outline-0 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-gold;
   }
 
   ::selection {
-    @apply bg-emerald-200 text-emerald-950;
+    background-color: var(--brand-gold-soft);
+    color: var(--brand-forest-deep);
   }
 
   label,
@@ -27,7 +56,7 @@
   h2,
   h3,
   h4 {
-    @apply text-balance;
+    @apply text-balance text-slate-900;
   }
 
   p {
@@ -35,25 +64,59 @@
   }
 }
 
-/* ===== RealScout Widget Styling ===== */
+@layer components {
+  .btn-gold {
+    @apply inline-flex items-center justify-center rounded-md bg-gold px-6 py-3
+      font-bold text-forest-deep shadow-luxury transition-colors
+      hover:bg-gold-bright focus-visible:outline-none focus-visible:ring-2
+      focus-visible:ring-gold focus-visible:ring-offset-2;
+  }
 
-/* RealScout Simple Search - Desktop */
-realscout-simple-search {
-  --rs-ss-font-primary-color: #1e293b;
-  --rs-ss-searchbar-border-color: #e2e8f0;
-  --rs-ss-box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
-  --rs-ss-widget-width: 600px !important;
-  --rs-ss-border-radius: 9999px;
-  --rs-ss-background-color: rgba(255, 255, 255, 0.95);
+  .btn-forest {
+    @apply inline-flex items-center justify-center rounded-md bg-forest px-6 py-3
+      font-bold text-white transition-colors hover:bg-forest-mid
+      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold
+      focus-visible:ring-offset-2;
+  }
+
+  .btn-outline-light {
+    @apply inline-flex items-center justify-center rounded-md border border-white/40
+      bg-transparent px-6 py-3 font-bold text-white transition-colors
+      hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2
+      focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-forest;
+  }
+
+  .section-forest {
+    @apply bg-forest text-white;
+    background-image: linear-gradient(
+      160deg,
+      var(--brand-forest-deep) 0%,
+      var(--brand-forest) 45%,
+      var(--brand-forest-mid) 100%
+    );
+  }
+
+  .accent-gold {
+    @apply text-gold;
+  }
 }
 
-/* RealScout Office Listings */
+/* ===== RealScout Widget Styling ===== */
+
+realscout-simple-search {
+  --rs-ss-font-primary-color: #0f172a;
+  --rs-ss-searchbar-border-color: #d1e0d8;
+  --rs-ss-box-shadow: 0 14px 32px -8px rgba(11, 61, 46, 0.28);
+  --rs-ss-widget-width: 600px !important;
+  --rs-ss-border-radius: 9999px;
+  --rs-ss-background-color: rgba(255, 255, 255, 0.97);
+}
+
 realscout-office-listings {
-  --rs-listing-divider-color: #2563eb;
+  --rs-listing-divider-color: #e5b93c;
   width: 100%;
 }
 
-/* RealScout container wrapper */
 .realscout-wrapper {
   display: flex;
   justify-content: center;
@@ -62,7 +125,6 @@ realscout-office-listings {
   padding: 0 1rem;
 }
 
-/* Mobile Responsive: Tablet */
 @media (max-width: 768px) {
   realscout-simple-search {
     --rs-ss-widget-width: 100% !important;
@@ -74,7 +136,6 @@ realscout-office-listings {
   }
 }
 
-/* Mobile Responsive: Phone */
 @media (max-width: 480px) {
   realscout-simple-search {
     --rs-ss-widget-width: 100% !important;
@@ -83,5 +144,19 @@ realscout-office-listings {
 
   .realscout-wrapper {
     padding: 0 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }

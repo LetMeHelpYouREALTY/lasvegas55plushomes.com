@@ -272,7 +272,7 @@ export default function ClaudeCostDashboard() {
       </Card>
 
       {/* Optimization Tips */}
-      <Card className="border-blue-200 bg-blue-50">
+      <Card className="border-forest/20 bg-forest-soft">
         <CardHeader>
           <CardTitle>Optimization Tips</CardTitle>
         </CardHeader>
@@ -291,13 +291,13 @@ export default function ClaudeCostDashboard() {
               </span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-blue-600">→</span>
+              <span className="text-forest">→</span>
               <span>
                 <strong>Rate limiting:</strong> 50 requests/min per client to prevent API limits
               </span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-blue-600">→</span>
+              <span className="text-forest">→</span>
               <span>
                 <strong>Cost tracking:</strong> Real-time monitoring of API expenses
               </span>
