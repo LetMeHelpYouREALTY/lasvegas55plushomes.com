@@ -110,11 +110,13 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: deploy --env production
 
+  # No CF Pages preview is published on PRs (Vercel is primary hosting),
+  # so Lighthouse against *.pages.dev would hit a Chrome interstitial.
   performance-audit:
     name: Cloudflare Performance Audit
     runs-on: ubuntu-latest
     needs: deploy
-    if: github.event_name == 'pull_request'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     
     steps:
       - name: Checkout code
@@ -127,24 +129,6 @@ jobs:
         uses: treosh/lighthouse-ci-action@v11
         with:
           urls: |
-            https://${{ github.event.pull_request.head.ref }}.heyberkshire-com.pages.dev
+            https://www.lasvegas55plushomes.com
           uploadArtifacts: true
           temporaryPublicStorage: true
-
-      - name: Comment PR with Performance Results
-        uses: actions/github-script@v7
-        if: always()
-        with:
-          script: |
-            const fs = require('fs');
-            
-            let comment = `## 📊 Cloudflare Pages Performance Report\n\n`;
-            comment += `Lighthouse audit completed for Cloudflare deployment.\n\n`;
-            comment += `View detailed results in Actions artifacts.`;
-            
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: comment
-            });
