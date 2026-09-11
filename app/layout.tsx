@@ -3,18 +3,17 @@ import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import { headers } from "next/headers";
 import { getDomainConfig } from "@/lib/domain-config";
+import { apexHost, canonicalOrigin } from "@/lib/canonical-host";
 import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
 
 export async function generateMetadata(): Promise<Metadata> {
   const headerList = headers();
-  const host = (headerList.get("x-domain") || headerList.get("host") || "")
-    .replace(/^www\./, "")
-    .toLowerCase();
-  const config = getDomainConfig(host);
-  const baseUrl = host ? `https://www.${host}` : undefined;
+  const rawHost = headerList.get("x-domain") || headerList.get("host") || "";
+  const config = getDomainConfig(apexHost(rawHost));
+  const baseUrl = canonicalOrigin(rawHost);
   return {
-    ...(baseUrl ? { metadataBase: new URL(baseUrl) } : {}),
+    metadataBase: new URL(baseUrl),
     title: `${config.neighborhood} | Dr. Jan Duffy, REALTOR® | BHHS Nevada`,
     description: config.description,
     keywords: config.keywords,
@@ -25,7 +24,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title: config.heroHeadline,
       description: config.description,
       type: "website",
-      ...(baseUrl ? { url: baseUrl } : {}),
+      url: baseUrl,
     },
   };
 }

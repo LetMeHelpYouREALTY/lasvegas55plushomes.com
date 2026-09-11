@@ -161,7 +161,7 @@ Dr. Jan's approach is simple: treat every client like family, know the market in
 
 55+ active adult community specialization covers Sun City Summerlin (Nevada's largest 55+ community), Sun City Anthem in Henderson, Del Webb Lake Las Vegas, and Solera at Anthem. Investment property expertise spans single-family rentals, multi-family opportunities, and short-term rental analysis across the Las Vegas metro area.
 
-Office located at 9406 W Lake Mead Blvd, Suite 100, Las Vegas, NV 89134. Available Monday through Friday 9am-6pm, Saturday 10am-4pm, and Sunday by appointment. Call (702) 500-1942 for a free consultation or visit lasvegas55plushomes.com to start your Las Vegas real estate journey today.`,
+Office located at 9406 W Lake Mead Blvd, Suite 100, Las Vegas, NV 89134. Available Monday through Friday 9am-6pm, Saturday 10am-4pm, and Sunday by appointment. Call (702) 500-1942 for a free consultation or visit https://www.lasvegas55plushomes.com to start your Las Vegas real estate journey today.`,
 };
 
 // FAQ Schema for GBP Q&A section

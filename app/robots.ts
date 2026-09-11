@@ -1,9 +1,9 @@
 import { MetadataRoute } from "next";
 import { headers } from "next/headers";
+import { canonicalOrigin } from "@/lib/canonical-host";
 
 export default function robots(): MetadataRoute.Robots {
-  const host = headers().get("host")?.replace(/^www\./, "") || "lasvegas55plushomes.com";
-  const baseUrl = `https://www.${host}`;
+  const baseUrl = canonicalOrigin(headers().get("host"));
   return {
     rules: {
       userAgent: "*",

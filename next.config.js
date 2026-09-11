@@ -20,7 +20,7 @@ const nextConfig = {
   // Performance optimizations
   swcMinify: true,
 
-  // Redirect apex (non-www) to www for the canonical host
+  // Redirect apex (non-www) to www — www is the primary/canonical host
   async redirects() {
     return [
       {

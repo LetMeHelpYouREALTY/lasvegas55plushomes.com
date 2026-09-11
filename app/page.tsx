@@ -7,6 +7,7 @@ import Footer from "@/components/layouts/Footer";
 import Link from "next/link";
 import { Phone, Home as HomeIcon, TrendingUp, Shield, Users } from "lucide-react";
 import { getPageDomainConfig } from "@/lib/get-domain-config";
+import { PRIMARY_ORIGIN, canonicalOrigin } from "@/lib/canonical-host";
 
 export default async function Home() {
   const config = await getPageDomainConfig();
@@ -15,7 +16,10 @@ export default async function Home() {
     "@context": "https://schema.org",
     "@type": "RealEstateAgent",
     name: `Dr. Jan Duffy - ${config.neighborhood} Real Estate`,
-    url: `https://${config.domain !== "default" ? config.domain : "www.lasvegas55plushomes.com"}`,
+    url:
+      config.domain !== "default"
+        ? canonicalOrigin(config.domain)
+        : PRIMARY_ORIGIN,
     telephone: "+17025001942",
     address: {
       "@type": "PostalAddress",

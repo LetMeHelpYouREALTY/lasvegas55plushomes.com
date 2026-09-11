@@ -24,7 +24,7 @@ const nextConfig = {
     CLOUDFLARE_ENV: process.env.CLOUDFLARE_ENV || 'production',
   },
 
-  // Redirect non-www to www (handled by Worker)
+  // Redirect apex (non-www) to www — www is the primary/canonical host
   async redirects() {
     return [
       {

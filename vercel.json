@@ -72,6 +72,18 @@
       "source": "/home",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "lasvegas55plushomes.com" }],
+      "destination": "https://www.lasvegas55plushomes.com/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "lasvegas55plushomes.com" }],
+      "destination": "https://www.lasvegas55plushomes.com/:path*",
+      "permanent": true
     }
   ]
 }
