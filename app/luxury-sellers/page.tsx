@@ -11,7 +11,8 @@ import type { Metadata } from "next";
 import { luxuryImages } from "@/lib/luxury-images";
 
 export const metadata: Metadata = {
-  title: "Sell a Luxury Home in Las Vegas | White-Glove Listing | Dr. Jan Duffy",
+  title:
+    "Sell a Luxury Home in Las Vegas | White-Glove Listing | Dr. Jan Duffy",
   description:
     "Luxury home selling in Las Vegas and Henderson: pricing, photography, and optional off-market launch. Dr. Jan Duffy, BHHS Nevada Properties. Call (702) 222-1964.",
 };
@@ -63,7 +64,10 @@ export default function LuxurySellersPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               {services.map(({ icon: Icon, title, desc }) => (
-                <div key={title} className="border border-slate-200 rounded-xl p-6">
+                <div
+                  key={title}
+                  className="border border-slate-200 rounded-xl p-6"
+                >
                   <Icon className="h-8 w-8 text-amber-600 mb-4" />
                   <h3 className="font-bold text-xl mb-2">{title}</h3>
                   <p className="text-slate-600 text-sm">{desc}</p>
@@ -77,10 +81,11 @@ export default function LuxurySellersPage() {
                   April 2026 Luxury Context
                 </h2>
                 <p className="text-slate-600 mb-4">
-                  A Greater Las Vegas luxury index (homes roughly $1.5M–$5M) showed an April 2026
-                  median near $2.10 million, about 4.2% below the prior year, with longer days on
-                  market in several guard-gated pockets. Overpricing is expensive at this tier.
-                  We price from live comps—not a blog index.
+                  A Greater Las Vegas luxury index (homes roughly $1.5M–$5M)
+                  showed an April 2026 median near $2.10 million, about 4.2%
+                  below the prior year, with longer days on market in several
+                  guard-gated pockets. Overpricing is expensive at this tier. We
+                  price from live comps—not a blog index.
                 </p>
                 <ul className="space-y-3">
                   {[

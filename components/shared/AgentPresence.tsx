@@ -24,7 +24,9 @@ export default function AgentPresence({
             <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-gold">
               {AGENT_PHOTO.name} · License {AGENT_PHOTO.license}
             </p>
-            <h2 className="mb-3 text-2xl font-bold text-white md:text-3xl">{headline}</h2>
+            <h2 className="mb-3 text-2xl font-bold text-white md:text-3xl">
+              {headline}
+            </h2>
             <p className="mb-6 text-white/85">{subheadline}</p>
             <div className="flex flex-col justify-center gap-3 sm:flex-row md:justify-start">
               <a href={localBusiness.phone.tel} className="btn-gold px-6 py-3">

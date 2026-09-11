@@ -37,10 +37,11 @@ export default function InternationalBuyersPage() {
                 Buying Nevada Real Estate from Overseas
               </h2>
               <p className="text-slate-600 mb-4">
-                Nevada has no state income tax. That is a documented state tax structure—not a
-                personalized tax opinion. Confirm FIRPTA, entity purchase, and visa implications
-                with your CPA and attorney. Dr. Jan Duffy coordinates the real estate file:
-                listings, inspections, and local title.
+                Nevada has no state income tax. That is a documented state tax
+                structure—not a personalized tax opinion. Confirm FIRPTA, entity
+                purchase, and visa implications with your CPA and attorney. Dr.
+                Jan Duffy coordinates the real estate file: listings,
+                inspections, and local title.
               </p>
               <ul className="space-y-3">
                 {[
@@ -67,11 +68,23 @@ export default function InternationalBuyersPage() {
             </h2>
             <div className="grid sm:grid-cols-2 gap-4">
               {[
-                { href: "/neighborhoods/the-ridges", label: "The Ridges, Summerlin" },
-                { href: "/neighborhoods/macdonald-highlands", label: "MacDonald Highlands" },
+                {
+                  href: "/neighborhoods/the-ridges",
+                  label: "The Ridges, Summerlin",
+                },
+                {
+                  href: "/neighborhoods/macdonald-highlands",
+                  label: "MacDonald Highlands",
+                },
                 { href: "/neighborhoods/ascaya", label: "Ascaya" },
-                { href: "/neighborhoods/lake-las-vegas", label: "Lake Las Vegas" },
-                { href: "/high-rise-condos", label: "Strip-view high-rise condos" },
+                {
+                  href: "/neighborhoods/lake-las-vegas",
+                  label: "Lake Las Vegas",
+                },
+                {
+                  href: "/high-rise-condos",
+                  label: "Strip-view high-rise condos",
+                },
                 { href: "/golf-estates", label: "Golf course estates" },
               ].map((link) => (
                 <a

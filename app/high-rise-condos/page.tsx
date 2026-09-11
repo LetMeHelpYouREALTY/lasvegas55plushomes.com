@@ -10,7 +10,8 @@ import type { Metadata } from "next";
 import { luxuryImages } from "@/lib/luxury-images";
 
 export const metadata: Metadata = {
-  title: "Las Vegas Luxury High-Rise Condos | Strip View Penthouses | Dr. Jan Duffy",
+  title:
+    "Las Vegas Luxury High-Rise Condos | Strip View Penthouses | Dr. Jan Duffy",
   description:
     "High-rise and penthouse condos with Las Vegas Strip views. Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada Properties. Call (702) 222-1964.",
 };
@@ -38,10 +39,11 @@ export default function HighRiseCondosPage() {
                 What High-Rise Buyers Should Underwrite
               </h2>
               <p className="text-slate-600 mb-6">
-                A tower purchase is a home plus a hotel operation. HOA reserves, special
-                assessments, rental-program rules, and view-obstruction risk matter as much as
-                interior finishes. Dr. Jan Duffy walks the numbers with you and the listing packet—
-                we do not invent cap rates.
+                A tower purchase is a home plus a hotel operation. HOA reserves,
+                special assessments, rental-program rules, and view-obstruction
+                risk matter as much as interior finishes. Dr. Jan Duffy walks
+                the numbers with you and the listing packet— we do not invent
+                cap rates.
               </p>
               <ul className="space-y-3">
                 {[
@@ -69,24 +71,34 @@ export default function HighRiseCondosPage() {
               <div className="bg-white p-8 rounded-xl border border-slate-200">
                 <h3 className="font-bold text-xl mb-3">Choose a Tower If</h3>
                 <p className="text-slate-600">
-                  You want lock-and-leave convenience, concierge services, and a vertical view of
-                  the Strip or valley. Commute to the resort corridor is measured in minutes, not
-                  beltway exits.
+                  You want lock-and-leave convenience, concierge services, and a
+                  vertical view of the Strip or valley. Commute to the resort
+                  corridor is measured in minutes, not beltway exits.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-xl border border-slate-200">
                 <h3 className="font-bold text-xl mb-3">Choose an Estate If</h3>
                 <p className="text-slate-600">
-                  You need lot size, a private pool, and architectural control. Compare{" "}
-                  <a href="/neighborhoods/the-ridges" className="text-blue-600 underline">
+                  You need lot size, a private pool, and architectural control.
+                  Compare{" "}
+                  <a
+                    href="/neighborhoods/the-ridges"
+                    className="text-blue-600 underline"
+                  >
                     The Ridges
                   </a>
                   ,{" "}
-                  <a href="/neighborhoods/macdonald-highlands" className="text-blue-600 underline">
+                  <a
+                    href="/neighborhoods/macdonald-highlands"
+                    className="text-blue-600 underline"
+                  >
                     MacDonald Highlands
                   </a>
                   , and{" "}
-                  <a href="/neighborhoods/ascaya" className="text-blue-600 underline">
+                  <a
+                    href="/neighborhoods/ascaya"
+                    className="text-blue-600 underline"
+                  >
                     Ascaya
                   </a>
                   .

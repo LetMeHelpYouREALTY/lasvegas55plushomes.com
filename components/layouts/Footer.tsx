@@ -1,6 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from "lucide-react";
+import {
+  Phone,
+  Mail,
+  MapPin,
+  Facebook,
+  Instagram,
+  Linkedin,
+} from "lucide-react";
 import { AGENT_PHOTO } from "@/lib/agent-photo";
 
 export default function Footer() {
@@ -22,13 +29,18 @@ export default function Footer() {
               />
               <div>
                 <p className="font-semibold text-gold">{AGENT_PHOTO.name}</p>
-                <p className="text-xs text-white/70">License {AGENT_PHOTO.license}</p>
+                <p className="text-xs text-white/70">
+                  License {AGENT_PHOTO.license}
+                </p>
               </div>
             </div>
-            <h3 className="font-bold text-xl mb-4">Berkshire Hathaway HomeServices</h3>
+            <h3 className="font-bold text-xl mb-4">
+              Berkshire Hathaway HomeServices
+            </h3>
             <p className="text-slate-300 mb-4 text-sm">
-              Nevada Properties - Your trusted real estate partner in Las Vegas, Henderson, and
-              Summerlin. Backed by Warren Buffett's legacy of trust.
+              Nevada Properties - Your trusted real estate partner in Las Vegas,
+              Henderson, and Summerlin. Backed by Warren Buffett's legacy of
+              trust.
             </p>
             <div className="flex space-x-4">
               <a
@@ -219,25 +231,32 @@ export default function Footer() {
         <div className="border-t border-slate-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-slate-400 text-sm text-center md:text-left">
-              © {currentYear} Berkshire Hathaway HomeServices Nevada Properties. All Rights
-              Reserved.
+              © {currentYear} Berkshire Hathaway HomeServices Nevada
+              Properties. All Rights Reserved.
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm">
-              <Link href="/faq" className="text-slate-400 hover:text-white transition-colors">
+              <Link
+                href="/faq"
+                className="text-slate-400 hover:text-white transition-colors"
+              >
                 FAQ
               </Link>
-              <Link href="/sitemap.xml" className="text-slate-400 hover:text-white transition-colors">
+              <Link
+                href="/sitemap.xml"
+                className="text-slate-400 hover:text-white transition-colors"
+              >
                 Sitemap
               </Link>
             </div>
           </div>
           <p className="text-slate-500 text-xs mt-4 text-center">
-            Dr. Jan Duffy, REALTOR® | License S.0197614.LLC | Berkshire Hathaway HomeServices Nevada
-            Properties
+            Dr. Jan Duffy, REALTOR® | License S.0197614.LLC | Berkshire
+            Hathaway HomeServices Nevada Properties
           </p>
           <p className="text-slate-600 text-xs mt-2 text-center max-w-3xl mx-auto">
-            When you work with a Berkshire Hathaway HomeServices agent, you're backed by a name
-            synonymous with trust, ethical standards, and financial strength.
+            When you work with a Berkshire Hathaway HomeServices agent, you're
+            backed by a name synonymous with trust, ethical standards, and
+            financial strength.
           </p>
         </div>
       </div>

@@ -11,7 +11,8 @@ import type { Metadata } from "next";
 import { luxuryImages } from "@/lib/luxury-images";
 
 export const metadata: Metadata = {
-  title: "Off-Market Luxury Listings Las Vegas | Pocket Listings | Dr. Jan Duffy",
+  title:
+    "Off-Market Luxury Listings Las Vegas | Pocket Listings | Dr. Jan Duffy",
   description:
     "Confidential off-market and pocket listings in Las Vegas, Henderson, and Summerlin. Dr. Jan Duffy, BHHS Nevada Properties. Call (702) 222-1964.",
 };
@@ -72,10 +73,12 @@ export default function OffMarketPage() {
                 Why Sellers Choose a Quiet Launch
               </h2>
               <p className="text-slate-600 mb-6">
-                Trophy homes often sit empty or occupied. A public listing can mean open houses,
-                drone flyovers, and address exposure. A pocket listing lets you test price with
-                qualified buyers first. If the market confirms value, we still have the option to
-                list on the MLS through RealScout’s native syndication—no custom feed required.
+                Trophy homes often sit empty or occupied. A public listing can
+                mean open houses, drone flyovers, and address exposure. A pocket
+                listing lets you test price with qualified buyers first. If the
+                market confirms value, we still have the option to list on the
+                MLS through RealScout’s native syndication—no custom feed
+                required.
               </p>
               <ul className="space-y-3">
                 {[
@@ -115,8 +118,13 @@ export default function OffMarketPage() {
                   desc: "Private tours, then an offer structured for a seller who values privacy as much as price.",
                 },
               ].map((step) => (
-                <div key={step.title} className="bg-white p-6 rounded-xl border border-slate-200">
-                  <h3 className="font-bold text-xl text-slate-900 mb-2">{step.title}</h3>
+                <div
+                  key={step.title}
+                  className="bg-white p-6 rounded-xl border border-slate-200"
+                >
+                  <h3 className="font-bold text-xl text-slate-900 mb-2">
+                    {step.title}
+                  </h3>
                   <p className="text-slate-600 text-sm">{step.desc}</p>
                 </div>
               ))}
