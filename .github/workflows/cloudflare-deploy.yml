@@ -82,6 +82,9 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy .vercel/output/static --project-name=heyberkshire-com --branch=${{ github.ref_name }}
 
+  # Optional edge workers are not production for this site (Vercel is).
+  # wrangler.toml still references heyberkshire.com, and CLOUDFLARE_API_TOKEN
+  # is unset in this repo — do not fail main on a secondary host path.
   deploy-workers:
     name: Deploy Cloudflare Workers
     runs-on: ubuntu-latest
@@ -89,26 +92,12 @@ jobs:
     needs: deploy
     permissions:
       contents: read
-    
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Deploy Workers
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: deploy --env production
+      - name: Skip Cloudflare Workers (Vercel is primary)
+        run: |
+          echo "::notice::Skipping Cloudflare Workers deploy."
+          echo "Production traffic is on Vercel (www.lasvegas55plushomes.com)."
+          echo "Re-enable after wrangler.toml is updated for this domain and CLOUDFLARE_API_TOKEN is set."
 
   # No CF Pages preview is published on PRs (Vercel is primary hosting),
   # so Lighthouse against *.pages.dev would hit a Chrome interstitial.
