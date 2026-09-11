@@ -97,7 +97,7 @@ export default function AIChatWidget() {
 
   return (
     <>
-          {/* Chat Button */}
+      {/* Chat Button */}
       {!isOpen && (
         <button
           onClick={() => setIsOpen(true)}
@@ -131,7 +131,9 @@ export default function AIChatWidget() {
               />
               <div>
                 <h3 className="font-semibold">Dr. Jan Duffy</h3>
-                <p className="text-xs text-forest-soft">Real estate assistant</p>
+                <p className="text-xs text-forest-soft">
+                  Real estate assistant
+                </p>
               </div>
             </div>
             <button
@@ -159,7 +161,9 @@ export default function AIChatWidget() {
                       : "bg-slate-100 text-slate-900"
                   }`}
                 >
-                  <p className="text-sm whitespace-pre-wrap">{message.content}</p>
+                  <p className="text-sm whitespace-pre-wrap">
+                    {message.content}
+                  </p>
                 </div>
               </div>
             ))}

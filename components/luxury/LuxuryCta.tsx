@@ -19,14 +19,22 @@ export default function LuxuryCta({ title, subtitle }: LuxuryCtaProps) {
             <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-gold">
               {AGENT_PHOTO.name}
             </p>
-            <h2 className="mb-4 text-3xl font-bold text-white md:text-4xl">{title}</h2>
+            <h2 className="mb-4 text-3xl font-bold text-white md:text-4xl">
+              {title}
+            </h2>
             <p className="mb-8 text-xl text-white/85">{subtitle}</p>
             <div className="flex flex-col justify-center gap-4 sm:flex-row md:justify-start">
-              <a href={luxuryCtaPhone.tel} className="btn-gold px-8 py-4 text-lg">
+              <a
+                href={luxuryCtaPhone.tel}
+                className="btn-gold px-8 py-4 text-lg"
+              >
                 <Phone className="mr-2 h-5 w-5" />
                 Call {luxuryCtaPhone.display}
               </a>
-              <Link href="/contact" className="btn-outline-light px-8 py-4 text-lg">
+              <Link
+                href="/contact"
+                className="btn-outline-light px-8 py-4 text-lg"
+              >
                 Request a Private Consultation
               </Link>
             </div>

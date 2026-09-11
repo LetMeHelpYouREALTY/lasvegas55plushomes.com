@@ -75,7 +75,9 @@ export default async function Home() {
         <section className="relative section-forest text-white py-24 md:py-32 overflow-hidden">
           <div
             className="absolute inset-0 bg-cover bg-center opacity-25"
-            style={{ backgroundImage: "url('/images/hero/55-plus-community.jpg')" }}
+            style={{
+              backgroundImage: "url('/images/hero/55-plus-community.jpg')",
+            }}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-forest-deep/40 via-transparent to-forest-deep/70" />
           <div className="relative z-10 container mx-auto px-4 text-center animate-fade-up">
@@ -107,7 +109,9 @@ export default async function Home() {
                 <span>Families Helped</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="font-semibold text-gold-bright">30+ Years</span>
+                <span className="font-semibold text-gold-bright">
+                  30+ Years
+                </span>
                 <span>Las Vegas Experience</span>
               </div>
               <div className="flex items-center gap-2">
@@ -186,17 +190,12 @@ export default async function Home() {
                     {value}
                   </div>
                   <div className="text-white/80 text-sm">{label}</div>
-                  {sub && (
-                    <div className="text-gold text-xs mt-1">{sub}</div>
-                  )}
+                  {sub && <div className="text-gold text-xs mt-1">{sub}</div>}
                 </div>
               ))}
             </div>
             <div className="text-center mt-8">
-              <Link
-                href="/market-report"
-                className="btn-gold"
-              >
+              <Link href="/market-report" className="btn-gold">
                 Full Market Report
               </Link>
             </div>
@@ -218,10 +217,7 @@ export default async function Home() {
               {config.ctaSubheadline}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="tel:+17025001942"
-                className="btn-gold px-8 py-4 text-lg"
-              >
+              <a href="tel:+17025001942" className="btn-gold px-8 py-4 text-lg">
                 <Phone className="h-5 w-5 mr-2" />
                 Call (702) 500-1942
               </a>

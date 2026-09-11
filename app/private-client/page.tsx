@@ -11,7 +11,8 @@ import type { Metadata } from "next";
 import { luxuryImages } from "@/lib/luxury-images";
 
 export const metadata: Metadata = {
-  title: "Private Client Real Estate Advisory | Las Vegas Luxury | Dr. Jan Duffy",
+  title:
+    "Private Client Real Estate Advisory | Las Vegas Luxury | Dr. Jan Duffy",
   description:
     "Confidential private-client representation for $1M+ Las Vegas homes. Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada Properties. Call (702) 222-1964.",
   keywords: [
@@ -134,15 +135,17 @@ export default function PrivateClientPage() {
                   Advisory, Not Volume Brokerage
                 </h2>
                 <p className="text-slate-600 mb-4">
-                  High-value homes fail when they are treated like any other listing. Private-client
-                  work starts with a written brief: price band, view corridor, lot size, and close
-                  date. Dr. Jan Duffy then matches that brief to MLS inventory and off-market
-                  inventory—without building a custom search engine. RealScout already handles
-                  matching and alerts.
+                  High-value homes fail when they are treated like any other
+                  listing. Private-client work starts with a written brief:
+                  price band, view corridor, lot size, and close date. Dr. Jan
+                  Duffy then matches that brief to MLS inventory and off-market
+                  inventory—without building a custom search engine. RealScout
+                  already handles matching and alerts.
                 </p>
                 <p className="text-slate-600">
-                  Berkshire Hathaway HomeServices Nevada Properties | 9406 W Lake Mead Blvd, Suite
-                  100, Las Vegas, NV 89134 | License S.0197614.LLC
+                  Berkshire Hathaway HomeServices Nevada Properties | 9406 W
+                  Lake Mead Blvd, Suite 100, Las Vegas, NV 89134 | License
+                  S.0197614.LLC
                 </p>
               </div>
               <HeadingPhoto src={interior.src} alt={interior.alt} />
@@ -157,9 +160,14 @@ export default function PrivateClientPage() {
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {retainers.map(({ icon: Icon, title, desc }) => (
-                <div key={title} className="bg-white rounded-xl p-6 border border-slate-200">
+                <div
+                  key={title}
+                  className="bg-white rounded-xl p-6 border border-slate-200"
+                >
                   <Icon className="h-8 w-8 text-amber-600 mb-4" />
-                  <h3 className="font-bold text-lg text-slate-900 mb-2">{title}</h3>
+                  <h3 className="font-bold text-lg text-slate-900 mb-2">
+                    {title}
+                  </h3>
                   <p className="text-slate-600 text-sm">{desc}</p>
                 </div>
               ))}

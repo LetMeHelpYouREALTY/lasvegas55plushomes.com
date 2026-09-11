@@ -16,7 +16,9 @@ export default function HeadingPhoto({
   aspectClassName = "aspect-[16/9]",
 }: HeadingPhotoProps) {
   return (
-    <div className={`relative overflow-hidden rounded-2xl ${aspectClassName} ${className}`}>
+    <div
+      className={`relative overflow-hidden rounded-2xl ${aspectClassName} ${className}`}
+    >
       <Image
         src={src}
         alt={alt}

@@ -66,8 +66,9 @@ export default function GolfEstatesPage() {
               Premier Golf Communities
             </h2>
             <p className="text-slate-600 text-center max-w-3xl mx-auto mb-10">
-              Market figures below are GLVAR-reported luxury snapshots as of April 2026 and vary by
-              property mix. Confirm live comps before writing or listing.
+              Market figures below are GLVAR-reported luxury snapshots as of
+              April 2026 and vary by property mix. Confirm live comps before
+              writing or listing.
             </p>
             <div className="grid md:grid-cols-2 gap-8">
               {courses.map((course) => (
@@ -85,7 +86,9 @@ export default function GolfEstatesPage() {
                     <h3 className="text-xl font-bold text-slate-900 group-hover:text-blue-600 mb-1">
                       {course.name}
                     </h3>
-                    <p className="text-sm text-amber-700 font-semibold mb-3">{course.community}</p>
+                    <p className="text-sm text-amber-700 font-semibold mb-3">
+                      {course.community}
+                    </p>
                     <p className="text-slate-600 text-sm">{course.note}</p>
                   </div>
                 </Link>
@@ -96,17 +99,21 @@ export default function GolfEstatesPage() {
 
         <section className="py-16 bg-slate-50">
           <div className="container mx-auto px-4 max-w-4xl">
-            <h2 className="text-3xl font-bold text-slate-900 mb-6">Buying on a Fairway Lot</h2>
+            <h2 className="text-3xl font-bold text-slate-900 mb-6">
+              Buying on a Fairway Lot
+            </h2>
             <div className="space-y-4 text-slate-700">
               <p>
-                Golf-course lots trade on view corridors, setbacks, and HOA design guidelines—not
-                just bedroom count. Expect architectural review boards, higher HOA bands, and longer
-                due diligence on irrigation, retaining walls, and club membership transfer rules.
+                Golf-course lots trade on view corridors, setbacks, and HOA
+                design guidelines—not just bedroom count. Expect architectural
+                review boards, higher HOA bands, and longer due diligence on
+                irrigation, retaining walls, and club membership transfer rules.
               </p>
               <p>
-                Dr. Jan Duffy coordinates with the listing side on membership status so your offer
-                does not stall on club paperwork. Public listings still flow through RealScout; we
-                do not duplicate MLS search.
+                Dr. Jan Duffy coordinates with the listing side on membership
+                status so your offer does not stall on club paperwork. Public
+                listings still flow through RealScout; we do not duplicate MLS
+                search.
               </p>
             </div>
           </div>
