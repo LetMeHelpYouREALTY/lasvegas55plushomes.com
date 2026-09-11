@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Navbar from "@/components/layouts/Navbar";
 import RealScoutListings from "@/components/realscout/RealScoutListings";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
@@ -5,9 +6,35 @@ import ReviewsSection from "@/components/sections/ReviewsSection";
 import FAQSection from "@/components/sections/FAQSection";
 import Footer from "@/components/layouts/Footer";
 import Link from "next/link";
-import { Phone, Home as HomeIcon, TrendingUp, Shield, Users } from "lucide-react";
+import {
+  Phone,
+  Home as HomeIcon,
+  TrendingUp,
+  Shield,
+  Users,
+} from "lucide-react";
 import { getPageDomainConfig } from "@/lib/get-domain-config";
 import { PRIMARY_ORIGIN, canonicalOrigin } from "@/lib/canonical-host";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const config = await getPageDomainConfig();
+  const origin =
+    config.domain !== "default"
+      ? canonicalOrigin(config.domain)
+      : PRIMARY_ORIGIN;
+  return {
+    title: `${config.neighborhood} | Dr. Jan Duffy, REALTOR® | BHHS Nevada`,
+    description: config.description,
+    keywords: config.keywords,
+    alternates: { canonical: origin },
+    openGraph: {
+      title: config.heroHeadline,
+      description: config.description,
+      type: "website",
+      url: origin,
+    },
+  };
+}
 
 export default async function Home() {
   const config = await getPageDomainConfig();
@@ -97,15 +124,32 @@ export default async function Home() {
                 Why Work With Dr. Jan Duffy?
               </h2>
               <p className="text-lg text-slate-600">
-                Berkshire Hathaway HomeServices Nevada Properties — the most trusted name in Las Vegas real estate.
+                Berkshire Hathaway HomeServices Nevada Properties — the most
+                trusted name in Las Vegas real estate.
               </p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
               {[
-                { icon: Shield, title: "Trusted Brand", desc: "Backed by Warren Buffett's Berkshire Hathaway — unmatched integrity" },
-                { icon: Users, title: "50K+ Network", desc: "Global referral network for seamless moves to or from any market" },
-                { icon: TrendingUp, title: "$127M+ Sold", desc: "Proven results across every Las Vegas neighborhood since 2008" },
-                { icon: HomeIcon, title: "Full Service", desc: "Buying, selling, 55+, luxury, investment — one expert handles it all" },
+                {
+                  icon: Shield,
+                  title: "Trusted Brand",
+                  desc: "Backed by Warren Buffett's Berkshire Hathaway — unmatched integrity",
+                },
+                {
+                  icon: Users,
+                  title: "50K+ Network",
+                  desc: "Global referral network for seamless moves to or from any market",
+                },
+                {
+                  icon: TrendingUp,
+                  title: "$127M+ Sold",
+                  desc: "Proven results across every Las Vegas neighborhood since 2008",
+                },
+                {
+                  icon: HomeIcon,
+                  title: "Full Service",
+                  desc: "Buying, selling, 55+, luxury, investment — one expert handles it all",
+                },
               ].map(({ icon: Icon, title, desc }) => (
                 <div key={title} className="text-center p-6">
                   <div className="bg-blue-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
@@ -136,14 +180,21 @@ export default async function Home() {
                 { value: "2.1", label: "Months Inventory", sub: "" },
               ].map(({ value, label, sub }) => (
                 <div key={label} className="text-center">
-                  <div className="text-4xl font-bold text-blue-400 mb-1">{value}</div>
+                  <div className="text-4xl font-bold text-blue-400 mb-1">
+                    {value}
+                  </div>
                   <div className="text-slate-300 text-sm">{label}</div>
-                  {sub && <div className="text-green-400 text-xs mt-1">{sub}</div>}
+                  {sub && (
+                    <div className="text-green-400 text-xs mt-1">{sub}</div>
+                  )}
                 </div>
               ))}
             </div>
             <div className="text-center mt-8">
-              <Link href="/market-report" className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md font-semibold transition-colors">
+              <Link
+                href="/market-report"
+                className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md font-semibold transition-colors"
+              >
                 Full Market Report
               </Link>
             </div>
@@ -166,11 +217,11 @@ export default async function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17022221964"
+                href="tel:+17025001942"
                 className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call 702-222-1964
+                Call (702) 500-1942
               </a>
               <Link
                 href="/contact"
@@ -180,7 +231,8 @@ export default async function Home() {
               </Link>
             </div>
             <p className="mt-6 text-blue-200 text-sm">
-              Dr. Jan Duffy | License S.0197614.LLC | Berkshire Hathaway HomeServices Nevada Properties
+              Dr. Jan Duffy | License S.0197614.LLC | Berkshire Hathaway
+              HomeServices Nevada Properties
             </p>
           </div>
         </section>

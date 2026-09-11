@@ -1,10 +1,7 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { isGonePath, resolveLegacyOutcome } from "@/lib/legacy-redirects";
-import {
-  shouldRedirectApexToWww,
-  wwwHostname,
-} from "@/lib/canonical-host";
+import { shouldRedirectApexToWww, wwwHostname } from "@/lib/canonical-host";
 
 function redirectToWww(request: NextRequest, hostname: string): NextResponse {
   const dest = request.nextUrl.clone();
@@ -39,7 +36,10 @@ export function middleware(request: NextRequest) {
       });
     }
     if (outcome.type === "redirect") {
-      const target = new URL(outcome.destination, "https://www.lasvegas55plushomes.com");
+      const target = new URL(
+        outcome.destination,
+        "https://www.lasvegas55plushomes.com",
+      );
       target.hostname = "www.lasvegas55plushomes.com";
       target.protocol = "https:";
       return NextResponse.redirect(target, 301);
@@ -58,5 +58,7 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!api|_next/static|_next/image|favicon|images|videos|robots|sitemap).*)"],
+  matcher: [
+    "/((?!api|_next/static|_next/image|favicon|images|videos|robots|sitemap).*)",
+  ],
 };
