@@ -51,9 +51,22 @@ export function middleware(request: NextRequest) {
     return redirectToWww(request, hostNoPort);
   }
 
-  // 4) Default: continue and pass hostname to pages via header.
+  // 4) Internal search / query crawl spaces: noindex if somehow requested.
+  //    Primary block is robots.txt Disallow (SOTR Jul 2026); header is belt+suspenders.
+  const isSearchCrawlSpace =
+    pathname === "/search" ||
+    pathname.startsWith("/search/") ||
+    request.nextUrl.searchParams.has("q") ||
+    request.nextUrl.searchParams.has("s") ||
+    request.nextUrl.searchParams.has("query") ||
+    request.nextUrl.searchParams.has("keyword");
+
+  // 5) Default: continue and pass hostname to pages via header.
   const response = NextResponse.next();
   response.headers.set("x-domain", hostname);
+  if (isSearchCrawlSpace) {
+    response.headers.set("X-Robots-Tag", "noindex, nofollow");
+  }
   return response;
 }
 
