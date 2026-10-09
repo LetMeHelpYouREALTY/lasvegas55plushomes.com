@@ -2,6 +2,7 @@ import Navbar from "@/components/layouts/Navbar";
 import AgentPresence from "@/components/shared/AgentPresence";
 import Footer from "@/components/layouts/Footer";
 import RealScoutListings from "@/components/realscout/RealScoutListings";
+import { heritageBend894 } from "@/lib/listings/894-heritage-bend";
 import Link from "next/link";
 import {
   Phone,
@@ -624,6 +625,15 @@ export default function FiftyFiveCommunitiesPage() {
                       </ul>
                     </div>
 
+                    {community.slug === "heritage-stonebridge" ? (
+                      <Link
+                        href="/listings/894-heritage-bend-drive"
+                        className="mb-3 block text-center rounded-md border border-forest bg-forest-soft py-3 px-4 text-sm font-semibold text-forest hover:bg-white"
+                      >
+                        Now listed: {heritageBend894.street} ·{" "}
+                        {heritageBend894.priceDisplay}
+                      </Link>
+                    ) : null}
                     {community.slug ? (
                       <Link
                         href={`/55-plus-communities/${community.slug}`}

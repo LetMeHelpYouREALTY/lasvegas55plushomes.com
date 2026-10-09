@@ -180,6 +180,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
       changeFrequency: "monthly" as const,
     },
+    {
+      url: `${baseUrl}/55-plus-communities/heritage-stonebridge`,
+      priority: 0.8,
+      changeFrequency: "weekly" as const,
+    },
+    {
+      url: `${baseUrl}/listings/894-heritage-bend-drive`,
+      priority: 0.9,
+      changeFrequency: "daily" as const,
+    },
   ];
 
   // Neighborhood pages

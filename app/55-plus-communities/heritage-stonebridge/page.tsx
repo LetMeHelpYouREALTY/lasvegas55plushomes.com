@@ -2,6 +2,7 @@ import Navbar from "@/components/layouts/Navbar";
 import AgentPresence from "@/components/shared/AgentPresence";
 import Footer from "@/components/layouts/Footer";
 import RealScoutListings from "@/components/realscout/RealScoutListings";
+import HeritageBendFeature from "@/components/listings/HeritageBendFeature";
 import Link from "next/link";
 import {
   Phone,
@@ -96,6 +97,8 @@ export default function HeritageAtStonebridgePage() {
               Summerlin.
             </p>
           </div>
+
+          <HeritageBendFeature embedded />
 
           {/* Quick Stats */}
           <section className="mb-16 bg-slate-900 text-white rounded-2xl p-8 md:p-12 max-w-5xl mx-auto">
