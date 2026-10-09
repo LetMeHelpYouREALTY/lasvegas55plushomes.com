@@ -19,6 +19,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import type { Metadata } from "next";
+import HeritageBendFeature from "@/components/listings/HeritageBendFeature";
 
 export const metadata: Metadata = {
   title:
@@ -185,6 +186,8 @@ export default function ListingsPage() {
               </span>
             </div>
           </div>
+
+          <HeritageBendFeature embedded />
 
           {/* RealScout Widget - Live MLS Listings */}
           <section className="mb-16">

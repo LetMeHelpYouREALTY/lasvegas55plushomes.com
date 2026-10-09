@@ -16,6 +16,8 @@ import {
 } from "lucide-react";
 import { getPageDomainConfig } from "@/lib/get-domain-config";
 import { PRIMARY_ORIGIN, canonicalOrigin } from "@/lib/canonical-host";
+import HeritageBendFeature from "@/components/listings/HeritageBendFeature";
+import { shouldFeatureHeritageBend } from "@/lib/listings/894-heritage-bend";
 
 export async function generateMetadata(): Promise<Metadata> {
   const config = await getPageDomainConfig();
@@ -121,6 +123,10 @@ export default async function Home() {
             </div>
           </div>
         </section>
+
+        {shouldFeatureHeritageBend(config.domain) ? (
+          <HeritageBendFeature />
+        ) : null}
 
         {/* Value Proposition */}
         <section className="py-16 md:py-20 bg-white">
