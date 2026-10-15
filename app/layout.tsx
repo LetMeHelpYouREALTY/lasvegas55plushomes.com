@@ -6,6 +6,7 @@ import { getDomainConfig } from "@/lib/domain-config";
 import { apexHost, canonicalOrigin } from "@/lib/canonical-host";
 import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
+import GlobalHeroBanner from "@/components/layout/GlobalHeroBanner";
 
 export async function generateMetadata(): Promise<Metadata> {
   const headerList = headers();
@@ -68,6 +69,7 @@ export default function RootLayout({
         `}</Script>
       </head>
       <body>
+        <GlobalHeroBanner />
         {children}
         <Analytics />
       </body>
