@@ -173,8 +173,8 @@ export default function PrivacyPolicyPage() {
               <p className="mb-2">License S.0197614.LLC</p>
               <p className="mb-2">
                 Phone:{' '}
-                <a href="tel:+17025001942" className="text-blue-600 underline">
-                  (702) 500-1942
+                <a href="tel:+17027180043" className="text-blue-600 underline">
+                  (702) 718-0043
                 </a>
               </p>
               <p>
@@ -188,6 +188,9 @@ export default function PrivacyPolicyPage() {
           <footer className="border-t pt-6 mt-12">
             <p className="text-sm text-gray-500">
               Equal Housing Opportunity. This policy is reviewed and updated regularly.
+            </p>
+            <p className="text-sm text-gray-500">
+              Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC
             </p>
           </footer>
         </div>

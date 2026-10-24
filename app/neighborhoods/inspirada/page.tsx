@@ -13,9 +13,9 @@ import {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Berkshire Hathaway HomeServices Inspirada | Henderson Resort Living",
+  title: "Inspirada Real Estate | Henderson Resort Living",
   description:
-    "Find Inspirada homes with Berkshire Hathaway HomeServices Nevada Properties. Dr. Jan Duffy specializes in Henderson's resort-style community. Median price $525K. Call (702) 500-1942.",
+    "Find Inspirada homes with a local expert. Dr. Jan Duffy specializes in Henderson's resort-style community. Median price $525K. Call (702) 718-0043.",
   keywords: [
     "Berkshire Hathaway HomeServices Inspirada",
     "Inspirada homes for sale",
@@ -92,15 +92,13 @@ export default function InspiradaPage() {
           {/* Hero */}
           <div className="max-w-4xl mx-auto text-center mb-16">
             <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Dr. Jan Duffy, REALTOR®
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
-              Berkshire Hathaway HomeServices Inspirada
+              Inspirada Real Estate
             </h1>
             <p className="text-xl text-slate-600">
-              Resort-style living in Henderson. Discover Inspirada with{" "}
-              <strong>Berkshire Hathaway HomeServices</strong> and Dr. Jan
-              Duffy.
+              Resort-style living in Henderson. Discover Inspirada with Dr. Jan Duffy.
             </p>
           </div>
 
@@ -149,8 +147,7 @@ export default function InspiradaPage() {
                 consistently ranks among the nation's top-selling communities,
                 and for good reason: Inspirada delivers resort-style amenities
                 that make every day feel like a vacation.{" "}
-                <strong>Berkshire Hathaway HomeServices</strong>
-                is proud to represent buyers and sellers in this exceptional
+                Dr. Jan Duffy is proud to represent buyers and sellers in this exceptional
                 community.
               </p>
               <p>
@@ -164,15 +161,10 @@ export default function InspiradaPage() {
                 identity.
               </p>
               <p>
-                <strong>
-                  Berkshire Hathaway HomeServices Nevada Properties
-                </strong>{" "}
-                provides free buyer representation on Inspirada new construction
+                Dr. Jan Duffy provides free buyer representation on Inspirada new construction
                 purchases. With multiple builders offering homes in the
-                community, navigating options can be overwhelming. Dr. Jan Duffy
-                helps buyers compare builders, negotiate upgrades, and avoid
-                common new construction pitfalls. For resales, BHHS agents
-                identify properties where previous owners made smart upgrade
+                community, navigating options can be overwhelming. She helps buyers compare builders, negotiate upgrades, and avoid
+                common new construction pitfalls. For resales, she identifies properties where previous owners made smart upgrade
                 decisions, delivering better value than comparable new
                 construction.
               </p>
@@ -401,7 +393,7 @@ export default function InspiradaPage() {
                 compelling alternatives.
               </p>
               <p>
-                Choosing <strong>Berkshire Hathaway HomeServices</strong> for
+                Choosing Dr. Jan Duffy for
                 your Inspirada purchase means working with agents who understand
                 the community's various neighborhoods, which builders offer the
                 best quality, and which lots provide the best value. Dr. Jan
@@ -418,15 +410,13 @@ export default function InspiradaPage() {
               <blockquote className="text-lg text-slate-700 italic mb-4">
                 "Inspirada isn't just a place to live—it's a lifestyle. Families
                 move here for the pools, the trails, and the community events
-                that make weekends special. As a Berkshire Hathaway HomeServices
-                agent, I help clients find the specific neighborhood within
+                that make weekends special. As a REALTOR®, I help clients find the specific neighborhood within
                 Inspirada that matches how they want to live, whether that's
                 close to the main pool complex or on a quiet cul-de-sac backing
                 to open space."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada
-                Properties
+                — Dr. Jan Duffy
               </cite>
             </div>
           </section>
@@ -490,20 +480,16 @@ export default function InspiradaPage() {
               Experience Inspirada Living
             </h2>
             <p className="text-xl text-blue-100 mb-8">
-              Contact Dr. Jan Duffy, your Berkshire Hathaway HomeServices
-              Inspirada specialist, for expert guidance in Henderson's premier
+              Contact Dr. Jan Duffy, your Inspirada specialist, for expert guidance in Henderson's premier
               resort-style community.
             </p>
             <a
-              href="tel:+17025001942"
+              href="tel:+17027180043"
               className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
             >
               <Phone className="h-5 w-5 mr-2" />
-              Call (702) 500-1942
+              Call (702) 718-0043
             </a>
-            <p className="mt-4 text-blue-200 text-sm">
-              Berkshire Hathaway HomeServices Nevada Properties
-            </p>
           </section>
         </div>
         <div className="text-center text-sm text-slate-500 mt-8">

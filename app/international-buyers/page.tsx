@@ -10,9 +10,9 @@ import type { Metadata } from "next";
 import { luxuryImages } from "@/lib/luxury-images";
 
 export const metadata: Metadata = {
-  title: "International Luxury Home Buyers Las Vegas | Dr. Jan Duffy BHHS",
+  title: "International Luxury Home Buyers Las Vegas | Dr. Jan Duffy",
   description:
-    "Representation for international and out-of-state buyers of Las Vegas luxury homes. Nevada tax context, remote closings, BHHS global network. Call (702) 222-1964.",
+    "Representation for international and out-of-state buyers of Las Vegas luxury homes. Nevada tax context, remote closings, referral network. Call (702) 718-0043.",
 };
 
 export default function InternationalBuyersPage() {
@@ -25,7 +25,7 @@ export default function InternationalBuyersPage() {
       <main>
         <LuxuryHero
           title="International Luxury Buyers"
-          subtitle="Remote tours, proof-of-funds coordination, and a Berkshire Hathaway HomeServices global desk for buyers purchasing Las Vegas and Henderson estates from abroad or another U.S. state."
+          subtitle="Remote tours, proof-of-funds coordination, and referral coordination for buyers purchasing Las Vegas and Henderson estates from abroad or another U.S. state."
           image={hero.src}
           imageAlt={hero.alt}
         />
@@ -48,7 +48,7 @@ export default function InternationalBuyersPage() {
                   "Video walk-throughs and time-zone scheduling",
                   "Wire-fraud protocols with Nevada title companies",
                   "Power-of-attorney closings when you cannot attend in person",
-                  "BHHS referral partners in origin markets—native network, not a custom CRM sync",
+                  "Referral partners in origin markets—native network, not a custom CRM sync",
                 ].map((item) => (
                   <li key={item} className="flex items-start text-slate-700">
                     <CheckCircle className="h-5 w-5 text-amber-600 mr-3 mt-0.5 flex-shrink-0" />
@@ -102,7 +102,7 @@ export default function InternationalBuyersPage() {
         <RealScoutListings />
         <LuxuryCta
           title="Plan a Remote or In-Person Tour"
-          subtitle="Call or WhatsApp-style voice at (702) 222-1964. Mon–Fri 9am–6pm Pacific, Saturday 10am–4pm."
+          subtitle="Call or WhatsApp-style voice at (702) 718-0043. Daily 8:00 AM–8:00 PM Pacific."
         />
       </main>
       <AgentPresence />

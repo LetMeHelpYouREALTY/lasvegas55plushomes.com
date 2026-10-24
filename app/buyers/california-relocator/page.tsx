@@ -21,9 +21,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Relocating from California to Las Vegas | Berkshire Hathaway HomeServices",
+    "Relocating from California to Las Vegas | Dr. Jan Duffy, REALTOR®",
   description:
-    "Moving from California to Las Vegas? Zero state income tax, 40-60% lower home prices, same sunshine. Dr. Jan Duffy helps CA relocators find their perfect Las Vegas home. Call (702) 500-1942.",
+    "Moving from California to Las Vegas? Zero state income tax, 40-60% lower home prices, same sunshine. Dr. Jan Duffy helps CA relocators find their perfect Las Vegas home. Call (702) 718-0043.",
   keywords: [
     "California to Las Vegas relocation",
     "moving from California to Nevada",
@@ -84,12 +84,12 @@ const faqSchema = {
 const realEstateAgentSchema = {
   "@context": "https://schema.org",
   "@type": "RealEstateAgent",
-  name: "Dr. Jan Duffy - Berkshire Hathaway HomeServices Nevada Properties",
-  telephone: "+17025001942",
+  name: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
+  telephone: "+17027180043",
   url: "https://www.lasvegas55plushomes.com/buyers/california-relocator",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "9406 W Lake Mead Blvd, Suite 100",
+    streetAddress: "9406 Del Webb Blvd",
     addressLocality: "Las Vegas",
     addressRegion: "NV",
     postalCode: "89134",
@@ -144,11 +144,11 @@ export default function CaliforniaRelocatorPage() {
               Zero state income tax. 40-60% lower home prices. Same sunshine.
             </p>
             <a
-              href="tel:+17025001942"
+              href="tel:+17027180043"
               className="inline-flex items-center bg-blue-600 text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-700 transition-colors"
             >
               <Phone className="h-5 w-5 mr-2" />
-              Start Your Tax-Free Life → (702) 500-1942
+              Start Your Tax-Free Life → (702) 718-0043
             </a>
           </div>
 
@@ -499,13 +499,11 @@ export default function CaliforniaRelocatorPage() {
                 Las Vegas. The most common reaction? 'Why didn't we do this
                 sooner?' Between the tax savings, the space, and the lifestyle,
                 most clients can't believe what their California equity buys
-                here. As a <strong>Berkshire Hathaway HomeServices</strong>{" "}
-                agent, I coordinate with our California offices to make the
+                here. As a REALTOR®, I coordinate with our California offices to make the
                 transition seamless—you don't have to figure this out alone."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada
-                Properties
+                — Dr. Jan Duffy
               </cite>
             </div>
           </section>
@@ -522,11 +520,11 @@ export default function CaliforniaRelocatorPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17025001942"
+                href="tel:+17027180043"
                 className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call/Text (702) 500-1942
+                Call/Text (702) 718-0043
               </a>
               <Link
                 href="/contact"
@@ -535,9 +533,6 @@ export default function CaliforniaRelocatorPage() {
                 Schedule Consultation
               </Link>
             </div>
-            <p className="mt-6 text-blue-200 text-sm">
-              Berkshire Hathaway HomeServices Nevada Properties
-            </p>
           </section>
         </div>
         <div className="text-center text-sm text-slate-500 mt-8">

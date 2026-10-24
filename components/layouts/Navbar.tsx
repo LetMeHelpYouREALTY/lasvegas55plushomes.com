@@ -62,11 +62,11 @@ export default function Navbar() {
             />
             <span className="flex flex-col">
               <span className="text-lg md:text-xl lg:text-2xl font-bold text-slate-900 hover:text-forest transition-colors leading-tight">
-                Berkshire Hathaway
-                <span className="text-forest"> HomeServices</span>
+                Sun City Summerlin
+                <span className="text-forest"> 55+ Real Estate</span>
               </span>
               <span className="text-xs text-slate-500 hidden sm:block">
-                {AGENT_PHOTO.name} · Nevada Properties
+                Homes by {AGENT_PHOTO.name}
               </span>
             </span>
           </Link>
@@ -140,9 +140,9 @@ export default function Navbar() {
             </div>
 
             <Button asChild className="bg-forest hover:bg-forest-mid">
-              <Link href="tel:+17025001942" className="flex items-center gap-2">
+              <Link href="tel:+17027180043" className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
-                <span className="hidden xl:inline">(702) 500-1942</span>
+                <span className="hidden xl:inline">(702) 718-0043</span>
                 <span className="xl:hidden">Call</span>
               </Link>
             </Button>
@@ -151,7 +151,7 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <div className="lg:hidden flex items-center gap-3">
             <Button asChild size="sm" className="bg-forest hover:bg-forest-mid">
-              <Link href="tel:+17025001942">
+              <Link href="tel:+17027180043">
                 <Phone className="h-4 w-4" />
               </Link>
             </Button>
@@ -221,11 +221,11 @@ export default function Navbar() {
                   className="bg-forest hover:bg-forest-mid w-full"
                 >
                   <Link
-                    href="tel:+17025001942"
+                    href="tel:+17027180043"
                     className="flex items-center justify-center gap-2"
                   >
                     <Phone className="h-4 w-4" />
-                    Call Dr. Jan: (702) 500-1942
+                    Call Dr. Jan: (702) 718-0043
                   </Link>
                 </Button>
               </div>

@@ -21,9 +21,9 @@ import AgentPhoto from "@/components/shared/AgentPhoto";
 import AgentPresence from "@/components/shared/AgentPresence";
 
 export const metadata: Metadata = {
-  title: "About Dr. Jan Duffy | Berkshire Hathaway HomeServices Las Vegas",
+  title: "About Dr. Jan Duffy | Las Vegas REALTOR®",
   description:
-    "Meet Dr. Jan Duffy, your trusted Berkshire Hathaway HomeServices Nevada Properties agent. Serving Las Vegas since 2008, $127M+ in transactions, Henderson & Summerlin specialist. Call (702) 500-1942.",
+    "Meet Dr. Jan Duffy, your trusted agent. In real estate since 1983, $127M+ in transactions, Henderson & Summerlin specialist. Call (702) 718-0043.",
   keywords: [
     "Dr. Jan Duffy",
     "Berkshire Hathaway HomeServices agent",
@@ -42,7 +42,7 @@ const personSchema = {
   jobTitle: "REALTOR®",
   description:
     "Licensed real estate agent with Berkshire Hathaway HomeServices Nevada Properties, serving Las Vegas, Henderson, and Summerlin since 2008.",
-  telephone: "+17025001942",
+  telephone: "+17027180043",
   email: "homes@heyberkshire.com",
   url: "https://www.lasvegas55plushomes.com/about",
   image: "https://www.lasvegas55plushomes.com/images/dr-jan-duffy.jpg",
@@ -51,7 +51,7 @@ const personSchema = {
     name: "Berkshire Hathaway HomeServices Nevada Properties",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "9406 W Lake Mead Blvd, Suite 100",
+      streetAddress: "9406 Del Webb Blvd",
       addressLocality: "Las Vegas",
       addressRegion: "NV",
       postalCode: "89134",
@@ -134,14 +134,13 @@ export default function AboutPage() {
           {/* Hero Section */}
           <div className="max-w-4xl mx-auto text-center mb-16">
             <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Dr. Jan Duffy, REALTOR®
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
-              Meet Your Berkshire Hathaway HomeServices Agent
+              Meet Your Las Vegas REALTOR®
             </h1>
             <p className="text-xl text-slate-600">
-              Dr. Jan Duffy has been serving Las Vegas since 2008—backed by the
-              most trusted name in real estate. Whether you're buying, selling,
+              Dr. Jan Duffy has been in real estate since 1983. Whether you're buying, selling,
               investing, or relocating, you'll receive expert guidance with
               integrity and professionalism.
             </p>
@@ -155,20 +154,15 @@ export default function AboutPage() {
                   Dr. Jan Duffy
                 </h2>
                 <p className="text-lg text-blue-600 mb-6">
-                  REALTOR® | License S.0197614.LLC
+                  Top 1% Las Vegas REALTOR®
                 </p>
 
                 <div className="prose prose-lg text-slate-700 mb-8 space-y-4">
                   <p>
-                    When you choose to work with{" "}
-                    <strong>Berkshire Hathaway HomeServices</strong>, you're
-                    choosing a legacy of trust, integrity, and excellence. I'm
-                    proud to represent this iconic brand in the Las Vegas real
-                    estate market, bringing world-class resources and local
-                    expertise to every client I serve.
+                    When you choose to work with me, you're choosing trust, integrity, and excellence. I've been in real estate since 1983, and I bring local expertise to every client I serve.
                   </p>
                   <p>
-                    Since 2008, I've closed $127 million in transactions and
+                    I've closed $127M+ in transactions and
                     helped hundreds of families find their perfect home in Las
                     Vegas, Henderson, Summerlin, and throughout Southern Nevada.
                     My expertise spans luxury properties, new construction,
@@ -177,13 +171,7 @@ export default function AboutPage() {
                     Nevada's tax advantages.
                   </p>
                   <p>
-                    What sets{" "}
-                    <strong>
-                      Berkshire Hathaway HomeServices Nevada Properties
-                    </strong>{" "}
-                    apart? We're backed by Warren Buffett's Berkshire Hathaway
-                    Inc.—a name synonymous with financial strength and ethical
-                    standards. When you're making the biggest financial decision
+                    When you're making the biggest financial decision
                     of your life, that trust matters. You deserve an agent who
                     puts your interests first, provides honest advice, and has
                     the resources to deliver exceptional results.
@@ -206,11 +194,11 @@ export default function AboutPage() {
                   </h3>
                   <div className="space-y-3">
                     <a
-                      href="tel:+17025001942"
+                      href="tel:+17027180043"
                       className="flex items-center text-slate-700 hover:text-blue-600"
                     >
                       <Phone className="h-5 w-5 mr-3 text-blue-600" />
-                      <span className="font-semibold">(702) 500-1942</span>
+                      <span className="font-semibold">(702) 718-0043</span>
                     </a>
                     <a
                       href="mailto:homes@heyberkshire.com"
@@ -222,14 +210,14 @@ export default function AboutPage() {
                     <div className="flex items-start text-slate-700">
                       <MapPin className="h-5 w-5 mr-3 text-blue-600 mt-0.5" />
                       <address className="not-italic">
-                        9406 W Lake Mead Blvd, Suite 100
+                        9406 Del Webb Blvd
                         <br />
                         Las Vegas, NV 89134
                       </address>
                     </div>
                     <div className="flex items-center text-slate-700">
                       <Clock className="h-5 w-5 mr-3 text-blue-600" />
-                      Mon-Fri 9am-6pm, Sat 10am-4pm, Sun by appointment
+                      Daily 8:00 AM–8:00 PM
                     </div>
                   </div>
                 </div>
@@ -242,7 +230,7 @@ export default function AboutPage() {
                   treat every client like family and won't stop until we achieve
                   your real estate goals."
                   <cite className="block mt-2 text-slate-900 font-semibold not-italic">
-                    — Dr. Jan Duffy, BHHS Nevada Properties
+                    — Dr. Jan Duffy
                   </cite>
                 </blockquote>
               </div>
@@ -256,10 +244,10 @@ export default function AboutPage() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-blue-50 rounded-lg p-6 text-center">
                     <div className="text-3xl font-bold text-blue-600 mb-1">
-                      Since 2008
+                      Since 1983
                     </div>
                     <div className="text-sm text-slate-600">
-                      Serving Las Vegas
+                      In Real Estate
                     </div>
                   </div>
                   <div className="bg-blue-50 rounded-lg p-6 text-center">
@@ -276,9 +264,9 @@ export default function AboutPage() {
                   </div>
                   <div className="bg-blue-50 rounded-lg p-6 text-center">
                     <div className="text-3xl font-bold text-blue-600 mb-1">
-                      4.9★
+                      Top 1%
                     </div>
-                    <div className="text-sm text-slate-600">Client Rating</div>
+                    <div className="text-sm text-slate-600">Las Vegas REALTOR®</div>
                   </div>
                 </div>
 
@@ -350,27 +338,23 @@ export default function AboutPage() {
             </div>
           </section>
 
-          {/* Why BHHS Section */}
+          {/* Why Dr. Jan Duffy Section */}
           <section className="mb-16 bg-slate-900 text-white rounded-2xl p-8 md:p-12 max-w-6xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-              Why Berkshire Hathaway HomeServices?
+              Why Work With Dr. Jan Duffy?
             </h2>
             <p className="text-slate-300 text-center max-w-3xl mx-auto mb-8">
-              Berkshire Hathaway HomeServices is the only real estate brand
-              backed by Warren Buffett's Berkshire Hathaway Inc. This means
-              unmatched financial stability, ethical standards, and a commitment
-              to client service that defines every transaction.
+              In real estate since 1983, Dr. Jan Duffy brings ethical standards and a commitment to client service that defines every transaction.
             </p>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
                 <div className="bg-blue-600 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                   <Award className="h-8 w-8" />
                 </div>
-                <h3 className="font-bold text-xl mb-2">Trusted Brand</h3>
+                <h3 className="font-bold text-xl mb-2">Trusted Advisor</h3>
                 <p className="text-slate-300 text-sm">
-                  The only real estate brand backed by Warren Buffett's
-                  Berkshire Hathaway Inc.—a name synonymous with trust and
-                  integrity worldwide.
+                  In real estate since 1983, with a name synonymous with trust and
+                  integrity.
                 </p>
               </div>
               <div className="text-center">
@@ -379,9 +363,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="font-bold text-xl mb-2">Global Network</h3>
                 <p className="text-slate-300 text-sm">
-                  50,000+ agents worldwide for seamless referrals and
-                  relocations. Whether you're moving from California or anywhere
-                  else, our network has you covered.
+                  Seamless referrals and relocations. Whether you're moving from California or anywhere else, Dr. Jan has you covered.
                 </p>
               </div>
               <div className="text-center">
@@ -396,20 +378,12 @@ export default function AboutPage() {
                 </p>
               </div>
             </div>
-            <div className="text-center">
-              <Link
-                href="/why-berkshire-hathaway"
-                className="inline-block bg-white text-slate-900 px-8 py-3 rounded-md font-semibold hover:bg-slate-100 transition-colors"
-              >
-                Learn More About BHHS
-              </Link>
-            </div>
           </section>
 
           {/* Areas Served */}
           <section className="mb-16 max-w-6xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 text-center">
-              Areas Served by BHHS Nevada Properties
+              Areas Served by Dr. Jan Duffy
             </h2>
             <p className="text-slate-600 text-center max-w-3xl mx-auto mb-8">
               Dr. Jan Duffy serves the entire Las Vegas Valley with specialized
@@ -446,7 +420,7 @@ export default function AboutPage() {
               What Clients Say About Dr. Jan Duffy
             </h2>
             <p className="text-slate-600 text-center max-w-3xl mx-auto mb-8">
-              With a 4.9-star rating and hundreds of satisfied clients, Dr. Jan
+              With hundreds of satisfied clients, Dr. Jan
               has built a reputation for excellence, integrity, and personalized
               service.
             </p>
@@ -501,11 +475,11 @@ export default function AboutPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17025001942"
+                href="tel:+17027180043"
                 className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call (702) 500-1942
+                Call (702) 718-0043
               </a>
               <Link
                 href="/contact"
@@ -514,9 +488,6 @@ export default function AboutPage() {
                 Schedule Consultation
               </Link>
             </div>
-            <p className="mt-4 text-blue-200 text-sm">
-              Berkshire Hathaway HomeServices Nevada Properties
-            </p>
           </section>
         </div>
 

@@ -14,7 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const baseUrl = canonicalOrigin(rawHost);
   return {
     metadataBase: new URL(baseUrl),
-    title: `${config.neighborhood} | Dr. Jan Duffy, REALTOR® | BHHS Nevada`,
+    title: `${config.neighborhood} | Dr. Jan Duffy, REALTOR®`,
     description: config.description,
     keywords: config.keywords,
     alternates: {

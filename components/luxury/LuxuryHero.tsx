@@ -16,7 +16,7 @@ export default function LuxuryHero({
   subtitle,
   image,
   imageAlt,
-  badge = "Berkshire Hathaway HomeServices Nevada Properties",
+  badge = "Dr. Jan Duffy, REALTOR®",
   children,
 }: LuxuryHeroProps) {
   return (

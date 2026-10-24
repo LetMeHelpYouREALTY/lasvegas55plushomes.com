@@ -18,9 +18,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Free Home Valuation Las Vegas | What's Your Home Worth? | Berkshire Hathaway HomeServices",
+    "Free Home Valuation Las Vegas | What's Your Home Worth? | Dr. Jan Duffy, REALTOR®",
   description:
-    "Get a free, accurate home valuation in Las Vegas from Dr. Jan Duffy at Berkshire Hathaway HomeServices. Expert CMA analysis for Summerlin, Henderson, Green Valley & all Las Vegas neighborhoods. Call (702) 500-1942.",
+    "Get a free, accurate home valuation in Las Vegas from Dr. Jan Duffy. Expert CMA analysis for Summerlin, Henderson, Green Valley & all Las Vegas neighborhoods. Call (702) 718-0043.",
   keywords: [
     "home valuation Las Vegas",
     "what is my home worth Las Vegas",
@@ -100,16 +100,13 @@ export default function HomeValuationPage() {
           {/* Hero */}
           <div className="max-w-4xl mx-auto text-center mb-16">
             <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Dr. Jan Duffy, REALTOR®
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
               What's Your Las Vegas Home Worth?
             </h1>
             <p className="text-xl text-slate-600">
-              Get a free, no-obligation home valuation from Dr. Jan Duffy at{" "}
-              <strong>Berkshire Hathaway HomeServices</strong>. Accurate pricing
-              backed by 17+ years of Las Vegas market expertise and $127M+ in
-              closed transactions.
+              Get a free, no-obligation home valuation from Dr. Jan Duffy. Accurate pricing from a REALTOR® in real estate since 1983, with $127M+ in closed transactions.
             </p>
           </div>
 
@@ -126,8 +123,7 @@ export default function HomeValuationPage() {
               </div>
               <CalendlyWidget url="showing" height="650px" />
               <p className="text-xs text-slate-500 text-center p-4 border-t border-slate-200">
-                No obligation. No pressure. Just accurate information from
-                Berkshire Hathaway HomeServices.
+                No obligation. No pressure. Just accurate information from Dr. Jan Duffy.
               </p>
             </div>
 
@@ -135,14 +131,13 @@ export default function HomeValuationPage() {
             <div className="space-y-8">
               <div className="bg-slate-900 text-white rounded-lg p-8">
                 <h2 className="text-2xl font-bold mb-4">
-                  Why Request a BHHS Valuation?
+                  Why Request a Professional Valuation?
                 </h2>
                 <p className="text-slate-300 mb-6">
                   Online estimators like Zillow's "Zestimate" can be off by 10%
                   or more—that's $45,000+ on a typical Las Vegas home. Dr. Jan
                   Duffy provides a comprehensive market analysis using current
-                  MLS data, recent comparable sales, and her expertise serving
-                  Las Vegas since 2008. The result? Accurate pricing that helps
+                  MLS data, recent comparable sales, and her expertise in real estate since 1983. The result? Accurate pricing that helps
                   you sell faster and for more money.
                 </p>
                 <div className="space-y-3">
@@ -209,7 +204,7 @@ export default function HomeValuationPage() {
                   your home's true value."
                 </blockquote>
                 <cite className="text-slate-900 font-semibold text-sm">
-                  — Dr. Jan Duffy, BHHS Nevada Properties
+                  — Dr. Jan Duffy
                 </cite>
               </div>
 
@@ -219,11 +214,11 @@ export default function HomeValuationPage() {
                   Prefer to talk? Call Dr. Jan directly:
                 </p>
                 <a
-                  href="tel:+17025001942"
+                  href="tel:+17027180043"
                   className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md font-bold transition-colors"
                 >
                   <Phone className="h-5 w-5 mr-2" />
-                  (702) 500-1942
+                  (702) 718-0043
                 </a>
               </div>
             </div>
@@ -244,8 +239,7 @@ export default function HomeValuationPage() {
                 market.
               </p>
               <p>
-                <strong>Berkshire Hathaway HomeServices</strong> agents like Dr.
-                Jan Duffy provide something these algorithms cannot: local
+                Dr. Jan Duffy provides something these algorithms cannot: local
                 expertise combined with a detailed understanding of what makes
                 your specific home valuable. A professional Comparative Market
                 Analysis (CMA) considers factors that online tools miss
@@ -287,7 +281,7 @@ export default function HomeValuationPage() {
               </div>
               <div className="bg-green-50 border border-green-200 rounded-lg p-6">
                 <h3 className="font-bold text-green-800 mb-4">
-                  What a BHHS CMA Includes
+                  What Your CMA Includes
                 </h3>
                 <ul className="space-y-2 text-green-700">
                   <li className="flex items-start">
@@ -478,7 +472,7 @@ export default function HomeValuationPage() {
           {/* The Valuation Process */}
           <section className="max-w-5xl mx-auto mb-16">
             <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">
-              The BHHS Home Valuation Process
+              The Home Valuation Process
             </h2>
             <div className="space-y-6">
               <div className="flex items-start">
@@ -593,17 +587,16 @@ export default function HomeValuationPage() {
               Ready to Know What Your Home Is Worth?
             </h2>
             <p className="text-xl text-blue-100 mb-8">
-              Get a free, no-obligation home valuation from Dr. Jan Duffy and
-              Berkshire Hathaway HomeServices Nevada Properties. Accurate
+              Get a free, no-obligation home valuation from Dr. Jan Duffy. Accurate
               pricing. Expert guidance. Zero pressure.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17025001942"
+                href="tel:+17027180043"
                 className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call (702) 500-1942
+                Call (702) 718-0043
               </a>
               <Link
                 href="/sellers"
@@ -612,9 +605,6 @@ export default function HomeValuationPage() {
                 Learn About Selling
               </Link>
             </div>
-            <p className="mt-4 text-blue-200 text-sm">
-              Berkshire Hathaway HomeServices Nevada Properties
-            </p>
           </section>
         </div>
 

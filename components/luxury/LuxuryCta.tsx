@@ -39,11 +39,10 @@ export default function LuxuryCta({ title, subtitle }: LuxuryCtaProps) {
               </Link>
             </div>
             <p className="mt-6 text-sm text-white/70">
-              {AGENT_PHOTO.name} | License {AGENT_PHOTO.license} |{" "}
-              {AGENT_PHOTO.title}
+              {AGENT_PHOTO.name} | {AGENT_PHOTO.title}
             </p>
             <p className="mt-2 text-sm text-white/55">
-              9406 Del Webb Boulevard, Las Vegas, NV 89134
+              9406 Del Webb Blvd, Las Vegas, NV 89134
             </p>
           </div>
         </div>

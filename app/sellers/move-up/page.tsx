@@ -16,9 +16,9 @@ import {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Move-Up Sellers Las Vegas | Berkshire Hathaway HomeServices",
+  title: "Move-Up Sellers Las Vegas | Dr. Jan Duffy, REALTOR®",
   description:
-    "Ready for your next chapter? Dr. Jan Duffy helps Las Vegas homeowners leverage equity into their dream home. Sell and buy seamlessly. Call (702) 500-1942.",
+    "Ready for your next chapter? Dr. Jan Duffy helps Las Vegas homeowners leverage equity into their dream home. Sell and buy seamlessly. Call (702) 718-0043.",
   keywords: [
     "move up buyer Las Vegas",
     "sell and buy Las Vegas",
@@ -63,11 +63,11 @@ export default function MoveUpSellerPage() {
               seamless.
             </p>
             <a
-              href="tel:+17025001942"
+              href="tel:+17027180043"
               className="inline-flex items-center bg-blue-600 text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-700 transition-colors"
             >
               <Phone className="h-5 w-5 mr-2" />
-              Start Your Upgrade → (702) 500-1942
+              Start Your Upgrade → (702) 718-0043
             </a>
           </div>
 
@@ -237,8 +237,7 @@ export default function MoveUpSellerPage() {
                 The biggest concern move-up buyers have is timing. What happens
                 if you sell before finding your next home? What if you find your
                 dream home but can't sell in time?
-                <strong> Berkshire Hathaway HomeServices</strong> agents like
-                Dr. Jan Duffy have strategies for every scenario, ensuring you
+                Dr. Jan Duffy has strategies for every scenario, ensuring you
                 never end up homeless or paying two mortgages unnecessarily.
               </p>
             </div>
@@ -376,14 +375,11 @@ export default function MoveUpSellerPage() {
               <blockquote className="text-lg text-slate-700 italic mb-4">
                 "Move-up transactions are like a chess game—every move matters.
                 I coordinate both sides so you don't end up homeless or paying
-                two mortgages. With{" "}
-                <strong>Berkshire Hathaway HomeServices</strong>, I have the
-                resources to make complex transactions smooth. That's why
+                two mortgages. I have the experience to make complex transactions smooth. That's why
                 clients trust me with their biggest financial moves."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada
-                Properties
+                — Dr. Jan Duffy
               </cite>
             </div>
           </section>
@@ -439,11 +435,11 @@ export default function MoveUpSellerPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17025001942"
+                href="tel:+17027180043"
                 className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call (702) 500-1942
+                Call (702) 718-0043
               </a>
               <Link
                 href="/home-valuation"

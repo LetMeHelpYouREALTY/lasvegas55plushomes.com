@@ -18,9 +18,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Divorce & Probate Home Sales Las Vegas | Berkshire Hathaway HomeServices",
+    "Divorce & Probate Home Sales Las Vegas | Dr. Jan Duffy, REALTOR®",
   description:
-    "Sensitive real estate situations handled with discretion. Dr. Jan Duffy helps with divorce sales, probate, estate liquidation, and court-ordered sales. Call (702) 500-1942.",
+    "Sensitive real estate situations handled with discretion. Dr. Jan Duffy helps with divorce sales, probate, estate liquidation, and court-ordered sales. Call (702) 718-0043.",
   keywords: [
     "divorce home sale Las Vegas",
     "probate real estate Las Vegas",
@@ -67,11 +67,11 @@ export default function DivorceProbatePage() {
               sensitive transactions with discretion, expertise, and compassion.
             </p>
             <a
-              href="tel:+17025001942"
+              href="tel:+17027180043"
               className="inline-flex items-center bg-blue-600 text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-700 transition-colors"
             >
               <Phone className="h-5 w-5 mr-2" />
-              Confidential Consultation → (702) 500-1942
+              Confidential Consultation → (702) 718-0043
             </a>
           </div>
 
@@ -512,10 +512,10 @@ export default function DivorceProbatePage() {
             </div>
           </section>
 
-          {/* Why BHHS Matters */}
+          {/* Why Experience Matters */}
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">
-              Why Berkshire Hathaway HomeServices for Sensitive Sales
+              Why Dr. Jan Duffy for Sensitive Sales
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white border border-slate-200 rounded-xl p-6 text-center">
@@ -524,9 +524,7 @@ export default function DivorceProbatePage() {
                   Credibility & Trust
                 </h3>
                 <p className="text-slate-600 text-sm">
-                  The Berkshire Hathaway name carries weight with attorneys,
-                  judges, and opposing parties. Our valuations and processes are
-                  respected because of the brand's reputation for integrity.
+                  Dr. Jan Duffy has been in real estate since 1983. Her valuations and processes are respected by attorneys, judges, and opposing parties for their integrity.
                 </p>
               </div>
               <div className="bg-white border border-slate-200 rounded-xl p-6 text-center">
@@ -535,7 +533,7 @@ export default function DivorceProbatePage() {
                   Professional Standards
                 </h3>
                 <p className="text-slate-600 text-sm">
-                  BHHS agents follow strict ethical guidelines and documentation
+                  Dr. Jan follows strict ethical guidelines and documentation
                   standards. This protects all parties and provides a defensible
                   paper trail for legal proceedings.
                 </p>
@@ -563,14 +561,11 @@ export default function DivorceProbatePage() {
                 estate, the last thing you need is real estate stress. I've
                 handled hundreds of sensitive transactions, and I understand
                 these situations require more than market expertise—they require
-                discretion, patience, and genuine care.{" "}
-                <strong>Berkshire Hathaway HomeServices</strong>
-                gives me the resources and credibility these situations demand.
+                discretion, patience, and genuine care.
                 Your privacy and peace of mind come first."
               </blockquote>
               <cite className="text-slate-300 font-semibold">
-                — Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada
-                Properties
+                — Dr. Jan Duffy
               </cite>
             </div>
           </section>
@@ -586,11 +581,11 @@ export default function DivorceProbatePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17025001942"
+                href="tel:+17027180043"
                 className="inline-flex items-center justify-center bg-white text-slate-900 px-8 py-4 rounded-md font-bold text-lg hover:bg-slate-100 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call (702) 500-1942
+                Call (702) 718-0043
               </a>
               <Link
                 href="/contact"

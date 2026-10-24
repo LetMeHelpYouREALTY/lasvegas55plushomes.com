@@ -161,14 +161,14 @@ export default async function PropertyPage({ params }: PropertyPageProps) {
                 </h3>
                 <p className="text-slate-600 mb-4">Dr. Jan Duffy</p>
                 <p className="text-sm text-slate-600 mb-6">
-                  Berkshire Hathaway HomeServices Nevada Properties
+                  Top 1% Las Vegas REALTOR®
                 </p>
                 <div className="space-y-3">
                   <Button
                     asChild
                     className="w-full bg-blue-600 hover:bg-blue-700"
                   >
-                    <a href="tel:+17025001942">Call (702) 500-1942</a>
+                    <a href="tel:+17027180043">Call (702) 718-0043</a>
                   </Button>
                   <Button asChild variant="outline" className="w-full">
                     <a href="/contact">Send Message</a>

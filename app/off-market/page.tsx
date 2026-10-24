@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title:
     "Off-Market Luxury Listings Las Vegas | Pocket Listings | Dr. Jan Duffy",
   description:
-    "Confidential off-market and pocket listings in Las Vegas, Henderson, and Summerlin. Dr. Jan Duffy, BHHS Nevada Properties. Call (702) 222-1964.",
+    "Confidential off-market and pocket listings in Las Vegas, Henderson, and Summerlin.  Dr. Jan Duffy. Call (702) 718-0043.",
 };
 
 const schema = {
@@ -85,7 +85,7 @@ export default function OffMarketPage() {
                   "NDA-gated showings and proof-of-funds screening",
                   "Coming-soon windows before public marketing",
                   "Option to remain fully off-market through close",
-                  "Same BHHS global referral network as a public listing",
+                  "Same referral network exposure as a public listing",
                 ].map((item) => (
                   <li key={item} className="flex items-start text-slate-700">
                     <CheckCircle className="h-5 w-5 text-amber-600 mr-3 mt-0.5 flex-shrink-0" />
@@ -135,7 +135,7 @@ export default function OffMarketPage() {
         <RealScoutListings />
         <LuxuryCta
           title="Need a Quiet Path to Market?"
-          subtitle="Call (702) 222-1964. 9406 W Lake Mead Blvd, Suite 100, Las Vegas, NV 89134."
+          subtitle="Call (702) 718-0043. 9406 Del Webb Blvd, Las Vegas, NV 89134."
         />
       </main>
       <AgentPresence />

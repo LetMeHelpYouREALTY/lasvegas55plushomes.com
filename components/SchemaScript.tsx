@@ -120,7 +120,7 @@ export function ReviewSchema({
     "@context": "https://schema.org",
     "@type": "RealEstateAgent",
     "@id": `${siteConfig.url}#organization`,
-    name: "Dr. Jan Duffy - Berkshire Hathaway HomeServices Nevada Properties",
+    name: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
   };
 
   if (aggregateRating) {

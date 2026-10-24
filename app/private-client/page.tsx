@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title:
     "Private Client Real Estate Advisory | Las Vegas Luxury | Dr. Jan Duffy",
   description:
-    "Confidential private-client representation for $1M+ Las Vegas homes. Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada Properties. Call (702) 222-1964.",
+    "Confidential private-client representation for $1M+ Las Vegas homes.  Dr. Jan Duffy. Call (702) 718-0043.",
   keywords: [
     "private client realtor Las Vegas",
     "luxury real estate advisory Las Vegas",
@@ -32,11 +32,11 @@ const schema = {
       serviceType: "Luxury Real Estate Advisory",
       provider: {
         "@type": "RealEstateAgent",
-        name: "Dr. Jan Duffy - Berkshire Hathaway HomeServices Nevada Properties",
-        telephone: "+17022221964",
+        name: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
+        telephone: "+17027180043",
         address: {
           "@type": "PostalAddress",
-          streetAddress: "9406 W Lake Mead Blvd, Suite 100",
+          streetAddress: "9406 Del Webb Blvd",
           addressLocality: "Las Vegas",
           addressRegion: "NV",
           postalCode: "89134",
@@ -83,7 +83,7 @@ const retainers = [
   {
     icon: Globe,
     title: "Global Buyer Network",
-    desc: "Berkshire Hathaway HomeServices connects your property to qualified buyers in other U.S. and international markets.",
+    desc: "Dr. Jan Duffy connects your property to qualified buyers in other U.S. and international markets.",
   },
   {
     icon: Clock,
@@ -142,11 +142,6 @@ export default function PrivateClientPage() {
                   inventory—without building a custom search engine. RealScout
                   already handles matching and alerts.
                 </p>
-                <p className="text-slate-600">
-                  Berkshire Hathaway HomeServices Nevada Properties | 9406 W
-                  Lake Mead Blvd, Suite 100, Las Vegas, NV 89134 | License
-                  S.0197614.LLC
-                </p>
               </div>
               <HeadingPhoto src={interior.src} alt={interior.alt} />
             </div>
@@ -199,7 +194,7 @@ export default function PrivateClientPage() {
         <RealScoutListings />
         <LuxuryCta
           title="Start a Private Client Conversation"
-          subtitle="Call Dr. Jan Duffy at (702) 222-1964. Mon–Fri 9am–6pm, Sat 10am–4pm, Sunday by appointment."
+          subtitle="Call Dr. Jan Duffy at (702) 718-0043. Daily 8:00 AM–8:00 PM."
         />
       </main>
       <AgentPresence />

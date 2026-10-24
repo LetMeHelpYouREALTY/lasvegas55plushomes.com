@@ -12,9 +12,9 @@ export const AGENT_PHOTO = {
   full: "/images/dr-jan-duffy-full.jpg",
   /** Legacy path kept in sync for older references */
   legacy: "/Image/agent1.jpg",
-  alt: "Dr. Jan Duffy, REALTOR® — Berkshire Hathaway HomeServices Nevada Properties",
+  alt: "Dr. Jan Duffy, REALTOR®",
   name: "Dr. Jan Duffy",
-  title: "REALTOR® | Berkshire Hathaway HomeServices Nevada Properties",
+  title: "Top 1% Las Vegas REALTOR®",
   license: "S.0197614.LLC",
 } as const;
 

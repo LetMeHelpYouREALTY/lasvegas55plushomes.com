@@ -28,9 +28,9 @@ import {
 } from "@/lib/gbp-schema";
 
 export const metadata: Metadata = {
-  title: "Dr. Jan Duffy, REALTOR® Las Vegas | Berkshire Hathaway HomeServices",
+  title: "Dr. Jan Duffy, REALTOR® | Las Vegas Real Estate",
   description:
-    "Dr. Jan Duffy is a trusted Las Vegas REALTOR® with Berkshire Hathaway HomeServices Nevada Properties. Specializing in Summerlin, Henderson, 55+ communities, California relocation, and luxury homes. Call (702) 500-1942.",
+    "Dr. Jan Duffy is a trusted Las Vegas REALTOR®, in real estate since 1983. Specializing in Summerlin, Henderson, 55+ communities, California relocation, and luxury homes. Call (702) 718-0043.",
   keywords: [
     "Dr. Jan Duffy realtor",
     "Las Vegas real estate agent",
@@ -41,9 +41,9 @@ export const metadata: Metadata = {
     "California relocation Las Vegas",
   ],
   openGraph: {
-    title: "Dr. Jan Duffy - Berkshire Hathaway HomeServices Nevada Properties",
+    title: "Dr. Jan Duffy, REALTOR®",
     description:
-      "Trusted Las Vegas REALTOR® serving since 2008. Summerlin, Henderson, luxury homes, 55+ communities.",
+      "Trusted Las Vegas REALTOR® in real estate since 1983. Summerlin, Henderson, luxury homes, 55+ communities.",
     url: "https://www.lasvegas55plushomes.com/google-business",
     type: "profile",
   },
@@ -76,14 +76,14 @@ export default function GoogleBusinessPage() {
                   <div className="flex items-center gap-2 mb-4">
                     <Award className="h-6 w-6 text-yellow-400" />
                     <span className="text-yellow-400 font-semibold">
-                      Berkshire Hathaway HomeServices
+                      Top 1% Las Vegas REALTOR®
                     </span>
                   </div>
                   <h1 className="text-4xl md:text-5xl font-bold mb-4">
                     Dr. Jan Duffy
                   </h1>
                   <p className="text-xl text-blue-200 mb-2">
-                    REALTOR® | License {businessInfo.license}
+                    REALTOR® | Top 1% Las Vegas REALTOR®
                   </p>
                   <p className="text-slate-300 mb-6">Nevada Properties</p>
 
@@ -125,16 +125,7 @@ export default function GoogleBusinessPage() {
 
                 {/* Rating & CTA */}
                 <div className="text-center bg-white/10 rounded-xl p-8">
-                  <div className="flex justify-center mb-4">
-                    {[1, 2, 3, 4, 5].map((star) => (
-                      <Star
-                        key={star}
-                        className="h-8 w-8 text-yellow-400 fill-yellow-400"
-                      />
-                    ))}
-                  </div>
-                  <p className="text-3xl font-bold mb-2">4.9 / 5.0</p>
-                  <p className="text-blue-200 mb-6">200+ Client Reviews</p>
+                  <p className="text-blue-200 mb-6">Top 1% Las Vegas REALTOR®</p>
                   <a
                     href={`tel:${businessInfo.phone.tel}`}
                     className="inline-block w-full bg-blue-600 hover:bg-blue-500 text-white px-6 py-4 rounded-lg font-bold text-lg transition-colors"
@@ -158,28 +149,8 @@ export default function GoogleBusinessPage() {
                   Business Hours
                 </h2>
               </div>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
-                <div>
-                  <span className="font-medium">Monday:</span> 9am - 6pm
-                </div>
-                <div>
-                  <span className="font-medium">Tuesday:</span> 9am - 6pm
-                </div>
-                <div>
-                  <span className="font-medium">Wednesday:</span> 9am - 6pm
-                </div>
-                <div>
-                  <span className="font-medium">Thursday:</span> 9am - 6pm
-                </div>
-                <div>
-                  <span className="font-medium">Friday:</span> 9am - 6pm
-                </div>
-                <div>
-                  <span className="font-medium">Saturday:</span> 10am - 4pm
-                </div>
-                <div>
-                  <span className="font-medium">Sunday:</span> By Appointment
-                </div>
+              <div className="text-sm">
+                <span className="font-medium">Daily:</span> 8:00 AM–8:00 PM
               </div>
             </div>
           </section>

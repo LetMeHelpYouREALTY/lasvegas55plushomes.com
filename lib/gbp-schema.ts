@@ -3,17 +3,17 @@
 
 export const businessInfo = {
   // NAP - Must match GBP exactly
-  name: "Dr. Jan Duffy - Berkshire Hathaway HomeServices Nevada Properties",
+  name: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
   address: {
-    streetAddress: "9406 W Lake Mead Blvd, Suite 100",
+    streetAddress: "9406 Del Webb Blvd",
     addressLocality: "Las Vegas",
     addressRegion: "NV",
     postalCode: "89134",
     addressCountry: "US",
   },
   phone: {
-    display: "(702) 500-1942",
-    tel: "+17025001942",
+    display: "(702) 718-0043",
+    tel: "+17027180043",
   },
   email: "homes@heyberkshire.com",
   url: "https://www.lasvegas55plushomes.com",
@@ -24,13 +24,13 @@ export const businessInfo = {
 
   // Hours - Match GBP exactly
   hours: {
-    monday: "09:00-18:00",
-    tuesday: "09:00-18:00",
-    wednesday: "09:00-18:00",
-    thursday: "09:00-18:00",
-    friday: "09:00-18:00",
-    saturday: "10:00-16:00",
-    sunday: "By Appointment",
+    monday: "08:00-20:00",
+    tuesday: "08:00-20:00",
+    wednesday: "08:00-20:00",
+    thursday: "08:00-20:00",
+    friday: "08:00-20:00",
+    saturday: "08:00-20:00",
+    sunday: "08:00-20:00",
   },
 
   // Geo coordinates for distance ranking
@@ -164,12 +164,12 @@ export const businessInfo = {
 // 750-word GBP Description (3 sections)
 export const gbpDescription = {
   // Section 1: Who you are/mission (~250 words)
-  whoWeAre: `Dr. Jan Duffy is a trusted REALTOR® with Berkshire Hathaway HomeServices Nevada Properties, serving the Las Vegas real estate market since 2008. Backed by Warren Buffett's Berkshire Hathaway—the most recognized name in real estate—Dr. Jan combines local expertise with world-class resources to deliver exceptional results for buyers and sellers alike.
+  whoWeAre: `Dr. Jan Duffy is a trusted REALTOR® who has been in real estate since 1983. Dr. Jan combines local expertise with world-class resources to deliver exceptional results for buyers and sellers alike.
 
-With $127 million in closed transactions and hundreds of satisfied clients, Dr. Jan has earned a reputation for integrity, market knowledge, and personalized service. Whether you're a first-time buyer navigating the process, a luxury home seeker exploring The Ridges or MacDonald Highlands, or a California family relocating for Nevada's tax advantages, Dr. Jan provides the guidance you need to make confident real estate decisions.`,
+With $127M+ in closed transactions and hundreds of satisfied clients, Dr. Jan has earned a reputation for integrity, market knowledge, and personalized service. Whether you're a first-time buyer navigating the process, a luxury home seeker exploring The Ridges or MacDonald Highlands, or a California family relocating for Nevada's tax advantages, Dr. Jan provides the guidance you need to make confident real estate decisions.`,
 
   // Section 2: What/why - Value proposition (~250 words)
-  whatWeDo: `What sets Dr. Jan apart is a commitment to education and advocacy. Clients receive comprehensive market analysis, expert negotiation, and honest advice—not sales pressure. As a Berkshire Hathaway HomeServices agent, Dr. Jan offers access to a global network of 50,000+ agents, world-class marketing for sellers, and off-market opportunities for buyers.
+  whatWeDo: `What sets Dr. Jan apart is a commitment to education and advocacy. Clients receive comprehensive market analysis, expert negotiation, and honest advice—not sales pressure. Dr. Jan offers a nationwide referral network, world-class marketing for sellers, and off-market opportunities for buyers.
 
 Specialized services include: buyer and seller representation, luxury home sales, 55+ active adult community expertise (Sun City Summerlin, Sun City Anthem, Del Webb Lake Las Vegas), California relocation assistance, probate and divorce real estate, investment property consulting, new construction representation, and first-time buyer programs including FHA, VA, and down payment assistance guidance.
 
@@ -180,7 +180,7 @@ Dr. Jan's approach is simple: treat every client like family, know the market in
 
 55+ active adult community specialization covers Sun City Summerlin (Nevada's largest 55+ community), Sun City Anthem in Henderson, Del Webb Lake Las Vegas, and Solera at Anthem. Investment property expertise spans single-family rentals, multi-family opportunities, and short-term rental analysis across the Las Vegas metro area.
 
-Office located at 9406 W Lake Mead Blvd, Suite 100, Las Vegas, NV 89134. Available Monday through Friday 9am-6pm, Saturday 10am-4pm, and Sunday by appointment. Call (702) 500-1942 for a free consultation or visit https://www.lasvegas55plushomes.com to start your Las Vegas real estate journey today.`,
+Office located at 9406 Del Webb Blvd, Las Vegas, NV 89134. Open daily 8:00 AM–8:00 PM. Call (702) 718-0043 for a free consultation or visit https://www.lasvegas55plushomes.com to start your Las Vegas real estate journey today.`,
 };
 
 // FAQ Schema for GBP Q&A section
@@ -193,7 +193,7 @@ export const gbpFAQs = [
   {
     question: "Does Dr. Jan help buyers relocating from California?",
     answer:
-      "Yes! California relocation is a specialty. Dr. Jan helps CA buyers understand Nevada's 0% state income tax advantage, compare home values (40-60% lower than comparable CA properties), and find the perfect Las Vegas neighborhood. Call (702) 500-1942 for California relocation assistance.",
+      "Yes! California relocation is a specialty. Dr. Jan helps CA buyers understand Nevada's 0% state income tax advantage, compare home values (40-60% lower than comparable CA properties), and find the perfect Las Vegas neighborhood. Call (702) 718-0043 for California relocation assistance.",
   },
   {
     question: "What 55+ communities does Dr. Jan specialize in?",
@@ -202,7 +202,7 @@ export const gbpFAQs = [
   },
   {
     question:
-      "Does Berkshire Hathaway HomeServices help with new construction?",
+      "Does Dr. Jan help with new construction?",
     answer:
       "Yes! Dr. Jan provides free buyer representation for new construction purchases from builders like Toll Brothers, Lennar, and Century Communities. The builder pays the commission, but Dr. Jan works exclusively for you—protecting your interests during the build process.",
   },
@@ -210,7 +210,7 @@ export const gbpFAQs = [
     question:
       "How does Dr. Jan help with probate or divorce real estate sales?",
     answer:
-      "Dr. Jan handles sensitive transactions with discretion and professionalism. For probate sales, she coordinates with estate attorneys and ensures court compliance. For divorce sales, she provides neutral representation and works with both parties' attorneys. Call (702) 500-1942 for a confidential consultation.",
+      "Dr. Jan handles sensitive transactions with discretion and professionalism. For probate sales, she coordinates with estate attorneys and ensures court compliance. For divorce sales, she provides neutral representation and works with both parties' attorneys. Call (702) 718-0043 for a confidential consultation.",
   },
   {
     question: "What is the average home price in Las Vegas in 2026?",
@@ -223,19 +223,19 @@ export const gbpFAQs = [
       "Absolutely! Dr. Jan guides first-time buyers through every step, including pre-approval, loan programs (FHA 3.5% down, VA 0% down, conventional options), Nevada down payment assistance programs, and new construction incentives. Free buyer consultations available.",
   },
   {
-    question: "Why choose Berkshire Hathaway HomeServices over other agencies?",
+    question: "Why choose Dr. Jan Duffy over other agents?",
     answer:
-      "Berkshire Hathaway HomeServices is backed by Warren Buffett's Berkshire Hathaway Inc.—the only real estate brand with this level of financial stability and trust. You get a global network of 50,000+ agents, world-class marketing, and a name synonymous with integrity.",
+      "Dr. Jan Duffy is a Top 1% Las Vegas REALTOR® in real estate since 1983. You get 500+ transactions of experience, world-class marketing, and a name synonymous with integrity.",
   },
   {
     question: "How do I schedule a consultation with Dr. Jan Duffy?",
     answer:
-      "Call or text (702) 500-1942 for immediate assistance, or email homes@heyberkshire.com. Office visits available at 9406 W Lake Mead Blvd, Suite 100, Las Vegas, NV 89134. Monday-Friday 9am-6pm, Saturday 10am-4pm, Sunday by appointment.",
+      "Call or text (702) 718-0043 for immediate assistance, or email homes@heyberkshire.com. Office visits available at 9406 Del Webb Blvd, Las Vegas, NV 89134. Open daily 8:00 AM–8:00 PM.",
   },
   {
     question: "Does Dr. Jan help with investment properties in Las Vegas?",
     answer:
-      "Yes! Dr. Jan provides investment property consulting including rental property analysis, cap rate calculations, short-term rental regulations, and multi-family opportunities across the Las Vegas Valley. Contact (702) 500-1942 for investment property guidance.",
+      "Yes! Dr. Jan provides investment property consulting including rental property analysis, cap rate calculations, short-term rental regulations, and multi-family opportunities across the Las Vegas Valley. Contact (702) 718-0043 for investment property guidance.",
   },
 ];
 
@@ -263,39 +263,9 @@ export function generateLocalBusinessSchema() {
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
-        dayOfWeek: "Monday",
-        opens: "09:00",
-        closes: "18:00",
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: "Tuesday",
-        opens: "09:00",
-        closes: "18:00",
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: "Wednesday",
-        opens: "09:00",
-        closes: "18:00",
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: "Thursday",
-        opens: "09:00",
-        closes: "18:00",
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: "Friday",
-        opens: "09:00",
-        closes: "18:00",
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: "Saturday",
-        opens: "10:00",
-        closes: "16:00",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        opens: "08:00",
+        closes: "20:00",
       },
     ],
     areaServed: businessInfo.serviceAreas.map((area) => ({
@@ -313,12 +283,6 @@ export function generateLocalBusinessSchema() {
           description: service.description,
         },
       })),
-    },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "200",
-      bestRating: "5",
     },
     sameAs: [
       "https://www.facebook.com/drjanduffy",

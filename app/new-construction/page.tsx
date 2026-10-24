@@ -22,9 +22,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Berkshire Hathaway HomeServices New Construction Las Vegas | Buyer's Guide",
+    "New Construction Las Vegas | Buyer's Guide",
   description:
-    "Free buyer representation on new construction homes in Las Vegas. Dr. Jan Duffy helps you navigate builder contracts, negotiate upgrades, and secure incentives. Call (702) 500-1942.",
+    "Free buyer representation on new construction homes in Las Vegas. Dr. Jan Duffy helps you navigate builder contracts, negotiate upgrades, and secure incentives. Call (702) 718-0043.",
   keywords: [
     "Berkshire Hathaway HomeServices new construction Las Vegas",
     "new homes Las Vegas",
@@ -53,7 +53,7 @@ const faqSchema = {
       name: "Why do I need an agent when buying new construction?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Builder sales reps work for the builder, not you. A BHHS agent reviews contracts (often 50+ pages), negotiates upgrades and incentives, monitors construction quality, and ensures deadlines are met. Without representation, you're negotiating against experienced professionals alone.",
+        text: "Builder sales reps work for the builder, not you. A buyer's agent reviews contracts (often 50+ pages), negotiates upgrades and incentives, monitors construction quality, and ensures deadlines are met. Without representation, you're negotiating against experienced professionals alone.",
       },
     },
     {
@@ -61,7 +61,7 @@ const faqSchema = {
       name: "Do I have to register Dr. Jan Duffy as my agent on the first visit?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, most builders require your agent to accompany you or be registered on your FIRST visit. If you visit alone and sign the guest registry, you may forfeit your right to free representation. Call (702) 500-1942 to register Dr. Jan Duffy as your buyer's agent before visiting any model home.",
+        text: "Yes, most builders require your agent to accompany you or be registered on your FIRST visit. If you visit alone and sign the guest registry, you may forfeit your right to free representation. Call (702) 718-0043 to register Dr. Jan Duffy as your buyer's agent before visiting any model home.",
       },
     },
     {
@@ -254,7 +254,7 @@ export default function NewConstructionPage() {
               Free Buyer Representation
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
-              Berkshire Hathaway HomeServices New Construction Las Vegas
+              New Construction Las Vegas
             </h1>
             <p className="text-xl text-slate-600 mb-8">
               Your complete buyer's guide to new homes in Las Vegas. Free
@@ -271,8 +271,8 @@ export default function NewConstructionPage() {
                   <p className="text-amber-800 text-sm">
                     Most builders require agent registration on your{" "}
                     <strong>first visit</strong>. Call{" "}
-                    <a href="tel:+17025001942" className="font-bold underline">
-                      (702) 500-1942
+                    <a href="tel:+17027180043" className="font-bold underline">
+                      (702) 718-0043
                     </a>{" "}
                     to register Dr. Jan Duffy as your buyer's agent before
                     visiting any model home—or you may lose your right to free
@@ -286,7 +286,7 @@ export default function NewConstructionPage() {
           {/* Why Free Representation */}
           <section className="mb-16 bg-blue-600 text-white rounded-2xl p-8 md:p-12 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">
-              Why Use a BHHS Agent for New Construction?
+              Why Use a Buyer's Agent for New Construction?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="flex items-start">
@@ -478,7 +478,7 @@ export default function NewConstructionPage() {
           {/* The Process */}
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">
-              New Construction Buying Process with BHHS
+              New Construction Buying Process
             </h2>
             <div className="space-y-6">
               <div className="flex items-start">
@@ -492,10 +492,10 @@ export default function NewConstructionPage() {
                   <p className="text-slate-600">
                     Call{" "}
                     <a
-                      href="tel:+17025001942"
+                      href="tel:+17027180043"
                       className="text-blue-600 font-semibold hover:underline"
                     >
-                      (702) 500-1942
+                      (702) 718-0043
                     </a>{" "}
                     to register Dr. Jan Duffy as your buyer's agent before any
                     builder visits. We'll discuss your needs, budget, and
@@ -572,16 +572,13 @@ export default function NewConstructionPage() {
               <blockquote className="text-lg text-slate-700 italic mb-4">
                 "I've seen buyers leave $30,000 on the table because they didn't
                 know what to ask for. Builders expect negotiation—their sales
-                managers have authority to approve upgrades and credits. As your{" "}
-                <strong>Berkshire Hathaway HomeServices</strong>
-                agent, I know exactly which incentives are available, which
+                managers have authority to approve upgrades and credits. As your agent, I know exactly which incentives are available, which
                 upgrades add value, and which builder promises are legally
                 binding. This representation costs you nothing and can save you
                 tens of thousands."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada
-                Properties
+                — Dr. Jan Duffy
               </cite>
             </div>
           </section>
@@ -610,8 +607,7 @@ export default function NewConstructionPage() {
                   Why do I need an agent when buying new construction?
                 </h3>
                 <p className="text-slate-600">
-                  Builder sales reps work for the builder, not you. A BHHS agent
-                  reviews contracts (often 50+ pages), negotiates upgrades and
+                  Builder sales reps work for the builder, not you. A buyer's agent reviews contracts (often 50+ pages), negotiates upgrades and
                   incentives, monitors construction quality, and ensures
                   deadlines are met. Without representation, you're negotiating
                   against experienced professionals alone.
@@ -629,10 +625,10 @@ export default function NewConstructionPage() {
                   the guest registry, you may forfeit your right to free
                   representation. Call{" "}
                   <a
-                    href="tel:+17025001942"
+                    href="tel:+17027180043"
                     className="text-blue-600 font-semibold hover:underline"
                   >
-                    (702) 500-1942
+                    (702) 718-0043
                   </a>{" "}
                   to register Dr. Jan Duffy as your buyer's agent before
                   visiting any model home.
@@ -658,7 +654,7 @@ export default function NewConstructionPage() {
                 <p className="text-slate-600">
                   Base prices are typically firm, but everything else is
                   negotiable—upgrades, lot premiums, closing costs, and design
-                  center selections. A BHHS agent knows which builders negotiate
+                  center selections. An experienced buyer's agent knows which builders negotiate
                   and how to maximize your leverage, especially on standing
                   inventory.
                 </p>
@@ -715,7 +711,7 @@ export default function NewConstructionPage() {
               Ready to Tour New Construction?
             </h2>
             <p className="text-xl text-blue-100 mb-8">
-              Call <strong>(702) 500-1942</strong> to register Dr. Jan Duffy as
+              Call <strong>(702) 718-0043</strong> to register Dr. Jan Duffy as
               your buyer's agent
               <strong> before</strong> visiting any model home—or you may lose
               your right to free professional representation. Current incentive
@@ -723,11 +719,11 @@ export default function NewConstructionPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17025001942"
+                href="tel:+17027180043"
                 className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call (702) 500-1942
+                Call (702) 718-0043
               </a>
               <Link
                 href="/contact"
@@ -736,9 +732,6 @@ export default function NewConstructionPage() {
                 Request Builder Info
               </Link>
             </div>
-            <p className="mt-6 text-blue-200 text-sm">
-              Berkshire Hathaway HomeServices Nevada Properties
-            </p>
           </section>
         </div>
         <div className="text-center text-sm text-slate-500 mt-8">

@@ -30,7 +30,7 @@ export const gbpPostTemplates: GBPPost[] = [
 
 Whether you're buying your first home in Henderson, selling in Summerlin, or looking at 55+ communities like Sun City, now is a great time to make your move.
 
-Call Dr. Jan Duffy at (702) 500-1942 for a free market analysis of your home or neighborhood.`,
+Call Dr. Jan Duffy at (702) 718-0043 for a free market analysis of your home or neighborhood.`,
     cta: {
       text: "Get Free Market Analysis",
       url: "https://www.lasvegas55plushomes.com/home-valuation",
@@ -51,7 +51,7 @@ Call Dr. Jan Duffy at (702) 500-1942 for a free market analysis of your home or 
 
 A $1.2M California home could buy you a luxury property in Summerlin or The Ridges. Dr. Jan Duffy specializes in California-to-Nevada relocations and can help you maximize your equity.
 
-Call (702) 500-1942 for a free California equity comparison.`,
+Call (702) 718-0043 for a free California equity comparison.`,
     cta: {
       text: "California Relocation Guide",
       url: "https://www.lasvegas55plushomes.com/buyers/california-relocator",
@@ -72,7 +72,7 @@ Call (702) 500-1942 for a free California equity comparison.`,
 
 Each offers different amenities, price points, and lifestyles. Dr. Jan Duffy specializes in 55+ communities and can help you find the perfect fit.
 
-Schedule a community tour: (702) 500-1942`,
+Schedule a community tour: (702) 718-0043`,
     cta: {
       text: "Explore 55+ Communities",
       url: "https://www.lasvegas55plushomes.com/55-plus-communities",
@@ -98,7 +98,7 @@ Popular first-time buyer neighborhoods:
 - Mountains Edge (median $475K)
 - Centennial Hills (median $495K)
 
-Call (702) 500-1942 to start your homeownership journey.`,
+Call (702) 718-0043 to start your homeownership journey.`,
     cta: {
       text: "First-Time Buyer Guide",
       url: "https://www.lasvegas55plushomes.com/buyers/first-time-buyers",
@@ -123,7 +123,7 @@ Current seller stats:
 ⏱️ 28 days average time to sell
 💰 98.5% list-to-sale ratio
 
-Get a free home valuation from Dr. Jan Duffy: (702) 500-1942`,
+Get a free home valuation from Dr. Jan Duffy: (702) 718-0043`,
     cta: {
       text: "Get Free Home Valuation",
       url: "https://www.lasvegas55plushomes.com/home-valuation",
@@ -148,7 +148,7 @@ Why luxury buyers choose Las Vegas:
 ✅ World-class dining, entertainment, golf
 ✅ 40-60% lower than comparable CA/NY properties
 
-Confidential luxury home search: (702) 500-1942`,
+Confidential luxury home search: (702) 718-0043`,
     cta: {
       text: "Luxury Home Search",
       url: "https://www.lasvegas55plushomes.com/buyers/luxury-homes-las-vegas",
@@ -168,7 +168,7 @@ Working with buyers who know what they want makes my job a joy. I'm always here 
 
 Welcome to the neighborhood! 🏠
 
-- Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada Properties
+- Dr. Jan Duffy
 `,
 
   fiveStarSeller: (clientName: string, neighborhood: string, details: string) => `
@@ -176,13 +176,13 @@ Thank you for the kind words, ${clientName}! Selling your ${neighborhood} home w
 
 The Las Vegas market is competitive, but with the right pricing strategy and marketing, we got you excellent results. Wishing you all the best in your next chapter!
 
-- Dr. Jan Duffy, BHHS Nevada Properties
+- Dr. Jan Duffy
 `,
 
   fourStar: (clientName: string, details: string) => `
 Thank you for your review, ${clientName}! I appreciate your feedback about ${details}. Your satisfaction is my priority, and I'm always looking for ways to improve.
 
-If there's anything I can help with going forward, please don't hesitate to reach out. I value your trust in choosing Berkshire Hathaway HomeServices.
+If there's anything I can help with going forward, please don't hesitate to reach out. I value your trust.
 
 - Dr. Jan Duffy
 `,
@@ -192,9 +192,9 @@ ${clientName}, thank you for sharing your experience. I take all feedback seriou
 
 ${resolution}
 
-Real estate transactions can be complex, and I'm committed to learning from every experience. If you'd like to discuss this further, please call me directly at (702) 500-1942.
+Real estate transactions can be complex, and I'm committed to learning from every experience. If you'd like to discuss this further, please call me directly at (702) 718-0043.
 
-- Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada Properties
+- Dr. Jan Duffy
 `,
 };
 

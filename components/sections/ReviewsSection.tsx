@@ -70,7 +70,7 @@ export default function ReviewsSection({
   title = "What Our Clients Say",
   subtitle = "Real testimonials from satisfied clients across Las Vegas and Henderson",
   googleReviewsUrl = process.env.NEXT_PUBLIC_GBP_REVIEWS_URL ||
-    "https://www.google.com/maps/search/?api=1&query=Dr.+Jan+Duffy+Berkshire+Hathaway+HomeServices+Nevada+Properties+Las+Vegas",
+    "https://www.google.com/maps/search/?api=1&query=Sun+City+Summerlin+55%2B+Real+Estate+Homes+by+Dr.+Jan+Duffy+9406+Del+Webb+Blvd+Las+Vegas",
   className = "",
 }: ReviewsSectionProps) {
   return (
@@ -81,27 +81,6 @@ export default function ReviewsSection({
             {title}
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">{subtitle}</p>
-          {/* Aggregate Rating Display */}
-          <div className="flex items-center justify-center gap-2 mt-4">
-            <div className="flex">
-              {[...Array(5)].map((_, i) => (
-                <Star
-                  key={i}
-                  className={`h-6 w-6 ${
-                    i < Math.floor(aggregateRating.ratingValue)
-                      ? "text-yellow-400 fill-yellow-400"
-                      : "text-slate-300"
-                  }`}
-                />
-              ))}
-            </div>
-            <span className="text-lg font-semibold text-slate-900">
-              {aggregateRating.ratingValue}
-            </span>
-            <span className="text-slate-600">
-              ({aggregateRating.reviewCount}+ reviews)
-            </span>
-          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">

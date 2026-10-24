@@ -23,9 +23,9 @@ import {
 } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Sun City Anthem Homes for Sale | Berkshire Hathaway HomeServices",
+  title: "Sun City Anthem Homes for Sale | Dr. Jan Duffy, REALTOR®",
   description:
-    "Henderson's premier 55+ community. Sun City Anthem homes from $350K-$1.2M. 2 championship golf courses, stunning mountain views. Dr. Jan Duffy. Call (702) 500-1942.",
+    "Henderson's premier 55+ community. Sun City Anthem homes from $350K-$1.2M. 2 championship golf courses, stunning mountain views. Dr. Jan Duffy. Call (702) 718-0043.",
   keywords: [
     "Sun City Anthem homes for sale",
     "Sun City Anthem Henderson",
@@ -202,8 +202,7 @@ export default function SunCityAnthemPage() {
                 world-class golf experiences.
               </p>
               <p>
-                <strong>Berkshire Hathaway HomeServices</strong> agents know Sun
-                City Anthem intimately. Dr. Jan Duffy helps buyers understand
+                Dr. Jan Duffy knows Sun City Anthem intimately. She helps buyers understand
                 the community's various phases, elevation differences, and which
                 neighborhoods offer the best mountain or Strip views.
               </p>
@@ -353,14 +352,12 @@ export default function SunCityAnthemPage() {
                 "Sun City Anthem combines everything Henderson is known
                 for—safety, quality, and stunning scenery—with the Del Webb
                 lifestyle. The views from the upper sections are spectacular,
-                and the Anthem Center rivals any resort clubhouse I've seen. As
-                a <strong>Berkshire Hathaway HomeServices</strong> agent, I help
+                and the Anthem Center rivals any resort clubhouse I've seen. As a REALTOR®, I help
                 buyers find the right balance of views, price, and proximity to
                 amenities."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada
-                Properties
+                — Dr. Jan Duffy
               </cite>
             </div>
           </section>
@@ -377,11 +374,11 @@ export default function SunCityAnthemPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17025001942"
+                href="tel:+17027180043"
                 className="inline-flex items-center justify-center bg-white text-green-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-green-50 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call (702) 500-1942
+                Call (702) 718-0043
               </a>
               <Link
                 href="/contact"

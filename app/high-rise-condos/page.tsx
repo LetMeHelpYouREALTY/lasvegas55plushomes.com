@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title:
     "Las Vegas Luxury High-Rise Condos | Strip View Penthouses | Dr. Jan Duffy",
   description:
-    "High-rise and penthouse condos with Las Vegas Strip views. Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada Properties. Call (702) 222-1964.",
+    "High-rise and penthouse condos with Las Vegas Strip views.  Dr. Jan Duffy. Call (702) 718-0043.",
 };
 
 export default function HighRiseCondosPage() {
@@ -111,7 +111,7 @@ export default function HighRiseCondosPage() {
         <RealScoutListings />
         <LuxuryCta
           title="Tour High-Rise Residences"
-          subtitle="Call (702) 222-1964. Office: 9406 W Lake Mead Blvd, Suite 100, Las Vegas, NV 89134."
+          subtitle="Call (702) 718-0043. Office: 9406 Del Webb Blvd, Las Vegas, NV 89134."
         />
       </main>
       <AgentPresence />

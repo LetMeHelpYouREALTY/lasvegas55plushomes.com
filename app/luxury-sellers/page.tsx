@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title:
     "Sell a Luxury Home in Las Vegas | White-Glove Listing | Dr. Jan Duffy",
   description:
-    "Luxury home selling in Las Vegas and Henderson: pricing, photography, and optional off-market launch. Dr. Jan Duffy, BHHS Nevada Properties. Call (702) 222-1964.",
+    "Luxury home selling in Las Vegas and Henderson: pricing, photography, and optional off-market launch.  Dr. Jan Duffy. Call (702) 718-0043.",
 };
 
 const services = [
@@ -26,7 +26,7 @@ const services = [
   {
     icon: Globe,
     title: "Qualified Buyer Reach",
-    desc: "MLS via RealScout plus BHHS global referrals. We do not build a second listing portal.",
+    desc: "MLS via RealScout plus referral network exposure. We do not build a second listing portal.",
   },
   {
     icon: Eye,
@@ -45,7 +45,7 @@ export default function LuxurySellersPage() {
       <main>
         <LuxuryHero
           title="Sell a Luxury Home in Las Vegas"
-          subtitle="Pricing discipline, discreet marketing, and a Berkshire Hathaway HomeServices listing presentation built for $1 million-plus properties."
+          subtitle="Pricing discipline, discreet marketing, and a listing presentation built for $1 million-plus properties."
           image={hero.src}
           imageAlt={hero.alt}
         >
@@ -108,7 +108,7 @@ export default function LuxurySellersPage() {
         <RealScoutListings />
         <LuxuryCta
           title="Price Your Estate Before You List"
-          subtitle="Call Dr. Jan Duffy at (702) 222-1964. 9406 W Lake Mead Blvd, Suite 100, Las Vegas, NV 89134."
+          subtitle="Call Dr. Jan Duffy at (702) 718-0043. 9406 Del Webb Blvd, Las Vegas, NV 89134."
         />
       </main>
       <AgentPresence />

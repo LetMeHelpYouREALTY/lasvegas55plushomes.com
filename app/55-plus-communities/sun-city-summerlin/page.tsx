@@ -18,9 +18,9 @@ import {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sun City Summerlin Homes for Sale | Berkshire Hathaway HomeServices",
+  title: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy, REALTOR®",
   description:
-    "Nevada's largest 55+ community. Sun City Summerlin homes from $320K-$850K. 3 golf courses, 4 rec centers, 100+ clubs. Dr. Jan Duffy, BHHS specialist. Call (702) 500-1942.",
+    "Nevada's largest 55+ community. Sun City Summerlin homes from $320K-$850K. 3 golf courses, 4 rec centers, 100+ clubs. Dr. Jan Duffy, 55+ specialist. Call (702) 718-0043.",
   keywords: [
     "Sun City Summerlin homes for sale",
     "Sun City Summerlin Las Vegas",
@@ -141,11 +141,7 @@ export default function SunCitySummerlinPage() {
                 hiking, ceramics, woodworking, and ballroom dancing.
               </p>
               <p>
-                <strong>
-                  Berkshire Hathaway HomeServices Nevada Properties
-                </strong>{" "}
-                has helped hundreds of buyers find their Sun City Summerlin
-                home. Dr. Jan Duffy understands the community's various
+                Dr. Jan Duffy has helped hundreds of buyers find their Sun City Summerlin home. She understands the community's various
                 neighborhoods, floor plans, and which areas offer the best value
                 or views.
               </p>
@@ -318,15 +314,13 @@ export default function SunCitySummerlinPage() {
               <blockquote className="text-lg text-slate-700 italic mb-4">
                 "Sun City Summerlin offers the best value in Las Vegas 55+
                 living. Where else can you get three golf courses, four rec
-                centers, and 100+ clubs for under $200/month? As a{" "}
-                <strong>Berkshire Hathaway HomeServices</strong> agent, I help
+                centers, and 100+ clubs for under $200/month? As a REALTOR®, I help
                 buyers navigate the community's various neighborhoods to find
                 the perfect fit—whether they want golf course views, mountain
                 views, or proximity to their favorite rec center."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada
-                Properties
+                — Dr. Jan Duffy
               </cite>
             </div>
           </section>
@@ -343,11 +337,11 @@ export default function SunCitySummerlinPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17025001942"
+                href="tel:+17027180043"
                 className="inline-flex items-center justify-center bg-white text-amber-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-amber-50 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call (702) 500-1942
+                Call (702) 718-0043
               </a>
               <Link
                 href="/contact"

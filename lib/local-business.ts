@@ -30,19 +30,19 @@ export const localBusiness = {
   },
   email: "homes@heyberkshire.com",
   address: {
-    streetAddress: "9406 Del Webb Boulevard",
+    streetAddress: "9406 Del Webb Blvd",
     addressLocality: "Las Vegas",
     addressRegion: "NV",
     postalCode: "89134",
     addressCountry: "US",
-    full: "9406 Del Webb Boulevard, Las Vegas, NV 89134",
+    full: "9406 Del Webb Blvd, Las Vegas, NV 89134",
   },
   geo: {
     latitude: 36.2048,
     longitude: -115.2954,
   },
-  hoursDisplay: "Open daily 6:00 AM–9:00 PM",
-  openingHours: "Mo-Su 06:00-21:00",
+  hoursDisplay: "Open daily 8:00 AM–8:00 PM",
+  openingHours: "Mo-Su 08:00-20:00",
   openingHoursSpecification: [
     "Monday",
     "Tuesday",
@@ -54,8 +54,8 @@ export const localBusiness = {
   ].map((day) => ({
     "@type": "OpeningHoursSpecification" as const,
     dayOfWeek: day,
-    opens: "06:00",
-    closes: "21:00",
+    opens: "08:00",
+    closes: "20:00",
   })),
   specialHours: [
     { date: "2026-07-03", closed: true },
@@ -106,11 +106,11 @@ export const localBusiness = {
     "https://www.facebook.com/DrJanDuffyRealtorCentennialHills/",
   ],
   mapsEmbedSrc:
-    "https://maps.google.com/maps?q=9406%20Del%20Webb%20Boulevard%2C%20Las%20Vegas%2C%20NV%2089134&output=embed",
+    "https://maps.google.com/maps?q=9406%20Del%20Webb%20Blvd%2C%20Las%20Vegas%2C%20NV%2089134&output=embed",
   mapsDirections:
-    "https://www.google.com/maps/dir/?api=1&destination=9406+Del+Webb+Boulevard,+Las+Vegas,+NV+89134",
+    "https://www.google.com/maps/dir/?api=1&destination=9406+Del+Webb+Blvd,+Las+Vegas,+NV+89134",
   googleReviews:
-    "https://www.google.com/maps/search/?api=1&query=Sun+City+Summerlin+55%2B+Real+Estate+Homes+by+Dr.+Jan+Duffy+9406+Del+Webb+Boulevard+Las+Vegas",
+    "https://www.google.com/maps/search/?api=1&query=Sun+City+Summerlin+55%2B+Real+Estate+Homes+by+Dr.+Jan+Duffy+9406+Del+Webb+Blvd+Las+Vegas",
   calendlyUrl: "https://calendly.com/drjanduffy/showing",
   realscoutAgentId: "QWdlbnQtMjI1MDUw",
 } as const;

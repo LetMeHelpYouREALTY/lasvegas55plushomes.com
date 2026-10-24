@@ -19,9 +19,9 @@ import {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Luxury Homes Las Vegas | Berkshire Hathaway HomeServices",
+  title: "Luxury Homes Las Vegas | Dr. Jan Duffy, REALTOR®",
   description:
-    "Las Vegas luxury real estate from $1.2M to $10M+. Guard-gated estates, Strip penthouses, and custom homes. Dr. Jan Duffy provides discrete, expert representation. Call (702) 500-1942.",
+    "Las Vegas luxury real estate from $1.2M to $10M+. Guard-gated estates, Strip penthouses, and custom homes. Dr. Jan Duffy provides discrete, expert representation. Call (702) 718-0043.",
   keywords: [
     "luxury homes Las Vegas",
     "The Ridges Las Vegas",
@@ -101,11 +101,11 @@ export default function LuxuryHomesPage() {
               Guard-gated estates. Strip penthouses. Uncompromising privacy.
             </p>
             <a
-              href="tel:+17025001942"
+              href="tel:+17027180043"
               className="inline-flex items-center bg-slate-900 text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-slate-800 transition-colors"
             >
               <Phone className="h-5 w-5 mr-2" />
-              Schedule a Private Preview → (702) 500-1942
+              Schedule a Private Preview → (702) 718-0043
             </a>
           </div>
 
@@ -369,9 +369,7 @@ export default function LuxuryHomesPage() {
               <div>
                 <p className="text-slate-700 mb-4">
                   Luxury transactions require a level of discretion that most
-                  agents can't provide. Dr. Jan Duffy and{" "}
-                  <strong>Berkshire Hathaway HomeServices</strong> understand
-                  that privacy isn't a luxury—it's a requirement.
+                  agents can't provide. Dr. Jan Duffy understands that privacy isn't a luxury—it's a requirement.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -426,14 +424,10 @@ export default function LuxuryHomesPage() {
                 execution. In this price range, one wrong move can cost hundreds
                 of thousands of dollars. My clients trust me because I've closed
                 $127M+ in transactions and understand that their time and
-                privacy are worth more than any commission.{" "}
-                <strong>Berkshire Hathaway HomeServices</strong>
-                provides the global resources and credibility that luxury
-                transactions demand."
+                privacy are worth more than any commission."
               </blockquote>
               <cite className="text-slate-300 font-semibold">
-                — Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada
-                Properties
+                — Dr. Jan Duffy
               </cite>
             </div>
           </section>
@@ -450,11 +444,11 @@ export default function LuxuryHomesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17025001942"
+                href="tel:+17027180043"
                 className="inline-flex items-center justify-center bg-white text-slate-900 px-8 py-4 rounded-md font-bold text-lg hover:bg-slate-100 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                (702) 500-1942
+                (702) 718-0043
               </a>
               <Link
                 href="/contact"
@@ -463,9 +457,6 @@ export default function LuxuryHomesPage() {
                 Request Private Showing
               </Link>
             </div>
-            <p className="mt-6 text-slate-400 text-sm">
-              Berkshire Hathaway HomeServices Nevada Properties
-            </p>
           </section>
         </div>
         <div className="text-center text-sm text-slate-500 mt-8">

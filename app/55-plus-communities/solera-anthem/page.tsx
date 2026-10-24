@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title:
     "Solera at Anthem Homes for Sale | Intimate Guard-Gated 55+ Henderson | Dr. Jan Duffy",
   description:
-    "Solera at Anthem - intimate guard-gated 55+ community in Henderson. Homes from $380K-$650K. Lower HOA fees, close-knit atmosphere. Dr. Jan Duffy, BHHS. Call (702) 500-1942.",
+    "Solera at Anthem - intimate guard-gated 55+ community in Henderson. Homes from $380K-$650K. Lower HOA fees, close-knit atmosphere. Dr. Jan Duffy. Call (702) 718-0043.",
   keywords: [
     "Solera at Anthem homes for sale",
     "Solera Anthem Henderson",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Solera at Anthem - Intimate Guard-Gated 55+ in Henderson",
     description:
-      "Close-knit community with guard-gated security. Lower HOA fees, Henderson safety. From $380K. Dr. Jan Duffy, BHHS.",
+      "Close-knit community with guard-gated security. Lower HOA fees, Henderson safety. From $380K. Dr. Jan Duffy.",
     type: "website",
   },
 };
@@ -151,11 +151,7 @@ export default function SoleraAnthemPage() {
                 community demographic.
               </p>
               <p>
-                <strong>
-                  Berkshire Hathaway HomeServices Nevada Properties
-                </strong>{" "}
-                helps buyers who value community over amenity overload. Dr. Jan
-                Duffy understands why some buyers prefer Solera's intimate scale
+                Dr. Jan Duffy helps buyers who value community over amenity overload. She understands why some buyers prefer Solera's intimate scale
                 and all-55+ requirement to larger developments.
               </p>
             </div>
@@ -380,14 +376,12 @@ export default function SoleraAnthemPage() {
                 "Solera at Anthem is perfect for buyers who find Sun City
                 overwhelming. It's intimate, genuinely guard-gated, and everyone
                 is actually 55+. The community feels like a neighborhood, not a
-                small city. As a{" "}
-                <strong>Berkshire Hathaway HomeServices</strong> agent, I often
+                small city. As a REALTOR®, I often
                 recommend Solera to buyers who prioritize community connection
                 over endless amenities."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada
-                Properties
+                — Dr. Jan Duffy
               </cite>
             </div>
           </section>
@@ -404,11 +398,11 @@ export default function SoleraAnthemPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
               <a
-                href="tel:+17025001942"
+                href="tel:+17027180043"
                 className="inline-flex items-center justify-center bg-white text-teal-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-teal-50 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call (702) 500-1942
+                Call (702) 718-0043
               </a>
               <Link
                 href="/contact"

@@ -24,7 +24,7 @@ export async function generateMetadata(): Promise<Metadata> {
       ? canonicalOrigin(config.domain)
       : PRIMARY_ORIGIN;
   return {
-    title: `${config.neighborhood} | Dr. Jan Duffy, REALTOR® | BHHS Nevada`,
+    title: `${config.neighborhood} | Dr. Jan Duffy, REALTOR®`,
     description: config.description,
     keywords: config.keywords,
     alternates: { canonical: origin },
@@ -43,23 +43,18 @@ export default async function Home() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "RealEstateAgent",
-    name: `Dr. Jan Duffy - ${config.neighborhood} Real Estate`,
+    name: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
     url:
       config.domain !== "default"
         ? canonicalOrigin(config.domain)
         : PRIMARY_ORIGIN,
-    telephone: "+17025001942",
+    telephone: "+17027180043",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "9406 W Lake Mead Blvd, Suite 100",
+      streetAddress: "9406 Del Webb Blvd",
       addressLocality: "Las Vegas",
       addressRegion: "NV",
       postalCode: "89134",
-    },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "200",
     },
   };
 
@@ -109,14 +104,8 @@ export default async function Home() {
                 <span>Families Helped</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="font-semibold text-gold-bright">
-                  30+ Years
-                </span>
-                <span>Las Vegas Experience</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="font-semibold text-gold-bright">4.9★</span>
-                <span>Client Rating</span>
+                <span className="font-semibold text-gold-bright">Since 1983</span>
+                <span>In Real Estate</span>
               </div>
             </div>
           </div>
@@ -130,26 +119,25 @@ export default async function Home() {
                 Why Work With Dr. Jan Duffy?
               </h2>
               <p className="text-lg text-slate-600">
-                Berkshire Hathaway HomeServices Nevada Properties — the most
-                trusted name in Las Vegas real estate.
+                Top 1% Las Vegas REALTOR®, in real estate since 1983.
               </p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
               {[
                 {
                   icon: Shield,
-                  title: "Trusted Brand",
-                  desc: "Backed by Warren Buffett's Berkshire Hathaway — unmatched integrity",
+                  title: "Trusted Advisor",
+                  desc: "In real estate since 1983, with unmatched integrity",
                 },
                 {
                   icon: Users,
-                  title: "50K+ Network",
-                  desc: "Global referral network for seamless moves to or from any market",
+                  title: "Referral Network",
+                  desc: "Referrals for seamless moves to or from any market",
                 },
                 {
                   icon: TrendingUp,
                   title: "$127M+ Sold",
-                  desc: "Proven results across every Las Vegas neighborhood since 2008",
+                  desc: "Proven results across every Las Vegas neighborhood",
                 },
                 {
                   icon: HomeIcon,
@@ -217,9 +205,9 @@ export default async function Home() {
               {config.ctaSubheadline}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+17025001942" className="btn-gold px-8 py-4 text-lg">
+              <a href="tel:+17027180043" className="btn-gold px-8 py-4 text-lg">
                 <Phone className="h-5 w-5 mr-2" />
-                Call (702) 500-1942
+                Call (702) 718-0043
               </a>
               <Link
                 href="/contact"
@@ -228,10 +216,6 @@ export default async function Home() {
                 Send a Message
               </Link>
             </div>
-            <p className="mt-6 text-white/70 text-sm">
-              Dr. Jan Duffy | License S.0197614.LLC | Berkshire Hathaway
-              HomeServices Nevada Properties
-            </p>
           </div>
         </section>
       </main>

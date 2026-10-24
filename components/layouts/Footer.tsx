@@ -29,18 +29,15 @@ export default function Footer() {
               />
               <div>
                 <p className="font-semibold text-gold">{AGENT_PHOTO.name}</p>
-                <p className="text-xs text-white/70">
-                  License {AGENT_PHOTO.license}
-                </p>
+                <p className="text-xs text-white/70">REALTOR®</p>
               </div>
             </div>
             <h3 className="font-bold text-xl mb-4">
-              Berkshire Hathaway HomeServices
+              Sun City Summerlin 55+ Real Estate
             </h3>
             <p className="text-slate-300 mb-4 text-sm">
-              Nevada Properties - Your trusted real estate partner in Las Vegas,
-              Henderson, and Summerlin. Backed by Warren Buffett's legacy of
-              trust.
+              Your trusted real estate partner in Las Vegas, Henderson, and
+              Summerlin.
             </p>
             <div className="flex space-x-4">
               <a
@@ -93,14 +90,6 @@ export default function Footer() {
                   className="text-slate-300 hover:text-white transition-colors text-sm"
                 >
                   Neighborhoods
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/why-berkshire-hathaway"
-                  className="text-slate-300 hover:text-white transition-colors text-sm"
-                >
-                  Why BHHS
                 </Link>
               </li>
               <li>
@@ -200,7 +189,7 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-gold flex-shrink-0 mt-0.5" />
                 <span className="text-slate-300 text-sm">
-                  9406 W Lake Mead Blvd, Suite 100
+                  9406 Del Webb Blvd
                   <br />
                   Las Vegas, NV 89134
                 </span>
@@ -208,10 +197,10 @@ export default function Footer() {
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-3 text-gold flex-shrink-0" />
                 <Link
-                  href="tel:+17025001942"
+                  href="tel:+17027180043"
                   className="text-slate-300 hover:text-white transition-colors text-sm"
                 >
-                  (702) 500-1942
+                  (702) 718-0043
                 </Link>
               </li>
               <li className="flex items-center">
@@ -231,8 +220,8 @@ export default function Footer() {
         <div className="border-t border-slate-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-slate-400 text-sm text-center md:text-left">
-              © {currentYear} Berkshire Hathaway HomeServices Nevada
-              Properties. All Rights Reserved.
+              © {currentYear} Sun City Summerlin 55+ Real Estate | Homes by Dr.
+              Jan Duffy. All Rights Reserved.
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm">
               <Link
@@ -250,13 +239,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="text-slate-500 text-xs mt-4 text-center">
-            Dr. Jan Duffy, REALTOR® | License S.0197614.LLC | Berkshire
-            Hathaway HomeServices Nevada Properties
-          </p>
-          <p className="text-slate-600 text-xs mt-2 text-center max-w-3xl mx-auto">
-            When you work with a Berkshire Hathaway HomeServices agent, you're
-            backed by a name synonymous with trust, ethical standards, and
-            financial strength.
+            Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC
           </p>
         </div>
       </div>

@@ -22,9 +22,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Las Vegas Homes for Sale | MLS Property Search | Berkshire Hathaway HomeServices",
+    "Las Vegas Homes for Sale | MLS Property Search | Dr. Jan Duffy, REALTOR®",
   description:
-    "Browse all Las Vegas and Henderson homes for sale with live MLS listings. Search by neighborhood, price, and features. Dr. Jan Duffy, Berkshire Hathaway HomeServices. Call (702) 500-1942.",
+    "Browse all Las Vegas and Henderson homes for sale with live MLS listings. Search by neighborhood, price, and features.  Dr. Jan Duffy. Call (702) 718-0043.",
   keywords: [
     "Las Vegas homes for sale",
     "Henderson real estate",
@@ -43,8 +43,8 @@ const listingsSchema = {
     "Live MLS property listings for Las Vegas, Henderson, and Summerlin homes for sale",
   provider: {
     "@type": "RealEstateAgent",
-    name: "Dr. Jan Duffy - Berkshire Hathaway HomeServices Nevada Properties",
-    telephone: "+17025001942",
+    name: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
+    telephone: "+17027180043",
   },
   areaServed: [
     { "@type": "City", name: "Las Vegas, NV" },
@@ -159,7 +159,7 @@ export default function ListingsPage() {
           {/* Hero Section */}
           <div className="max-w-4xl mx-auto text-center mb-12">
             <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Dr. Jan Duffy, REALTOR®
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
               Las Vegas Homes for Sale
@@ -167,8 +167,7 @@ export default function ListingsPage() {
             <p className="text-xl text-slate-600 mb-8">
               Search thousands of Las Vegas, Henderson, and Summerlin properties
               with live MLS listings updated every 15 minutes. Find your dream
-              home with expert guidance from Dr. Jan Duffy at{" "}
-              <strong>Berkshire Hathaway HomeServices</strong>.
+              home with expert guidance from Dr. Jan Duffy.
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm text-slate-500">
               <span className="flex items-center">
@@ -283,9 +282,7 @@ export default function ListingsPage() {
               Each Las Vegas neighborhood offers a unique lifestyle, from the
               resort-style living of Summerlin to the family-friendly
               communities of Henderson. Understanding these differences is
-              crucial to finding a home that fits your needs. As a Berkshire
-              Hathaway HomeServices agent serving Las Vegas since 2008, Dr. Jan
-              Duffy provides expert guidance on which neighborhoods match your
+              crucial to finding a home that fits your needs. As a REALTOR® in real estate since 1983, Dr. Jan Duffy provides expert guidance on which neighborhoods match your
               priorities—whether that's schools, commute times, amenities, or
               investment potential.
             </p>
@@ -332,15 +329,12 @@ export default function ListingsPage() {
           {/* Why Use an Agent Section */}
           <section className="mb-16 bg-slate-900 text-white rounded-2xl p-8 md:p-12 max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-center">
-              Why Work With a Berkshire Hathaway HomeServices Agent
+              Why Work With Dr. Jan Duffy
             </h2>
             <p className="text-slate-300 text-center max-w-3xl mx-auto mb-8">
               In today's competitive Las Vegas market, having expert
               representation can mean the difference between winning your dream
-              home and losing out. Dr. Jan Duffy brings the resources of
-              Berkshire Hathaway HomeServices—the most trusted name in real
-              estate— combined with deep local market knowledge from serving Las
-              Vegas since 2008.
+              home and losing out. Dr. Jan Duffy brings deep local market knowledge from a career in real estate since 1983.
             </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="text-center">
@@ -349,8 +343,7 @@ export default function ListingsPage() {
                 </div>
                 <h3 className="font-bold mb-2">Off-Market Access</h3>
                 <p className="text-slate-400 text-sm">
-                  See listings before they hit the MLS through our network of
-                  50,000+ agents
+                  See listings before they hit the MLS through her referral network
                 </p>
               </div>
               <div className="text-center">
@@ -433,8 +426,7 @@ export default function ListingsPage() {
               Buying a home is one of the most significant financial decisions
               you'll make. Understanding the process helps reduce stress and
               ensures you're prepared at each step. Here's what to expect when
-              purchasing a home in Las Vegas with Dr. Jan Duffy and Berkshire
-              Hathaway HomeServices.
+              purchasing a home in Las Vegas with Dr. Jan Duffy.
             </p>
             <div className="space-y-6">
               <div className="flex items-start">
@@ -585,17 +577,16 @@ export default function ListingsPage() {
             </h2>
             <p className="text-xl text-blue-100 mb-8">
               Contact Dr. Jan Duffy for personalized guidance, off-market
-              listings, and expert representation backed by Berkshire Hathaway
-              HomeServices. Free buyer consultations available—the seller pays
+              listings, and expert representation. Free buyer consultations available—the seller pays
               the commission.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17025001942"
+                href="tel:+17027180043"
                 className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call (702) 500-1942
+                Call (702) 718-0043
               </a>
               <Link
                 href="/contact"
@@ -604,9 +595,6 @@ export default function ListingsPage() {
                 Schedule Consultation
               </Link>
             </div>
-            <p className="mt-4 text-blue-200 text-sm">
-              Berkshire Hathaway HomeServices Nevada Properties
-            </p>
           </section>
         </div>
 

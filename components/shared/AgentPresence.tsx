@@ -22,7 +22,7 @@ export default function AgentPresence({
           <AgentPhoto variant="badge" className="shrink-0" priority={false} />
           <div className="flex-1 text-center md:text-left">
             <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-gold">
-              {AGENT_PHOTO.name} · License {AGENT_PHOTO.license}
+              {AGENT_PHOTO.name} · REALTOR®
             </p>
             <h2 className="mb-3 text-2xl font-bold text-white md:text-3xl">
               {headline}
