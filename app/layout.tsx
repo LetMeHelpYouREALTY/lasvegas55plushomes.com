@@ -8,7 +8,7 @@ import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const headerList = headers();
+  const headerList = await headers();
   const rawHost = headerList.get("x-domain") || headerList.get("host") || "";
   const config = getDomainConfig(apexHost(rawHost));
   const baseUrl = canonicalOrigin(rawHost);
