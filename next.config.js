@@ -18,7 +18,6 @@ const nextConfig = {
   compress: true,
 
   // Performance optimizations
-  swcMinify: true,
 
   // Redirect apex (non-www) to www — www is the primary/canonical host
   async redirects() {
