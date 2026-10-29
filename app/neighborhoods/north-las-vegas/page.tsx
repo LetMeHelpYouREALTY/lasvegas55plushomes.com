@@ -15,7 +15,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "North Las Vegas Real Estate | Affordable Homes",
   description:
-    "Find affordable North Las Vegas homes with a local expert. Dr. Jan Duffy helps first-time buyers and investors. Median price $385K. Call (702) 718-0043.",
+    "Find affordable North Las Vegas homes with a local expert. Dr. Jan Duffy helps first-time buyers and investors. Median price $385K. Call (702) 500-1955.",
   keywords: [
     "Berkshire Hathaway HomeServices North Las Vegas",
     "North Las Vegas homes for sale",
@@ -524,11 +524,11 @@ export default function NorthLasVegasPage() {
               fit your budget.
             </p>
             <a
-              href="tel:+17027180043"
+              href="tel:+17025001955"
               className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
             >
               <Phone className="h-5 w-5 mr-2" />
-              Call (702) 718-0043
+              Call (702) 500-1955
             </a>
           </section>
         </div>

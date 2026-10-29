@@ -53,8 +53,8 @@ export default function SecurityPolicyPage() {
                 </li>
                 <li>
                   <strong>Phone:</strong>{' '}
-                  <a href="tel:+17027180043" className="underline">
-                    (702) 718-0043
+                  <a href="tel:+17025001955" className="underline">
+                    (702) 500-1955
                   </a>
                 </li>
                 <li>
@@ -252,8 +252,8 @@ export default function SecurityPolicyPage() {
               </p>
               <p>
                 Phone:{' '}
-                <a href="tel:+17027180043" className="text-blue-600 underline">
-                  (702) 718-0043
+                <a href="tel:+17025001955" className="text-blue-600 underline">
+                  (702) 500-1955
                 </a>
               </p>
             </div>

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title:
     "Sell a Luxury Home in Las Vegas | White-Glove Listing | Dr. Jan Duffy",
   description:
-    "Luxury home selling in Las Vegas and Henderson: pricing, photography, and optional off-market launch.  Dr. Jan Duffy. Call (702) 718-0043.",
+    "Luxury home selling in Las Vegas and Henderson: pricing, photography, and optional off-market launch.  Dr. Jan Duffy. Call (702) 500-1955.",
 };
 
 const services = [
@@ -108,7 +108,7 @@ export default function LuxurySellersPage() {
         <RealScoutListings />
         <LuxuryCta
           title="Price Your Estate Before You List"
-          subtitle="Call Dr. Jan Duffy at (702) 718-0043. 9406 Del Webb Blvd, Las Vegas, NV 89134."
+          subtitle="Call Dr. Jan Duffy at (702) 500-1955. 9406 Del Webb Blvd, Las Vegas, NV 89134."
         />
       </main>
       <AgentPresence />
