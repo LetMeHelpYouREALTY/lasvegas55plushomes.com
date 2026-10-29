@@ -22,7 +22,7 @@ import { AGENT_PHOTO } from "@/lib/agent-photo";
 export const metadata: Metadata = {
   title: "Contact Dr. Jan Duffy | Las Vegas REALTOR®",
   description:
-    "Contact Dr. Jan Duffy. Schedule an appointment, get directions, or call (702) 718-0043. Las Vegas, Henderson, Summerlin real estate expert.",
+    "Contact Dr. Jan Duffy. Schedule an appointment, get directions, or call (702) 500-1955. Las Vegas, Henderson, Summerlin real estate expert.",
   keywords: [
     "contact real estate agent Las Vegas",
     "Berkshire Hathaway contact",
@@ -39,7 +39,7 @@ const contactSchema = {
     "@type": "RealEstateAgent",
     name: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
     image: "https://www.lasvegas55plushomes.com/images/dr-jan-duffy.jpg",
-    telephone: "+17027180043",
+    telephone: "+17025001955",
     email: "homes@heyberkshire.com",
     address: {
       "@type": "PostalAddress",
@@ -99,10 +99,10 @@ export default function ContactPage() {
                       Phone (Call or Text)
                     </h3>
                     <a
-                      href="tel:+17027180043"
+                      href="tel:+17025001955"
                       className="text-2xl font-bold text-blue-600 hover:text-blue-700"
                     >
-                      (702) 718-0043
+                      (702) 500-1955
                     </a>
                     <p className="text-sm text-slate-500 mt-1">
                       Daily 8:00 AM–8:00 PM
@@ -281,13 +281,13 @@ export default function ContactPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               <a
-                href="tel:+17027180043"
+                href="tel:+17025001955"
                 className="flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white p-6 rounded-xl transition-colors"
               >
                 <Phone className="h-8 w-8 mr-4" />
                 <div className="text-left">
                   <div className="font-bold text-lg">Call Now</div>
-                  <div className="text-blue-100">(702) 718-0043</div>
+                  <div className="text-blue-100">(702) 500-1955</div>
                 </div>
               </a>
               <a
@@ -320,7 +320,7 @@ export default function ContactPage() {
                 },
                 {
                   q: "How quickly can you respond to inquiries?",
-                  a: "I typically respond to calls, texts, and emails within 2 hours during business hours (8:00 AM–8:00 PM daily). For urgent matters, calling or texting (702) 718-0043 is the fastest way to reach me.",
+                  a: "I typically respond to calls, texts, and emails within 2 hours during business hours (8:00 AM–8:00 PM daily). For urgent matters, calling or texting (702) 500-1955 is the fastest way to reach me.",
                 },
                 {
                   q: "Do you charge for consultations?",
