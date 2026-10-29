@@ -122,7 +122,7 @@ export default function GolfEstatesPage() {
         <RealScoutListings />
         <LuxuryCta
           title="Tour Golf-Course Inventory"
-          subtitle="Call (702) 500-1955 for private fairway tours in Summerlin and Henderson."
+          subtitle="Call (702) 718-0043 for private fairway tours in Summerlin and Henderson."
         />
       </main>
       <AgentPresence />

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title:
     "Private Client Real Estate Advisory | Las Vegas Luxury | Dr. Jan Duffy",
   description:
-    "Confidential private-client representation for $1M+ Las Vegas homes.  Dr. Jan Duffy. Call (702) 500-1955.",
+    "Confidential private-client representation for $1M+ Las Vegas homes.  Dr. Jan Duffy. Call (702) 718-0043.",
   keywords: [
     "private client realtor Las Vegas",
     "luxury real estate advisory Las Vegas",
