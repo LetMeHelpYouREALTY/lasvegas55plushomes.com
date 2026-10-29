@@ -239,7 +239,7 @@ export default function LuxuryHomesPage() {
                 {
                   icon: Shield,
                   title: "Trusted Reputation",
-                  desc: "In real estate since 1983, Dr. Jan Duffy attracts serious, qualified buyers to your property",
+                  desc: "Licensed since 2008 · 35 years in Las Vegas, Dr. Jan Duffy attracts serious, qualified buyers to your property",
                 },
                 {
                   icon: Globe,
@@ -288,7 +288,7 @@ export default function LuxuryHomesPage() {
                 transaction receives my full attention."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy | In Real Estate Since 1983
+                — Dr. Jan Duffy | Licensed Since 2008
               </cite>
             </div>
           </section>

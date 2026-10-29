@@ -104,8 +104,8 @@ export default async function Home() {
                 <span>Families Helped</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="font-semibold text-gold-bright">Since 1983</span>
-                <span>In Real Estate</span>
+                <span className="font-semibold text-gold-bright">Since 2008</span>
+                <span>Licensed</span>
               </div>
             </div>
           </div>
@@ -119,7 +119,7 @@ export default async function Home() {
                 Why Work With Dr. Jan Duffy?
               </h2>
               <p className="text-lg text-slate-600">
-                Top 1% Las Vegas REALTOR®, in real estate since 1983.
+                Las Vegas REALTOR®, licensed since 2008 · 35 years in Las Vegas.
               </p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
@@ -127,7 +127,7 @@ export default async function Home() {
                 {
                   icon: Shield,
                   title: "Trusted Advisor",
-                  desc: "In real estate since 1983, with unmatched integrity",
+                  desc: "Licensed since 2008 · 35 years in Las Vegas, with unmatched integrity",
                 },
                 {
                   icon: Users,

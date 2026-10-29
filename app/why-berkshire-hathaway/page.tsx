@@ -17,7 +17,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Why Work With Dr. Jan Duffy | Las Vegas Real Estate",
   description:
-    "Discover why clients choose Dr. Jan Duffy, a Top 1% Las Vegas REALTOR® in real estate since 1983. 500+ transactions and $127M+ in closed sales.",
+    "Discover why clients choose Dr. Jan Duffy, a Las Vegas REALTOR® licensed since 2008 · 35 years in Las Vegas. 500+ transactions and $127M+ in closed sales.",
   keywords: [
     "Berkshire Hathaway HomeServices",
     "why choose BHHS",
@@ -56,13 +56,13 @@ export default function WhyBerkshireHathawayPage() {
           {/* Hero Section */}
           <div className="max-w-4xl mx-auto text-center mb-16">
             <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Top 1% Las Vegas REALTOR®
+              Las Vegas REALTOR®
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
               Why Work With Dr. Jan Duffy?
             </h1>
             <p className="text-xl text-slate-600 leading-relaxed">
-              Dr. Jan Duffy has been in real estate since 1983. She brings
+              Dr. Jan Duffy has been licensed since 2008 · 35 years in Las Vegas. She brings
               trust, ethical standards, and deep local knowledge to every
               transaction in Las Vegas, Henderson, and Summerlin.
             </p>
@@ -98,7 +98,7 @@ export default function WhyBerkshireHathawayPage() {
                 {
                   icon: TrendingUp,
                   title: "Proven Experience",
-                  desc: "In real estate since 1983, with $127M+ in closed transactions.",
+                  desc: "Licensed since 2008 · 35 years in Las Vegas, with $127M+ in Dr. Duffy Group career sales.",
                 },
                 {
                   icon: CheckCircle,
@@ -129,7 +129,7 @@ export default function WhyBerkshireHathawayPage() {
             </h2>
             <ul className="space-y-3 mb-8">
               {[
-                "In real estate since 1983",
+                "Licensed since 2008 · 35 years in Las Vegas",
                 "$127M+ in closed transactions",
                 "500+ transactions",
                 "Specializing in 55+ communities, luxury, investment, and relocation",

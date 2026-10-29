@@ -208,7 +208,7 @@ export default function RelocationPage() {
                 even arrive."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy | In Real Estate Since 1983
+                — Dr. Jan Duffy | Licensed Since 2008
               </cite>
             </div>
           </section>

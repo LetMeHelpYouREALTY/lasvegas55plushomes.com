@@ -14,7 +14,7 @@ export const AGENT_PHOTO = {
   legacy: "/Image/agent1.jpg",
   alt: "Dr. Jan Duffy, REALTOR®",
   name: "Dr. Jan Duffy",
-  title: "Top 1% Las Vegas REALTOR®",
+  title: "Las Vegas REALTOR®",
   license: "S.0197614.LLC",
 } as const;
 
