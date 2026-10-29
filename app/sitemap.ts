@@ -2,8 +2,8 @@ import { MetadataRoute } from "next";
 import { headers } from "next/headers";
 import { canonicalOrigin } from "@/lib/canonical-host";
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = canonicalOrigin(headers().get("host"));
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const baseUrl = canonicalOrigin((await headers()).get("host"));
   const lastModified = new Date();
 
   // Core pages
