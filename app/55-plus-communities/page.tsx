@@ -835,7 +835,7 @@ export default function FiftyFiveCommunitiesPage() {
                     Trusted Brand
                   </h3>
                   <p className="text-slate-600 text-sm">
-                    Dr. Jan Duffy has been in real estate since 1983, bringing trust and integrity—values that matter when making one of life's
+                    Dr. Jan Duffy has been licensed since 2008 · 35 years in Las Vegas, bringing trust and integrity—values that matter when making one of life's
                     biggest decisions.
                   </p>
                 </div>

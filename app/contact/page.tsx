@@ -68,7 +68,7 @@ export default function ContactPage() {
               <AgentPhoto variant="hero" priority showCaption />
             </div>
             <div className="mb-6 inline-block rounded-full bg-forest-soft px-4 py-2 text-sm font-semibold text-forest">
-              Top 1% Las Vegas REALTOR®
+              Las Vegas REALTOR®
             </div>
             <h1 className="mb-6 text-4xl font-bold text-slate-900 md:text-5xl lg:text-6xl">
               Contact {AGENT_PHOTO.name}
@@ -87,7 +87,7 @@ export default function ContactPage() {
               <p className="text-slate-700 mb-8">
                 Whether you're buying your first home, selling a luxury
                 property, or exploring investment opportunities, I'm here to
-                provide expert guidance. In real estate since 1983, with $127M+ in closed transactions.
+                provide expert guidance. Licensed since 2008 · 35 years in Las Vegas, with $127M+ in Dr. Duffy Group career sales.
               </p>
 
               {/* NAP Information */}
@@ -184,7 +184,7 @@ export default function ContactPage() {
                 <p className="text-sm text-slate-700">
                   <strong>Dr. Jan Duffy, REALTOR®</strong>
                   <br />
-                  Top 1% Las Vegas REALTOR®
+                  Las Vegas REALTOR®
                 </p>
               </div>
             </div>
@@ -214,8 +214,7 @@ export default function ContactPage() {
                   <div className="flex items-start">
                     <Shield className="h-5 w-5 text-blue-400 mr-3 mt-0.5 flex-shrink-0" />
                     <p className="text-slate-300 text-sm">
-                      <strong className="text-white">Experience:</strong> In real estate
-                      since 1983.
+                      <strong className="text-white">Experience:</strong> Licensed since 2008 · 35 years in Las Vegas.
                     </p>
                   </div>
                   <div className="flex items-start">

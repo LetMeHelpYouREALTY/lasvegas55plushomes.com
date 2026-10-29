@@ -261,7 +261,7 @@ export default function MarketUpdatePage() {
                 <div>
                   <div className="font-bold text-slate-900">Dr. Jan Duffy</div>
                   <div className="text-slate-500 text-sm">
-                    Top 1% Las Vegas REALTOR®
+                    Las Vegas REALTOR®
                   </div>
                 </div>
               </div>

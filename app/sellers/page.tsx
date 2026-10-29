@@ -65,7 +65,7 @@ const sellingBenefits = [
     icon: BarChart,
     title: "Expert Pricing Strategy",
     description:
-      "Dr. Jan has been in real estate since 1983, which means accurate pricing that attracts buyers without leaving money on the table. Overpriced homes sit and lose value; well-priced homes generate competition and sell for more.",
+      "Dr. Jan has been licensed since 2008 · 35 years in Las Vegas, which means accurate pricing that attracts buyers without leaving money on the table. Overpriced homes sit and lose value; well-priced homes generate competition and sell for more.",
   },
   {
     icon: DollarSign,
@@ -148,7 +148,7 @@ export default function SellersPage() {
               Sell Your Las Vegas Home for Top Dollar
             </h1>
             <p className="text-xl text-slate-600 mb-8">
-              When you list with Dr. Jan Duffy, you get world-class marketing, expert pricing, and a name that buyers trust. In real estate since 1983, she helps
+              When you list with Dr. Jan Duffy, you get world-class marketing, expert pricing, and a name that buyers trust. Licensed since 2008 · 35 years in Las Vegas, she helps
               sellers achieve top-dollar results with proven marketing
               strategies and skilled negotiation.
             </p>
@@ -215,7 +215,7 @@ export default function SellersPage() {
               The Dr. Jan Duffy Selling Advantage
             </h2>
             <p className="text-slate-600 text-center max-w-3xl mx-auto mb-8">
-              Not all real estate agents can deliver the same results. When you choose Dr. Jan Duffy, you're choosing world-class marketing, a broad network of buyers, and a REALTOR® in real estate since 1983.
+              Not all real estate agents can deliver the same results. When you choose Dr. Jan Duffy, you're choosing world-class marketing, a broad network of buyers, and a REALTOR® licensed since 2008 · 35 years in Las Vegas.
             </p>
             <div className="grid md:grid-cols-2 gap-8">
               {sellingBenefits.map((benefit) => {
@@ -358,11 +358,11 @@ export default function SellersPage() {
                 important factor in getting top dollar. Overpriced homes sit on
                 the market, and every day on market costs you money—both in
                 carrying costs and buyer perception. That's why I use
-                comprehensive market analysis and my experience in real estate since 1983 to price homes right the first time. The
+                comprehensive market analysis and my experience licensed since 2008 · 35 years in Las Vegas to price homes right the first time. The
                 result? My listings typically sell within 2% of asking price."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy | In Real Estate Since 1983
+                — Dr. Jan Duffy | Licensed Since 2008
               </cite>
             </div>
           </section>
@@ -398,8 +398,7 @@ export default function SellersPage() {
                 </h2>
                 <p className="text-blue-100 mb-6">
                   Get a free, no-obligation home valuation from Dr. Jan Duffy.
-                  Using current MLS data and expertise in real estate since
-                  1983, you'll know exactly what your home could sell for in
+                  Using current MLS data and expertise as a REALTOR® licensed since 2008 · 35 years in Las Vegas, you'll know exactly what your home could sell for in
                   today's market. No algorithms—just real analysis from a local
                   expert.
                 </p>
