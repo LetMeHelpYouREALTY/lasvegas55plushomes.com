@@ -46,8 +46,8 @@ export const defaultReviews: Review[] = [
 
 // Aggregate rating stats
 export const aggregateRating = {
-  ratingValue: 4.9,
-  reviewCount: 500,
+  ratingValue: 5.0,
+  reviewCount: 50,
   bestRating: 5,
   worstRating: 1,
 };
