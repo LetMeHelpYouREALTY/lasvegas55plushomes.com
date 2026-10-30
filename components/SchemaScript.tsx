@@ -103,7 +103,6 @@ export function FAQSchema({
  */
 export function ReviewSchema({
   reviews,
-  aggregateRating,
 }: {
   reviews?: Array<{
     author: string;
@@ -122,16 +121,6 @@ export function ReviewSchema({
     "@id": `${siteConfig.url}#organization`,
     name: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
   };
-
-  if (aggregateRating) {
-    schema.aggregateRating = {
-      "@type": "AggregateRating",
-      ratingValue: aggregateRating.ratingValue.toString(),
-      reviewCount: aggregateRating.reviewCount.toString(),
-      bestRating: "5",
-      worstRating: "1",
-    };
-  }
 
   if (reviews && reviews.length > 0) {
     schema.review = reviews.map((review) => ({
