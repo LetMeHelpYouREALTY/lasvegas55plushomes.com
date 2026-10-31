@@ -6,6 +6,7 @@ import { getDomainConfig } from "@/lib/domain-config";
 import { apexHost, canonicalOrigin } from "@/lib/canonical-host";
 import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
+import { SpeedInsights as VercelSpeedInsights } from "@vercel/speed-insights/next";
 
 export async function generateMetadata(): Promise<Metadata> {
   const headerList = await headers();
@@ -70,6 +71,7 @@ export default function RootLayout({
       <body>
         {children}
         <Analytics />
+        <VercelSpeedInsights />
       </body>
     </html>
   );
