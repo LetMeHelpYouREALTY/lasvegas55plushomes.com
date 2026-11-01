@@ -180,6 +180,26 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.8,
       changeFrequency: "monthly" as const,
     },
+    {
+      url: `${baseUrl}/55-plus-communities/sun-city-aliante`,
+      priority: 0.8,
+      changeFrequency: "monthly" as const,
+    },
+    {
+      url: `${baseUrl}/55-plus-communities/solera-anthem`,
+      priority: 0.8,
+      changeFrequency: "monthly" as const,
+    },
+    {
+      url: `${baseUrl}/55-plus-communities/trilogy-summerlin`,
+      priority: 0.8,
+      changeFrequency: "monthly" as const,
+    },
+    {
+      url: `${baseUrl}/55-plus-communities/heritage-stonebridge`,
+      priority: 0.8,
+      changeFrequency: "monthly" as const,
+    },
   ];
 
   // Neighborhood pages

@@ -18,7 +18,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: config.description,
     keywords: config.keywords,
     alternates: {
-      canonical: "/",
+      // Self-referencing canonical per page (path set by middleware).
+      canonical: headerList.get("x-pathname") || "/",
     },
     icons: {
       icon: [
