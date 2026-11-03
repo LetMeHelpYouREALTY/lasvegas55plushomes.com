@@ -22,7 +22,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "First-Time Home Buyers Las Vegas | Dr. Jan Duffy, REALTOR®",
   description:
-    "First-time buyer in Las Vegas? Down payment assistance, builder incentives, and expert guidance from Dr. Jan Duffy. Call (702) 718-0043.",
+    "First-time buyer in Las Vegas? Down payment assistance, builder incentives, and expert guidance from Dr. Jan Duffy. Call (702) 500-1955.",
   keywords: [
     "first time home buyer Las Vegas",
     "first time buyer Nevada",
@@ -58,7 +58,7 @@ const faqSchema = {
       name: "What neighborhoods are best for first-time buyers in Las Vegas?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Top neighborhoods for first-time buyers include North Las Vegas ($350K-$450K), Mountains Edge ($380K-$480K), and Centennial Hills ($398K median). These areas offer new construction options, good schools, and strong appreciation potential.",
+        text: "Top neighborhoods for first-time buyers include North Las Vegas ($350K-$450K), Mountains Edge ($380K-$480K), and Centennial Hills ($398K median). These areas offer new construction options, nearby public schools, and strong appreciation potential.",
       },
     },
     {
@@ -113,11 +113,11 @@ export default function FirstTimeBuyersPage() {
               step of the way.
             </p>
             <a
-              href="tel:+17027180043"
+              href="tel:+17025001955"
               className="inline-flex items-center bg-blue-600 text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-700 transition-colors"
             >
               <Phone className="h-5 w-5 mr-2" />
-              Let's Make Homeownership Happen → (702) 718-0043
+              Let's Make Homeownership Happen → (702) 500-1955
             </a>
           </div>
 
@@ -250,7 +250,7 @@ export default function FirstTimeBuyersPage() {
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    Family-friendly
+                    Parks nearby
                   </li>
                 </ul>
                 <Link
@@ -267,7 +267,7 @@ export default function FirstTimeBuyersPage() {
                     Centennial Hills
                   </h3>
                   <span className="bg-purple-100 text-purple-700 px-2 py-1 rounded text-xs font-semibold">
-                    Top Schools
+                    Nearby Public Schools
                   </span>
                 </div>
                 <div className="text-2xl font-bold text-blue-600 mb-2">
@@ -280,7 +280,7 @@ export default function FirstTimeBuyersPage() {
                 <ul className="text-sm space-y-1 text-slate-700">
                   <li className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    Highly-rated schools
+                    Nearby public schools
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
@@ -552,11 +552,11 @@ export default function FirstTimeBuyersPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17027180043"
+                href="tel:+17025001955"
                 className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call/Text (702) 718-0043
+                Call/Text (702) 500-1955
               </a>
               <Link
                 href="/contact"

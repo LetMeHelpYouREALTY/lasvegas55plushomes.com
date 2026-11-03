@@ -38,7 +38,7 @@ const faqCategories = [
     faqs: [
       {
         q: "Why should I choose Dr. Jan Duffy?",
-        a: "Dr. Jan Duffy is a Top 1% Las Vegas REALTOR® who has been in real estate since 1983, with $127M+ in closed transactions and 500+ transactions. When you're making the biggest purchase of your life, that trust matters.",
+        a: "Dr. Jan Duffy is a Las Vegas REALTOR® who has been licensed since 2008 · 35 years in Las Vegas, backed by $127M+ in Dr. Duffy Group career sales and 500+ transactions. When you're making the biggest purchase of your life, that trust matters.",
       },
       {
         q: "What areas does Dr. Jan Duffy serve?",
@@ -80,7 +80,7 @@ const faqCategories = [
     faqs: [
       {
         q: "What is my home worth in today's market?",
-        a: "Home values depend on location, condition, size, and recent comparable sales. Dr. Jan provides free, comprehensive home valuations using current MLS data and her expertise in real estate since 1983.",
+        a: "Home values depend on location, condition, size, and recent comparable sales. Dr. Jan provides free, comprehensive home valuations using current MLS data and her expertise as a REALTOR® licensed since 2008 · 35 years in Las Vegas.",
       },
       {
         q: "How long will it take to sell my home?",
@@ -126,7 +126,7 @@ const faqCategories = [
       },
       {
         q: "What are the best neighborhoods for families?",
-        a: "Summerlin, Henderson (Green Valley, Inspirada), and Centennial Hills are top choices for families, offering excellent schools, parks, and community amenities. Dr. Jan can match you with the right neighborhood based on your priorities.",
+        a: "Summerlin, Henderson (Green Valley, Inspirada), and Centennial Hills are top choices for families, offering nearby public schools, parks, and community amenities. Dr. Jan can match you with the right neighborhood based on your priorities.",
       },
       {
         q: "How is the cost of living in Las Vegas?",
@@ -139,11 +139,11 @@ const faqCategories = [
     faqs: [
       {
         q: "What is Dr. Jan Duffy's experience?",
-        a: "Dr. Jan has been in real estate since 1983, with $127M+ in closed transactions and 500+ satisfied clients. She specializes in residential, luxury, investment, and relocation services throughout Southern Nevada.",
+        a: "Dr. Jan has been licensed since 2008 · 35 years in Las Vegas, backed by $127M+ in Dr. Duffy Group career sales and 500+ satisfied clients. She specializes in residential, luxury, investment, and relocation services throughout Southern Nevada.",
       },
       {
         q: "How do I contact Dr. Jan Duffy?",
-        a: "Call or text (702) 718-0043 or email homes@heyberkshire.com. Office located at 9406 Del Webb Blvd, Las Vegas, NV 89134.",
+        a: "Call or text (702) 500-1955 or email homes@heyberkshire.com. Office located at 9406 Del Webb Blvd, Las Vegas, NV 89134.",
       },
       {
         q: "What areas does Dr. Jan cover?",
@@ -223,11 +223,11 @@ export default function FAQPage() {
               Dr. Jan Duffy is happy to answer any questions about Las Vegas real estate.
             </p>
             <a
-              href="tel:+17027180043"
+              href="tel:+17025001955"
               className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
             >
               <Phone className="h-5 w-5 mr-2" />
-              Call (702) 718-0043
+              Call (702) 500-1955
             </a>
           </section>
         </div>

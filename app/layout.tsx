@@ -8,7 +8,7 @@ import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const headerList = headers();
+  const headerList = await headers();
   const rawHost = headerList.get("x-domain") || headerList.get("host") || "";
   const config = getDomainConfig(apexHost(rawHost));
   const baseUrl = canonicalOrigin(rawHost);
@@ -18,7 +18,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: config.description,
     keywords: config.keywords,
     alternates: {
-      canonical: "/",
+      // Self-referencing canonical per page (path set by middleware).
+      canonical: headerList.get("x-pathname") || "/",
     },
     icons: {
       icon: [

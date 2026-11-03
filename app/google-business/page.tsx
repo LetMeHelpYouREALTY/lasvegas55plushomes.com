@@ -30,7 +30,7 @@ import {
 export const metadata: Metadata = {
   title: "Dr. Jan Duffy, REALTOR® | Las Vegas Real Estate",
   description:
-    "Dr. Jan Duffy is a trusted Las Vegas REALTOR®, in real estate since 1983. Specializing in Summerlin, Henderson, 55+ communities, California relocation, and luxury homes. Call (702) 718-0043.",
+    "Dr. Jan Duffy is a trusted Las Vegas REALTOR®, licensed since 2008 · 35 years in Las Vegas. Specializing in Summerlin, Henderson, 55+ communities, California relocation, and luxury homes. Call (702) 500-1955.",
   keywords: [
     "Dr. Jan Duffy realtor",
     "Las Vegas real estate agent",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Dr. Jan Duffy, REALTOR®",
     description:
-      "Trusted Las Vegas REALTOR® in real estate since 1983. Summerlin, Henderson, luxury homes, 55+ communities.",
+      "Trusted Las Vegas REALTOR® licensed since 2008 · 35 years in Las Vegas. Summerlin, Henderson, luxury homes, 55+ communities.",
     url: "https://www.lasvegas55plushomes.com/google-business",
     type: "profile",
   },
@@ -76,14 +76,14 @@ export default function GoogleBusinessPage() {
                   <div className="flex items-center gap-2 mb-4">
                     <Award className="h-6 w-6 text-yellow-400" />
                     <span className="text-yellow-400 font-semibold">
-                      Top 1% Las Vegas REALTOR®
+                      Las Vegas REALTOR®
                     </span>
                   </div>
                   <h1 className="text-4xl md:text-5xl font-bold mb-4">
                     Dr. Jan Duffy
                   </h1>
                   <p className="text-xl text-blue-200 mb-2">
-                    REALTOR® | Top 1% Las Vegas REALTOR®
+                    Las Vegas REALTOR®
                   </p>
                   <p className="text-slate-300 mb-6">Nevada Properties</p>
 
@@ -125,7 +125,9 @@ export default function GoogleBusinessPage() {
 
                 {/* Rating & CTA */}
                 <div className="text-center bg-white/10 rounded-xl p-8">
-                  <p className="text-blue-200 mb-6">Top 1% Las Vegas REALTOR®</p>
+                  <p className="text-blue-200 mb-6">
+                    Las Vegas REALTOR®
+                  </p>
                   <a
                     href={`tel:${businessInfo.phone.tel}`}
                     className="inline-block w-full bg-blue-600 hover:bg-blue-500 text-white px-6 py-4 rounded-lg font-bold text-lg transition-colors"
@@ -338,7 +340,7 @@ export default function GoogleBusinessPage() {
                 transaction, and what made the experience valuable.
               </p>
               <a
-                href="https://g.page/r/YOUR_GOOGLE_REVIEW_LINK/review"
+                href="https://search.google.com/local/writereview?placeid=ChIJ7XLw8ta5yIARjTZPjgHJWVQ"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"

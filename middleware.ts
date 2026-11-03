@@ -62,7 +62,12 @@ export function middleware(request: NextRequest) {
     request.nextUrl.searchParams.has("keyword");
 
   // 5) Default: continue and pass hostname to pages via header.
-  const response = NextResponse.next();
+  // Expose the request path to server components so the root layout can emit
+  // a self-referencing canonical for every page (instead of pointing all pages
+  // at the homepage).
+  const requestHeaders = new Headers(request.headers);
+  requestHeaders.set("x-pathname", pathname);
+  const response = NextResponse.next({ request: { headers: requestHeaders } });
   response.headers.set("x-domain", hostname);
   if (isSearchCrawlSpace) {
     response.headers.set("X-Robots-Tag", "noindex, nofollow");

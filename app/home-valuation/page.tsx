@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title:
     "Free Home Valuation Las Vegas | What's Your Home Worth? | Dr. Jan Duffy, REALTOR®",
   description:
-    "Get a free, accurate home valuation in Las Vegas from Dr. Jan Duffy. Expert CMA analysis for Summerlin, Henderson, Green Valley & all Las Vegas neighborhoods. Call (702) 718-0043.",
+    "Get a free, accurate home valuation in Las Vegas from Dr. Jan Duffy. Expert CMA analysis for Summerlin, Henderson, Green Valley & all Las Vegas neighborhoods. Call (702) 500-1955.",
   keywords: [
     "home valuation Las Vegas",
     "what is my home worth Las Vegas",
@@ -106,7 +106,7 @@ export default function HomeValuationPage() {
               What's Your Las Vegas Home Worth?
             </h1>
             <p className="text-xl text-slate-600">
-              Get a free, no-obligation home valuation from Dr. Jan Duffy. Accurate pricing from a REALTOR® in real estate since 1983, with $127M+ in closed transactions.
+              Get a free, no-obligation home valuation from Dr. Jan Duffy. Accurate pricing from a REALTOR® licensed since 2008 · 35 years in Las Vegas, backed by $127M+ in Dr. Duffy Group career sales.
             </p>
           </div>
 
@@ -137,7 +137,7 @@ export default function HomeValuationPage() {
                   Online estimators like Zillow's "Zestimate" can be off by 10%
                   or more—that's $45,000+ on a typical Las Vegas home. Dr. Jan
                   Duffy provides a comprehensive market analysis using current
-                  MLS data, recent comparable sales, and her expertise in real estate since 1983. The result? Accurate pricing that helps
+                  MLS data, recent comparable sales, and her expertise as a REALTOR® licensed since 2008 · 35 years in Las Vegas. The result? Accurate pricing that helps
                   you sell faster and for more money.
                 </p>
                 <div className="space-y-3">
@@ -214,11 +214,11 @@ export default function HomeValuationPage() {
                   Prefer to talk? Call Dr. Jan directly:
                 </p>
                 <a
-                  href="tel:+17027180043"
+                  href="tel:+17025001955"
                   className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md font-bold transition-colors"
                 >
                   <Phone className="h-5 w-5 mr-2" />
-                  (702) 718-0043
+                  (702) 500-1955
                 </a>
               </div>
             </div>
@@ -592,11 +592,11 @@ export default function HomeValuationPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17027180043"
+                href="tel:+17025001955"
                 className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call (702) 718-0043
+                Call (702) 500-1955
               </a>
               <Link
                 href="/sellers"

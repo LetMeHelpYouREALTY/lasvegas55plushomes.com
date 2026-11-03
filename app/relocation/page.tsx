@@ -24,7 +24,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Relocating to Las Vegas | Dr. Jan Duffy, REALTOR®",
   description:
-    "Moving to Las Vegas? Dr. Jan Duffy provides comprehensive relocation services. Schools, neighborhoods, cost of living. Call (702) 718-0043.",
+    "Moving to Las Vegas? Dr. Jan Duffy provides comprehensive relocation services. Schools, neighborhoods, cost of living. Call (702) 500-1955.",
   keywords: [
     "relocating to Las Vegas",
     "moving to Las Vegas",
@@ -44,7 +44,7 @@ const relocationSchema = {
   provider: {
     "@type": "RealEstateAgent",
     name: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
-    telephone: "+17027180043",
+    telephone: "+17025001955",
   },
   areaServed: "Las Vegas, Henderson, Summerlin, Clark County NV",
   serviceType: "Relocation Services",
@@ -55,14 +55,14 @@ const popularRelocationAreas = [
     name: "Summerlin",
     best: "Families, professionals",
     highlights:
-      "Top-rated schools, 150+ parks, Red Rock Canyon proximity, master-planned living",
+      "Nearby public schools, 150+ parks, Red Rock Canyon proximity, master-planned living",
     from: "$500K",
   },
   {
     name: "Henderson",
     best: "Families, retirees",
     highlights:
-      "Lowest crime rates, excellent schools, community feel, diverse neighborhoods",
+      "Public crime maps online, nearby public schools, community feel, diverse neighborhoods",
     from: "$450K",
   },
   {
@@ -74,7 +74,7 @@ const popularRelocationAreas = [
   },
   {
     name: "Skye Canyon",
-    best: "Young families",
+    best: "Buyers who want more bedrooms",
     highlights:
       "Newest construction, mountain trail access, modern amenities, growing area",
     from: "$500K",
@@ -208,7 +208,7 @@ export default function RelocationPage() {
                 even arrive."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy | In Real Estate Since 1983
+                — Dr. Jan Duffy | Licensed Since 2008
               </cite>
             </div>
           </section>
@@ -287,7 +287,7 @@ export default function RelocationPage() {
               Las Vegas Schools & Education
             </h2>
             <p className="text-slate-600 text-center max-w-3xl mx-auto mb-8">
-              For families with children, school quality is often the top
+              For many buyers, school data is often the top
               priority when relocating. Las Vegas offers a range of public,
               charter, and private school options. Dr. Jan provides detailed
               school research to help you make informed decisions.
@@ -296,7 +296,7 @@ export default function RelocationPage() {
               <div className="bg-white border border-slate-200 rounded-xl p-6">
                 <h3 className="font-bold text-lg text-slate-900 mb-4 flex items-center">
                   <School className="h-5 w-5 text-blue-600 mr-2" />
-                  Top-Rated School Areas
+                  School Attendance Zones
                 </h3>
                 <ul className="space-y-2 text-slate-700">
                   <li className="flex items-start">
@@ -475,7 +475,7 @@ export default function RelocationPage() {
                 },
                 {
                   q: "What are the best areas for families relocating to Las Vegas?",
-                  a: "Summerlin, Henderson (especially Green Valley and Inspirada), and Skye Canyon consistently rank highest for families due to excellent schools, low crime, and family-friendly amenities. Dr. Jan can match you with the right area based on your specific priorities—schools, commute, budget, and lifestyle.",
+                  a: "Summerlin, Henderson (especially Green Valley and Inspirada), and Skye Canyon are popular for their parks, trails, and newer schools. School ratings and police crime maps are public, and Dr. Jan can match you with the right area based on your specific priorities—commute, budget, size, and lifestyle.",
                 },
                 {
                   q: "How does the cost of living compare to California?",
@@ -491,7 +491,7 @@ export default function RelocationPage() {
                 },
                 {
                   q: "Is Las Vegas safe for families?",
-                  a: "Yes, particularly in the suburban communities. Henderson consistently ranks as one of America's safest cities. Summerlin, Green Valley, and Inspirada also have very low crime rates. Dr. Jan can provide detailed crime statistics for any neighborhood you're considering.",
+                  a: "Henderson Police and LVMPD both publish crime data online, so you can compare Summerlin, Green Valley, Inspirada, and any other neighborhood yourself. Dr. Jan can point you to those sources for any area you're considering.",
                 },
               ].map((faq, index) => (
                 <div key={index} className="bg-slate-50 rounded-lg p-6">
@@ -514,11 +514,11 @@ export default function RelocationPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17027180043"
+                href="tel:+17025001955"
                 className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-md font-bold text-lg transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call (702) 718-0043
+                Call (702) 500-1955
               </a>
               <Link
                 href="/contact"

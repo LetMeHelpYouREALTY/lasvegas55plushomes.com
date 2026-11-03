@@ -12,7 +12,7 @@ import { luxuryImages } from "@/lib/luxury-images";
 export const metadata: Metadata = {
   title: "International Luxury Home Buyers Las Vegas | Dr. Jan Duffy",
   description:
-    "Representation for international and out-of-state buyers of Las Vegas luxury homes. Nevada tax context, remote closings, referral network. Call (702) 718-0043.",
+    "Representation for international and out-of-state buyers of Las Vegas luxury homes. Nevada tax context, remote closings, referral network. Call (702) 500-1955.",
 };
 
 export default function InternationalBuyersPage() {
@@ -102,7 +102,7 @@ export default function InternationalBuyersPage() {
         <RealScoutListings />
         <LuxuryCta
           title="Plan a Remote or In-Person Tour"
-          subtitle="Call or WhatsApp-style voice at (702) 718-0043. Daily 8:00 AM–8:00 PM Pacific."
+          subtitle="Call or WhatsApp-style voice at (702) 500-1955. Daily 8:00 AM–8:00 PM Pacific."
         />
       </main>
       <AgentPresence />

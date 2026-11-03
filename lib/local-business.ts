@@ -23,10 +23,10 @@ export const localBusiness = {
   url: "https://www.lasvegas55plushomes.com",
   foundingDate: "2013-09-20",
   phone: {
-    display: "(702) 718-0043",
-    tel: "tel:+17027180043",
-    sms: "sms:+17027180043",
-    e164: "+17027180043",
+    display: "(702) 500-1955",
+    tel: "tel:+17025001955",
+    sms: "sms:+17025001955",
+    e164: "+17025001955",
   },
   email: "homes@heyberkshire.com",
   address: {

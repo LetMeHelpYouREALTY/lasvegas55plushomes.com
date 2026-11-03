@@ -10,8 +10,8 @@ import { canonicalOrigin } from "@/lib/canonical-host";
  *
  * @see https://developers.google.com/search/docs/crawling-indexing/robots/intro
  */
-export default function robots(): MetadataRoute.Robots {
-  const baseUrl = canonicalOrigin(headers().get("host"));
+export default async function robots(): Promise<MetadataRoute.Robots> {
+  const baseUrl = canonicalOrigin((await headers()).get("host"));
 
   const crawlBudgetGuards = [
     "/api/",

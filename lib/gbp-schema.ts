@@ -12,8 +12,8 @@ export const businessInfo = {
     addressCountry: "US",
   },
   phone: {
-    display: "(702) 718-0043",
-    tel: "+17027180043",
+    display: "(702) 500-1955",
+    tel: "+17025001955",
   },
   email: "homes@heyberkshire.com",
   url: "https://www.lasvegas55plushomes.com",
@@ -164,9 +164,9 @@ export const businessInfo = {
 // 750-word GBP Description (3 sections)
 export const gbpDescription = {
   // Section 1: Who you are/mission (~250 words)
-  whoWeAre: `Dr. Jan Duffy is a trusted REALTOR® who has been in real estate since 1983. Dr. Jan combines local expertise with world-class resources to deliver exceptional results for buyers and sellers alike.
+  whoWeAre: `Dr. Jan Duffy is a trusted REALTOR® who has been licensed since 2008 · 35 years in Las Vegas. Dr. Jan combines local expertise with world-class resources to deliver exceptional results for buyers and sellers alike.
 
-With $127M+ in closed transactions and hundreds of satisfied clients, Dr. Jan has earned a reputation for integrity, market knowledge, and personalized service. Whether you're a first-time buyer navigating the process, a luxury home seeker exploring The Ridges or MacDonald Highlands, or a California family relocating for Nevada's tax advantages, Dr. Jan provides the guidance you need to make confident real estate decisions.`,
+With $127M+ in Dr. Duffy Group career sales and hundreds of satisfied clients, Dr. Jan has earned a reputation for integrity, market knowledge, and personalized service. Whether you're a first-time buyer navigating the process, a luxury home seeker exploring The Ridges or MacDonald Highlands, or a California family relocating for Nevada's tax advantages, Dr. Jan provides the guidance you need to make confident real estate decisions.`,
 
   // Section 2: What/why - Value proposition (~250 words)
   whatWeDo: `What sets Dr. Jan apart is a commitment to education and advocacy. Clients receive comprehensive market analysis, expert negotiation, and honest advice—not sales pressure. Dr. Jan offers a nationwide referral network, world-class marketing for sellers, and off-market opportunities for buyers.
@@ -176,11 +176,11 @@ Specialized services include: buyer and seller representation, luxury home sales
 Dr. Jan's approach is simple: treat every client like family, know the market inside and out, and never stop working until the deal closes successfully.`,
 
   // Section 3: Where - Areas served (~250 words)
-  whereWeServe: `Dr. Jan serves the entire Las Vegas Valley with specialized knowledge of Las Vegas, Summerlin, Henderson, North Las Vegas, and all of Clark County. Neighborhood expertise includes Summerlin's master-planned communities, Henderson's Green Valley and Inspirada, the luxury enclaves of The Ridges and Southern Highlands, family-friendly Centennial Hills and Skye Canyon, and affordable options in Mountains Edge and North Las Vegas.
+  whereWeServe: `Dr. Jan serves the entire Las Vegas Valley with specialized knowledge of Las Vegas, Summerlin, Henderson, North Las Vegas, and all of Clark County. Neighborhood expertise includes Summerlin's master-planned communities, Henderson's Green Valley and Inspirada, the luxury enclaves of The Ridges and Southern Highlands, Centennial Hills and Skye Canyon, and affordable options in Mountains Edge and North Las Vegas.
 
 55+ active adult community specialization covers Sun City Summerlin (Nevada's largest 55+ community), Sun City Anthem in Henderson, Del Webb Lake Las Vegas, and Solera at Anthem. Investment property expertise spans single-family rentals, multi-family opportunities, and short-term rental analysis across the Las Vegas metro area.
 
-Office located at 9406 Del Webb Blvd, Las Vegas, NV 89134. Open daily 8:00 AM–8:00 PM. Call (702) 718-0043 for a free consultation or visit https://www.lasvegas55plushomes.com to start your Las Vegas real estate journey today.`,
+Office located at 9406 Del Webb Blvd, Las Vegas, NV 89134. Open daily 8:00 AM–8:00 PM. Call (702) 500-1955 for a free consultation or visit https://www.lasvegas55plushomes.com to start your Las Vegas real estate journey today.`,
 };
 
 // FAQ Schema for GBP Q&A section
@@ -193,7 +193,7 @@ export const gbpFAQs = [
   {
     question: "Does Dr. Jan help buyers relocating from California?",
     answer:
-      "Yes! California relocation is a specialty. Dr. Jan helps CA buyers understand Nevada's 0% state income tax advantage, compare home values (40-60% lower than comparable CA properties), and find the perfect Las Vegas neighborhood. Call (702) 718-0043 for California relocation assistance.",
+      "Yes! California relocation is a specialty. Dr. Jan helps CA buyers understand Nevada's 0% state income tax advantage, compare home values (40-60% lower than comparable CA properties), and find the perfect Las Vegas neighborhood. Call (702) 500-1955 for California relocation assistance.",
   },
   {
     question: "What 55+ communities does Dr. Jan specialize in?",
@@ -210,7 +210,7 @@ export const gbpFAQs = [
     question:
       "How does Dr. Jan help with probate or divorce real estate sales?",
     answer:
-      "Dr. Jan handles sensitive transactions with discretion and professionalism. For probate sales, she coordinates with estate attorneys and ensures court compliance. For divorce sales, she provides neutral representation and works with both parties' attorneys. Call (702) 718-0043 for a confidential consultation.",
+      "Dr. Jan handles sensitive transactions with discretion and professionalism. For probate sales, she coordinates with estate attorneys and ensures court compliance. For divorce sales, she provides neutral representation and works with both parties' attorneys. Call (702) 500-1955 for a confidential consultation.",
   },
   {
     question: "What is the average home price in Las Vegas in 2026?",
@@ -225,17 +225,17 @@ export const gbpFAQs = [
   {
     question: "Why choose Dr. Jan Duffy over other agents?",
     answer:
-      "Dr. Jan Duffy is a Top 1% Las Vegas REALTOR® in real estate since 1983. You get 500+ transactions of experience, world-class marketing, and a name synonymous with integrity.",
+      "Dr. Jan Duffy is a Las Vegas REALTOR® licensed since 2008 · 35 years in Las Vegas. You get 500+ transactions of experience, world-class marketing, and a name synonymous with integrity.",
   },
   {
     question: "How do I schedule a consultation with Dr. Jan Duffy?",
     answer:
-      "Call or text (702) 718-0043 for immediate assistance, or email homes@heyberkshire.com. Office visits available at 9406 Del Webb Blvd, Las Vegas, NV 89134. Open daily 8:00 AM–8:00 PM.",
+      "Call or text (702) 500-1955 for immediate assistance, or email homes@heyberkshire.com. Office visits available at 9406 Del Webb Blvd, Las Vegas, NV 89134. Open daily 8:00 AM–8:00 PM.",
   },
   {
     question: "Does Dr. Jan help with investment properties in Las Vegas?",
     answer:
-      "Yes! Dr. Jan provides investment property consulting including rental property analysis, cap rate calculations, short-term rental regulations, and multi-family opportunities across the Las Vegas Valley. Contact (702) 718-0043 for investment property guidance.",
+      "Yes! Dr. Jan provides investment property consulting including rental property analysis, cap rate calculations, short-term rental regulations, and multi-family opportunities across the Las Vegas Valley. Contact (702) 500-1955 for investment property guidance.",
   },
 ];
 

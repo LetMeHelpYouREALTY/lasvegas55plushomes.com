@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title:
     "Solera at Anthem Homes for Sale | Intimate Guard-Gated 55+ Henderson | Dr. Jan Duffy",
   description:
-    "Solera at Anthem - intimate guard-gated 55+ community in Henderson. Homes from $380K-$650K. Lower HOA fees, close-knit atmosphere. Dr. Jan Duffy. Call (702) 718-0043.",
+    "Solera at Anthem - intimate guard-gated 55+ community in Henderson. Homes from $380K-$650K. Lower HOA fees, close-knit atmosphere. Dr. Jan Duffy. Call (702) 500-1955.",
   keywords: [
     "Solera at Anthem homes for sale",
     "Solera Anthem Henderson",
@@ -93,7 +93,7 @@ export default function SoleraAnthemPage() {
             </h1>
             <p className="text-xl text-slate-600">
               The close-knit alternative to mega-communities. Guard-gated
-              security in Henderson's safest neighborhood.
+              guard-gated entry in Henderson.
             </p>
           </div>
 
@@ -250,7 +250,7 @@ export default function SoleraAnthemPage() {
           {/* Henderson Location */}
           <section className="mb-16 bg-slate-50 rounded-2xl p-8 md:p-12 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold text-slate-900 mb-6 text-center">
-              Henderson: America's Safest Large City
+              Henderson: Crime Data You Can Check
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-white rounded-xl p-6 border border-slate-200">
@@ -261,7 +261,7 @@ export default function SoleraAnthemPage() {
                       Top Safety Rankings
                     </h3>
                     <p className="text-slate-600 text-sm">
-                      Henderson consistently ranks as one of the safest large
+                      Henderson Police publish a 90-day crime map online within the
                       cities in America. Double security: Henderson's safety
                       plus Solera's guard gate.
                     </p>
@@ -346,7 +346,7 @@ export default function SoleraAnthemPage() {
                 <CheckCircle className="h-6 w-6 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
                 <div>
                   <strong className="text-slate-900">
-                    Guard-gated in America's safest city
+                    Guard-gated entry in Henderson
                   </strong>
                   <p className="text-slate-600 text-sm">
                     Double layer of security: Henderson's safety record plus
@@ -398,11 +398,11 @@ export default function SoleraAnthemPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
               <a
-                href="tel:+17027180043"
+                href="tel:+17025001955"
                 className="inline-flex items-center justify-center bg-white text-teal-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-teal-50 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call (702) 718-0043
+                Call (702) 500-1955
               </a>
               <Link
                 href="/contact"

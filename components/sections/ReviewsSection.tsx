@@ -46,8 +46,8 @@ export const defaultReviews: Review[] = [
 
 // Aggregate rating stats
 export const aggregateRating = {
-  ratingValue: 4.9,
-  reviewCount: 500,
+  ratingValue: 5.0,
+  reviewCount: 50,
   bestRating: 5,
   worstRating: 1,
 };
@@ -88,8 +88,6 @@ export default function ReviewsSection({
             <div
               key={review.id}
               className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow"
-              itemScope
-              itemType="https://schema.org/Review"
             >
               <div className="flex items-center mb-4">
                 <div className="relative w-16 h-16 rounded-full overflow-hidden mr-4 flex-shrink-0">
@@ -109,7 +107,7 @@ export default function ReviewsSection({
                   )}
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900" itemProp="author">
+                  <h3 className="font-bold text-slate-900">
                     {review.name}
                   </h3>
                   <p className="text-sm text-slate-600">{review.location}</p>
@@ -118,15 +116,8 @@ export default function ReviewsSection({
 
               <div
                 className="flex items-center mb-4"
-                itemProp="reviewRating"
-                itemScope
-                itemType="https://schema.org/Rating"
+                aria-label={`${review.rating} out of 5 stars`}
               >
-                <meta
-                  itemProp="ratingValue"
-                  content={review.rating.toString()}
-                />
-                <meta itemProp="bestRating" content="5" />
                 {[...Array(5)].map((_, i) => (
                   <Star
                     key={i}
@@ -143,7 +134,6 @@ export default function ReviewsSection({
                 <Quote className="absolute -top-2 -left-2 h-8 w-8 text-forest-soft" />
                 <p
                   className="text-slate-700 relative z-10 pl-4"
-                  itemProp="reviewBody"
                 >
                   {review.text}
                 </p>

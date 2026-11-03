@@ -24,7 +24,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Home Buying Guide Las Vegas | Dr. Jan Duffy, REALTOR®",
   description:
-    "Looking to buy a home in Las Vegas? Dr. Jan Duffy guides you through every step. Free buyer consultation. Call (702) 718-0043.",
+    "Looking to buy a home in Las Vegas? Dr. Jan Duffy guides you through every step. Free buyer consultation. Call (702) 500-1955.",
   keywords: [
     "buy home Las Vegas",
     "Las Vegas home buyer",
@@ -43,7 +43,7 @@ const buyerSchema = {
   provider: {
     "@type": "RealEstateAgent",
     name: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
-    telephone: "+17027180043",
+    telephone: "+17025001955",
   },
   areaServed: "Las Vegas, Henderson, Summerlin, Clark County NV",
   serviceType: "Buyer Representation",
@@ -91,7 +91,7 @@ const neighborhoods = [
   {
     name: "Henderson",
     price: "$485K",
-    description: "Family-friendly with low crime rates",
+    description: "Master-planned communities and parks",
   },
   {
     name: "Green Valley",
@@ -134,7 +134,7 @@ export default function BuyersPage() {
               Buy Your Las Vegas Home with Confidence
             </h1>
             <p className="text-xl text-slate-600 mb-8">
-              When you work with Dr. Jan Duffy as your buyer's agent, you're backed by a REALTOR® in real estate since 1983—and it costs you nothing. The seller pays the commission, but the
+              When you work with Dr. Jan Duffy as your buyer's agent, you're backed by a REALTOR® licensed since 2008 · 35 years in Las Vegas—and it costs you nothing. The seller pays the commission, but the
               representation is yours.
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm text-slate-500">
@@ -174,7 +174,7 @@ export default function BuyersPage() {
                     "Contract and disclosure review",
                     "Inspection coordination and repair negotiation",
                     "Lender and service provider referrals",
-                    "Local market expertise since 1983",
+                    "35 years of Las Vegas market expertise",
                   ].map((item) => (
                     <li key={item} className="flex items-center">
                       <CheckCircle className="h-5 w-5 text-green-400 mr-2 flex-shrink-0" />
@@ -194,7 +194,7 @@ export default function BuyersPage() {
                   table and beyond.
                 </p>
                 <div className="text-sm text-slate-500">
-                  In real estate since 1983 | $127M+ in transactions
+                  Licensed since 2008 · 35 years in Las Vegas | $127M+ in Dr. Duffy Group career sales
                 </div>
               </div>
             </div>
@@ -249,7 +249,7 @@ export default function BuyersPage() {
             <p className="text-slate-600 text-center max-w-3xl mx-auto mb-8">
               Las Vegas offers diverse neighborhoods for every lifestyle and
               budget. Whether you're seeking luxury estates in guard-gated
-              communities, family homes near top-rated schools, or affordable
+              communities, family homes near nearby public schools, or affordable
               new construction, Dr. Jan helps you find the perfect neighborhood.
               Here's a quick guide to median prices and what each area offers.
             </p>
@@ -364,9 +364,9 @@ export default function BuyersPage() {
                 <div className="bg-blue-100 w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-3">
                   <Award className="h-7 w-7 text-blue-600" />
                 </div>
-                <h3 className="font-bold text-slate-900 mb-2">Top 1% REALTOR®</h3>
+                <h3 className="font-bold text-slate-900 mb-2">REALTOR®</h3>
                 <p className="text-slate-600 text-sm">
-                  Top 1% Las Vegas REALTOR®
+                  Las Vegas REALTOR®
                 </p>
               </div>
               <div className="text-center">
@@ -388,7 +388,7 @@ export default function BuyersPage() {
                   Local Expertise
                 </h3>
                 <p className="text-slate-600 text-sm">
-                  Dr. Jan has been in real estate since 1983, with $127M+ in transactions
+                  Dr. Jan has been licensed since 2008 · 35 years in Las Vegas, with $127M+ in transactions
                 </p>
               </div>
               <div className="text-center">
@@ -416,7 +416,7 @@ export default function BuyersPage() {
                 right home for your needs."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy | In Real Estate Since 1983
+                — Dr. Jan Duffy | Licensed Since 2008
               </cite>
             </div>
           </section>
@@ -460,7 +460,7 @@ export default function BuyersPage() {
             <p className="text-slate-600 text-center max-w-3xl mx-auto mb-8">
               Get answers to the most common questions from Las Vegas home
               buyers. If you don't see your question here, call Dr. Jan Duffy at
-              (702) 718-0043 for a free consultation.
+              (702) 500-1955 for a free consultation.
             </p>
             <div className="space-y-4">
               {[
@@ -486,7 +486,7 @@ export default function BuyersPage() {
                 },
                 {
                   q: "What are the best neighborhoods for families in Las Vegas?",
-                  a: "Summerlin, Henderson (Green Valley, Inspirada), and Centennial Hills are top choices for families, offering excellent schools, parks, and community amenities. Dr. Jan can match you with the right neighborhood based on your priorities—schools, commute, budget, and lifestyle.",
+                  a: "Summerlin, Henderson (Green Valley, Inspirada), and Centennial Hills are top choices for families, offering nearby public schools, parks, and community amenities. Dr. Jan can match you with the right neighborhood based on your priorities—schools, commute, budget, and lifestyle.",
                 },
               ].map((faq, index) => (
                 <div key={index} className="bg-slate-50 rounded-lg p-6">
@@ -509,11 +509,11 @@ export default function BuyersPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17027180043"
+                href="tel:+17025001955"
                 className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-md font-bold text-lg transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call (702) 718-0043
+                Call (702) 500-1955
               </a>
               <Link
                 href="/contact"

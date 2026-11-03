@@ -33,7 +33,7 @@ const schema = {
       provider: {
         "@type": "RealEstateAgent",
         name: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
-        telephone: "+17027180043",
+        telephone: "+17025001955",
         address: {
           "@type": "PostalAddress",
           streetAddress: "9406 Del Webb Blvd",
@@ -194,7 +194,7 @@ export default function PrivateClientPage() {
         <RealScoutListings />
         <LuxuryCta
           title="Start a Private Client Conversation"
-          subtitle="Call Dr. Jan Duffy at (702) 718-0043. Daily 8:00 AM–8:00 PM."
+          subtitle="Call Dr. Jan Duffy at (702) 500-1955. Daily 8:00 AM–8:00 PM."
         />
       </main>
       <AgentPresence />

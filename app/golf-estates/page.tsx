@@ -12,7 +12,7 @@ import { luxuryImages } from "@/lib/luxury-images";
 export const metadata: Metadata = {
   title: "Las Vegas Golf Course Estates for Sale | Dr. Jan Duffy",
   description:
-    "Golf-course estates in Southern Highlands, The Ridges, DragonRidge, and Lake Las Vegas.  Dr. Jan Duffy. Call (702) 718-0043.",
+    "Golf-course estates in Southern Highlands, The Ridges, DragonRidge, and Lake Las Vegas.  Dr. Jan Duffy. Call (702) 500-1955.",
 };
 
 const courses = [

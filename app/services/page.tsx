@@ -25,7 +25,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Real Estate Services Las Vegas | Dr. Jan Duffy, REALTOR®",
   description:
-    "Comprehensive real estate services from Dr. Jan Duffy. Buying, selling, luxury, investment, relocation, 55+ communities, and new construction. Call (702) 718-0043.",
+    "Comprehensive real estate services from Dr. Jan Duffy. Buying, selling, luxury, investment, relocation, 55+ communities, and new construction. Call (702) 500-1955.",
   keywords: [
     "Las Vegas real estate services",
     "Berkshire Hathaway services",
@@ -43,7 +43,7 @@ const servicesSchema = {
   provider: {
     "@type": "RealEstateAgent",
     name: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
-    telephone: "+17027180043",
+    telephone: "+17025001955",
   },
   areaServed: "Las Vegas, Henderson, Summerlin, Clark County NV",
   serviceType: "Real Estate Services",
@@ -153,7 +153,7 @@ const specializedServices = [
     title: "Home Valuation Services",
     slug: "home-valuation",
     description:
-      "Free, no-obligation home valuations using current MLS data, recent comparable sales, and deep local market knowledge from a REALTOR® in real estate since 1983.",
+      "Free, no-obligation home valuations using current MLS data, recent comparable sales, and deep local market knowledge from a REALTOR® licensed since 2008 · 35 years in Las Vegas.",
     highlights: [
       "Accurate pricing",
       "No obligation",
@@ -230,8 +230,7 @@ export default function ServicesPage() {
               Las Vegas Real Estate Services
             </h1>
             <p className="text-xl text-slate-600 mb-8">
-              Comprehensive real estate solutions from Dr. Jan Duffy, in real estate
-              since 1983. Whether you're
+              Comprehensive real estate solutions from Dr. Jan Duffy, licensed since 2008 · 35 years in Las Vegas. Whether you're
               buying your first home, selling a luxury estate, or relocating
               from California, you'll receive expert guidance every step of the
               way.
@@ -239,15 +238,15 @@ export default function ServicesPage() {
             <div className="flex flex-wrap justify-center gap-6 text-sm">
               <div className="flex items-center">
                 <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
-                <span>In Real Estate Since 1983</span>
+                <span>Licensed Since 2008</span>
               </div>
               <div className="flex items-center">
                 <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
-                <span>$127M+ in Transactions</span>
+                <span>$127M+ in Team Career Sales</span>
               </div>
               <div className="flex items-center">
                 <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
-                <span>500+ Satisfied Clients</span>
+                <span>500+ Team Sales</span>
               </div>
             </div>
           </div>
@@ -260,7 +259,7 @@ export default function ServicesPage() {
             <p className="text-slate-600 text-center max-w-3xl mx-auto mb-8">
               These foundational services cover the majority of real estate
               transactions in Las Vegas. Each service is delivered with the
-              professionalism, resources, and ethical standards Dr. Jan Duffy has practiced since 1983.
+              professionalism, resources, and ethical standards Dr. Jan Duffy has practiced since 2008.
             </p>
             <div className="grid md:grid-cols-2 gap-6">
               {coreServices.map((service) => {
@@ -434,7 +433,7 @@ export default function ServicesPage() {
             <div className="grid md:grid-cols-3 gap-6 text-center mb-8">
               <div>
                 <div className="text-3xl font-bold text-blue-400 mb-2">
-                  Since 1983
+                  Since 2008
                 </div>
                 <div className="text-slate-300 text-sm">In Real Estate</div>
               </div>
@@ -442,7 +441,7 @@ export default function ServicesPage() {
                 <div className="text-3xl font-bold text-blue-400 mb-2">
                   $127M+
                 </div>
-                <div className="text-slate-300 text-sm">Volume Closed</div>
+                <div className="text-slate-300 text-sm">Team Career Sales</div>
               </div>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
@@ -450,7 +449,7 @@ export default function ServicesPage() {
                 <Shield className="h-10 w-10 text-blue-400 mx-auto mb-3" />
                 <h3 className="font-bold mb-2">Proven Experience</h3>
                 <p className="text-slate-400 text-sm">
-                  In real estate since 1983, providing stability and trust
+                  Licensed since 2008 · 35 years in Las Vegas, providing stability and trust
                 </p>
               </div>
               <div className="text-center">
@@ -555,15 +554,15 @@ export default function ServicesPage() {
             <p className="text-xl text-blue-100 mb-8">
               Contact Dr. Jan Duffy for a free consultation about any of our
               real estate services. Whether you're buying, selling, investing,
-              or relocating, you'll receive expert guidance from a REALTOR® in real estate since 1983.
+              or relocating, you'll receive expert guidance from a REALTOR® licensed since 2008 · 35 years in Las Vegas.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17027180043"
+                href="tel:+17025001955"
                 className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call (702) 718-0043
+                Call (702) 500-1955
               </a>
               <Link
                 href="/contact"

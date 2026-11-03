@@ -2,8 +2,8 @@ import { MetadataRoute } from "next";
 import { headers } from "next/headers";
 import { canonicalOrigin } from "@/lib/canonical-host";
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = canonicalOrigin(headers().get("host"));
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const baseUrl = canonicalOrigin((await headers()).get("host"));
   const lastModified = new Date();
 
   // Core pages
@@ -177,6 +177,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/55-plus-communities/del-webb-lake-las-vegas`,
+      priority: 0.8,
+      changeFrequency: "monthly" as const,
+    },
+    {
+      url: `${baseUrl}/55-plus-communities/sun-city-aliante`,
+      priority: 0.8,
+      changeFrequency: "monthly" as const,
+    },
+    {
+      url: `${baseUrl}/55-plus-communities/solera-anthem`,
+      priority: 0.8,
+      changeFrequency: "monthly" as const,
+    },
+    {
+      url: `${baseUrl}/55-plus-communities/trilogy-summerlin`,
+      priority: 0.8,
+      changeFrequency: "monthly" as const,
+    },
+    {
+      url: `${baseUrl}/55-plus-communities/heritage-stonebridge`,
       priority: 0.8,
       changeFrequency: "monthly" as const,
     },

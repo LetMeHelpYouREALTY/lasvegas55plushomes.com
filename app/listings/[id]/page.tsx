@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Navbar from "@/components/layouts/Navbar";
 import AgentPresence from "@/components/shared/AgentPresence";
 import Footer from "@/components/layouts/Footer";
@@ -53,9 +54,9 @@ export default async function PropertyPage({ params }: PropertyPageProps) {
           <nav className="mb-6 text-sm">
             <ol className="flex items-center space-x-2 text-slate-600">
               <li>
-                <a href="/" className="hover:text-blue-600">
+                <Link href="/" className="hover:text-blue-600">
                   Home
-                </a>
+                </Link>
               </li>
               <li>/</li>
               <li>
@@ -161,14 +162,14 @@ export default async function PropertyPage({ params }: PropertyPageProps) {
                 </h3>
                 <p className="text-slate-600 mb-4">Dr. Jan Duffy</p>
                 <p className="text-sm text-slate-600 mb-6">
-                  Top 1% Las Vegas REALTOR®
+                  Las Vegas REALTOR®
                 </p>
                 <div className="space-y-3">
                   <Button
                     asChild
                     className="w-full bg-blue-600 hover:bg-blue-700"
                   >
-                    <a href="tel:+17027180043">Call (702) 718-0043</a>
+                    <a href="tel:+17025001955">Call (702) 500-1955</a>
                   </Button>
                   <Button asChild variant="outline" className="w-full">
                     <a href="/contact">Send Message</a>

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title:
     "Off-Market Luxury Listings Las Vegas | Pocket Listings | Dr. Jan Duffy",
   description:
-    "Confidential off-market and pocket listings in Las Vegas, Henderson, and Summerlin.  Dr. Jan Duffy. Call (702) 718-0043.",
+    "Confidential off-market and pocket listings in Las Vegas, Henderson, and Summerlin.  Dr. Jan Duffy. Call (702) 500-1955.",
 };
 
 const schema = {
@@ -135,7 +135,7 @@ export default function OffMarketPage() {
         <RealScoutListings />
         <LuxuryCta
           title="Need a Quiet Path to Market?"
-          subtitle="Call (702) 718-0043. 9406 Del Webb Blvd, Las Vegas, NV 89134."
+          subtitle="Call (702) 500-1955. 9406 Del Webb Blvd, Las Vegas, NV 89134."
         />
       </main>
       <AgentPresence />

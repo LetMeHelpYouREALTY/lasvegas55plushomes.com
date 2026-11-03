@@ -28,7 +28,7 @@ export const defaultFaqs: FAQ[] = [
   {
     question: "What makes you different from other real estate agents?",
     answer:
-      "In real estate since 1983 with 500+ successful transactions, Dr. Jan Duffy combines deep local market knowledge with personalized service.",
+      "Licensed since 2008 with 35 years in Las Vegas and 500+ Dr. Duffy Group sales, Dr. Jan Duffy combines deep local market knowledge with personalized service.",
   },
   {
     question: "Can you help with investment properties?",

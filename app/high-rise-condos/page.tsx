@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title:
     "Las Vegas Luxury High-Rise Condos | Strip View Penthouses | Dr. Jan Duffy",
   description:
-    "High-rise and penthouse condos with Las Vegas Strip views.  Dr. Jan Duffy. Call (702) 718-0043.",
+    "High-rise and penthouse condos with Las Vegas Strip views.  Dr. Jan Duffy. Call (702) 500-1955.",
 };
 
 export default function HighRiseCondosPage() {
@@ -111,7 +111,7 @@ export default function HighRiseCondosPage() {
         <RealScoutListings />
         <LuxuryCta
           title="Tour High-Rise Residences"
-          subtitle="Call (702) 718-0043. Office: 9406 Del Webb Blvd, Las Vegas, NV 89134."
+          subtitle="Call (702) 500-1955. Office: 9406 Del Webb Blvd, Las Vegas, NV 89134."
         />
       </main>
       <AgentPresence />

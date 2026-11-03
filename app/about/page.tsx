@@ -23,7 +23,7 @@ import AgentPresence from "@/components/shared/AgentPresence";
 export const metadata: Metadata = {
   title: "About Dr. Jan Duffy | Las Vegas REALTOR®",
   description:
-    "Meet Dr. Jan Duffy, your trusted agent. In real estate since 1983, $127M+ in transactions, Henderson & Summerlin specialist. Call (702) 718-0043.",
+    "Meet Dr. Jan Duffy, your trusted agent. Licensed since 2008 · 35 years in Las Vegas, $127M+ in Dr. Duffy Group career sales, Henderson & Summerlin specialist. Call (702) 500-1955.",
   keywords: [
     "Dr. Jan Duffy",
     "Berkshire Hathaway HomeServices agent",
@@ -42,7 +42,7 @@ const personSchema = {
   jobTitle: "REALTOR®",
   description:
     "Licensed real estate agent with Berkshire Hathaway HomeServices Nevada Properties, serving Las Vegas, Henderson, and Summerlin since 2008.",
-  telephone: "+17027180043",
+  telephone: "+17025001955",
   email: "homes@heyberkshire.com",
   url: "https://www.lasvegas55plushomes.com/about",
   image: "https://www.lasvegas55plushomes.com/images/dr-jan-duffy.jpg",
@@ -82,7 +82,7 @@ const specializations = [
   {
     title: "Luxury Properties ($1M+)",
     description:
-      "The Ridges, MacDonald Highlands, Southern Highlands, and exclusive communities",
+      "The Ridges, MacDonald Highlands, Southern Highlands, and other guard-gated communities",
   },
   {
     title: "New Construction",
@@ -140,7 +140,7 @@ export default function AboutPage() {
               Meet Your Las Vegas REALTOR®
             </h1>
             <p className="text-xl text-slate-600">
-              Dr. Jan Duffy has been in real estate since 1983. Whether you're buying, selling,
+              Dr. Jan Duffy has been licensed since 2008 · 35 years in Las Vegas. Whether you're buying, selling,
               investing, or relocating, you'll receive expert guidance with
               integrity and professionalism.
             </p>
@@ -154,15 +154,15 @@ export default function AboutPage() {
                   Dr. Jan Duffy
                 </h2>
                 <p className="text-lg text-blue-600 mb-6">
-                  Top 1% Las Vegas REALTOR®
+                  Las Vegas REALTOR®
                 </p>
 
                 <div className="prose prose-lg text-slate-700 mb-8 space-y-4">
                   <p>
-                    When you choose to work with me, you're choosing trust, integrity, and excellence. I've been in real estate since 1983, and I bring local expertise to every client I serve.
+                    When you choose to work with me, you're choosing trust, integrity, and excellence. I've been licensed since 2008 · 35 years in Las Vegas, and I bring local expertise to every client I serve.
                   </p>
                   <p>
-                    I've closed $127M+ in transactions and
+                    I've closed $127M+ in Dr. Duffy Group career sales and
                     helped hundreds of families find their perfect home in Las
                     Vegas, Henderson, Summerlin, and throughout Southern Nevada.
                     My expertise spans luxury properties, new construction,
@@ -194,11 +194,11 @@ export default function AboutPage() {
                   </h3>
                   <div className="space-y-3">
                     <a
-                      href="tel:+17027180043"
+                      href="tel:+17025001955"
                       className="flex items-center text-slate-700 hover:text-blue-600"
                     >
                       <Phone className="h-5 w-5 mr-3 text-blue-600" />
-                      <span className="font-semibold">(702) 718-0043</span>
+                      <span className="font-semibold">(702) 500-1955</span>
                     </a>
                     <a
                       href="mailto:homes@heyberkshire.com"
@@ -244,7 +244,7 @@ export default function AboutPage() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-blue-50 rounded-lg p-6 text-center">
                     <div className="text-3xl font-bold text-blue-600 mb-1">
-                      Since 1983
+                      Since 2008
                     </div>
                     <div className="text-sm text-slate-600">
                       In Real Estate
@@ -254,19 +254,19 @@ export default function AboutPage() {
                     <div className="text-3xl font-bold text-blue-600 mb-1">
                       $127M+
                     </div>
-                    <div className="text-sm text-slate-600">Volume Closed</div>
+                    <div className="text-sm text-slate-600">Team Career Sales</div>
                   </div>
                   <div className="bg-blue-50 rounded-lg p-6 text-center">
                     <div className="text-3xl font-bold text-blue-600 mb-1">
                       500+
                     </div>
-                    <div className="text-sm text-slate-600">Transactions</div>
+                    <div className="text-sm text-slate-600">Team Sales</div>
                   </div>
                   <div className="bg-blue-50 rounded-lg p-6 text-center">
                     <div className="text-3xl font-bold text-blue-600 mb-1">
-                      Top 1%
+                      5.0★
                     </div>
-                    <div className="text-sm text-slate-600">Las Vegas REALTOR®</div>
+                    <div className="text-sm text-slate-600">Realtor.com (50 reviews)</div>
                   </div>
                 </div>
 
@@ -344,7 +344,7 @@ export default function AboutPage() {
               Why Work With Dr. Jan Duffy?
             </h2>
             <p className="text-slate-300 text-center max-w-3xl mx-auto mb-8">
-              In real estate since 1983, Dr. Jan Duffy brings ethical standards and a commitment to client service that defines every transaction.
+              Licensed since 2008 · 35 years in Las Vegas, Dr. Jan Duffy brings ethical standards and a commitment to client service that defines every transaction.
             </p>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
@@ -353,7 +353,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="font-bold text-xl mb-2">Trusted Advisor</h3>
                 <p className="text-slate-300 text-sm">
-                  In real estate since 1983, with a name synonymous with trust and
+                  Licensed since 2008 · 35 years in Las Vegas, with a name synonymous with trust and
                   integrity.
                 </p>
               </div>
@@ -475,11 +475,11 @@ export default function AboutPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17027180043"
+                href="tel:+17025001955"
                 className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call (702) 718-0043
+                Call (702) 500-1955
               </a>
               <Link
                 href="/contact"

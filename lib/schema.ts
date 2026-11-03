@@ -95,7 +95,7 @@ export function generateRealEstateAgentSchema() {
     logo: `${BASE_URL}/images/dr-jan-duffy.jpg`,
     image: `${BASE_URL}/images/dr-jan-duffy.jpg`,
     description: siteConfig.description,
-    telephone: "+1-702-718-0043",
+    telephone: "+1-702-500-1955",
     email: agentInfo.email,
     priceRange: "$385K - $10M+",
     address: {

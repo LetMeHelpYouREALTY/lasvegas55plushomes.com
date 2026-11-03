@@ -19,9 +19,9 @@ export const agentInfo = {
   name: "Dr. Jan Duffy",
   title: "REALTOR®",
   license: "S.0197614.LLC",
-  phone: "(702) 718-0043",
-  phoneFormatted: "(702) 718-0043",
-  phoneTel: "tel:+17027180043",
+  phone: "(702) 500-1955",
+  phoneFormatted: "(702) 500-1955",
+  phoneTel: "tel:+17025001955",
   email: "homes@heyberkshire.com",
   brokerage: "Berkshire Hathaway HomeServices Nevada Properties",
 };
@@ -39,8 +39,8 @@ export const officeInfo = {
     lat: 36.1893,
     lng: -115.2821,
   },
-  phone: "(702) 718-0043",
-  phoneTel: "tel:+17027180043",
+  phone: "(702) 500-1955",
+  phoneTel: "tel:+17025001955",
 };
 
 // Market Statistics (Updated January 2026)
@@ -81,11 +81,11 @@ export const marketStats = {
 
 // Agent Stats
 export const agentStats = {
-  servingSince: 1983,
+  servingSince: 2008,
   transactionsClosed: 500,
   volumeClosed: "$127M+",
-  averageRating: 4.9,
-  reviewCount: 200,
+  averageRating: 5.0,
+  reviewCount: 50,
 };
 
 // Value Propositions
@@ -94,7 +94,7 @@ export const valuePropositions = {
   trust:
     "Berkshire Hathaway HomeServices is the only real estate brand backed by Warren Buffett's Berkshire Hathaway Inc. This means unmatched financial stability, ethical standards, and a global referral network of 50,000+ agents.",
   expertise:
-    "In real estate since 1983 with $127M+ in closed transactions, Dr. Jan Duffy combines deep local market knowledge with personalized service.",
+    "Licensed since 2008 · 35 years in Las Vegas with $127M+ in Dr. Duffy Group career sales, Dr. Jan Duffy combines deep local market knowledge with personalized service.",
 };
 
 // Neighborhoods served
@@ -102,16 +102,16 @@ export const neighborhoods = [
   {
     name: "Summerlin",
     slug: "summerlin",
-    description: "Master-planned community with parks, trails, and top-rated schools",
+    description: "Master-planned community with parks, trails, and nearby public schools",
     medianPrice: "$625,000",
-    highlights: ["Red Rock views", "150+ parks", "Top schools", "Golf courses"],
+    highlights: ["Red Rock views", "150+ parks", "Nearby public schools", "Golf courses"],
   },
   {
     name: "Henderson",
     slug: "henderson",
-    description: "Nevada's second-largest city with family-friendly neighborhoods",
+    description: "Nevada's second-largest city with master-planned neighborhoods",
     medianPrice: "$485,000",
-    highlights: ["Low crime rate", "Excellent schools", "Lake Las Vegas", "Green Valley"],
+    highlights: ["Public crime maps", "Nearby public schools", "Lake Las Vegas", "Green Valley"],
   },
   {
     name: "Green Valley",
@@ -139,28 +139,28 @@ export const neighborhoods = [
     slug: "north-las-vegas",
     description: "Rapidly growing area with affordable new construction",
     medianPrice: "$385,000",
-    highlights: ["New construction", "Affordable", "Growing area", "Family-friendly"],
+    highlights: ["New construction", "Affordable", "Growing area"],
   },
   {
     name: "Skye Canyon",
     slug: "skye-canyon",
     description: "Newer master-planned community in northwest Las Vegas",
     medianPrice: "$550,000",
-    highlights: ["New homes", "Mountain views", "Modern amenities", "Great schools"],
+    highlights: ["New homes", "Mountain views", "Modern amenities", "Nearby public schools"],
   },
   {
     name: "Centennial Hills",
     slug: "centennial-hills",
     description: "Northwest Las Vegas community with mountain proximity",
     medianPrice: "$495,000",
-    highlights: ["Mountain access", "Parks", "Shopping", "Family-friendly"],
+    highlights: ["Mountain access", "Parks", "Shopping"],
   },
   {
     name: "Inspirada",
     slug: "inspirada",
     description: "Henderson master-planned community with resort-style living",
     medianPrice: "$525,000",
-    highlights: ["Resort pools", "Walking trails", "New construction", "Great schools"],
+    highlights: ["Resort pools", "Walking trails", "New construction", "Nearby public schools"],
   },
   {
     name: "Mountains Edge",
@@ -256,7 +256,7 @@ export const commonFAQs = {
     {
       question: "What is Dr. Jan Duffy's experience in Las Vegas real estate?",
       answer:
-        "Dr. Jan Duffy has been in real estate since 1983, with $127M+ in closed transactions and 500+ satisfied clients. Her expertise spans residential, luxury, investment, and new construction properties throughout Southern Nevada.",
+        "Dr. Jan Duffy has been licensed since 2008 · 35 years in Las Vegas, backed by $127M+ in Dr. Duffy Group career sales and 500+ satisfied clients. Her expertise spans residential, luxury, investment, and new construction properties throughout Southern Nevada.",
     },
   ],
   buying: [
@@ -280,7 +280,7 @@ export const commonFAQs = {
     {
       question: "What is my home worth in today's Las Vegas market?",
       answer:
-        "Home values depend on location, condition, size, and recent comparable sales. Dr. Jan provides free, comprehensive home valuations using current MLS data and her expertise in real estate since 1983.",
+        "Home values depend on location, condition, size, and recent comparable sales. Dr. Jan provides free, comprehensive home valuations using current MLS data and her expertise as a REALTOR® licensed since 2008 · 35 years in Las Vegas.",
     },
     {
       question: "How long will it take to sell my home?",

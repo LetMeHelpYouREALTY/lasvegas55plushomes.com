@@ -146,8 +146,8 @@ export default function FairHousingStatementPage() {
               <p className="mb-2">License S.0197614.LLC</p>
               <p className="mb-2">
                 Phone:{' '}
-                <a href="tel:+17027180043" className="text-blue-600 underline">
-                  (702) 718-0043
+                <a href="tel:+17025001955" className="text-blue-600 underline">
+                  (702) 500-1955
                 </a>
               </p>
               <p>
