@@ -6,6 +6,7 @@ import { getDomainConfig } from "@/lib/domain-config";
 import { apexHost, canonicalOrigin } from "@/lib/canonical-host";
 import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
+import RealtorAnalytics from "../components/analytics/RealtorAnalytics";
 
 export async function generateMetadata(): Promise<Metadata> {
   const headerList = await headers();
@@ -71,6 +72,7 @@ export default function RootLayout({
       <body>
         {children}
         <Analytics />
+        <RealtorAnalytics siteName="lasvegas55plushomes.com" />
       </body>
     </html>
   );
